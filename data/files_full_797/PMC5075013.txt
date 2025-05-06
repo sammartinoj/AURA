@@ -1,0 +1,354 @@
+==== Front
+Drugs AgingDrugs AgingDrugs & Aging1170-229X1179-1969Springer International Publishing Cham 40510.1007/s40266-016-0405-yOriginal Research ArticleEffects of Renal Impairment on Steady-State Plasma Concentrations of Rivastigmine: A Population Pharmacokinetic Analysis of Capsule and Patch Formulations in Patients with Alzheimer’s Disease Lefèvre Gilbert +41797225277gilbert.lefevre@novartis.com 1Callegari Francesca francesca.callegari@novartis.com 2Gsteiger Sandro sandro.gsteiger@gmail.com 2Xiong Yuan yxiong@wequantify.com 31 WSJ-386.12.48.10, Novartis Institutes for Biomedical Research, Translational Medicine, Clinical PK/PD, 4002 Basel, Switzerland 2 Novartis Pharma AG, 4002 Basel, Switzerland 3 Novartis Pharmaceuticals Corporation, One Health Plaza, East Hanover, NJ USA 28 9 2016 28 9 2016 2016 33 10 725 736 © The Author(s) 2016
+Open AccessThis article is distributed under the terms of the Creative Commons Attribution-NonCommercial 4.0 International License (http://creativecommons.org/licenses/by-nc/4.0/), which permits any noncommercial use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.Introduction
+The glomerular filtration rate (GFR), a measure of renal function, decreases by approximately 10 mL/min every 10 years after the age of 40 years, which could lead to the accumulation of drugs and/or renal toxicity. Pharmacokinetic studies of drugs excreted both renally and non-renally are desirable in patients with impaired renal function, defined by parameters including estimated GFR (eGFR) and creatinine clearance (CLCR).
+
+Objective
+We describe here a population pharmacokinetic analysis of the possible effects of renal impairment on steady-state plasma concentrations of rivastigmine and its metabolite NAP226-90 after rivastigmine patch (5 cm2 [4.6 mg/24 h], 10 cm2 [9.5 mg/24 h], 15 cm2 [13.3 mg/24 h], and 20 cm2 [17.4 mg/24 h]) and capsule (1.5, 3, 4.5, and 6 mg/12 h) treatment in patients with Alzheimer’s disease.
+
+Methods
+The data used to conduct the current pharmacokinetic analysis were obtained from the pivotal phase III, 24-week, multicenter, randomized, double-blind, placebo- and active-controlled, parallel-group study (IDEAL). One blood sample was collected from each patient at steady-state to measure plasma concentrations of rivastigmine and NAP226-90 using a liquid chromatography–tandem mass spectrometry (LC–MS/MS) method. The steady-state plasma concentrations of rivastigmine and NAP226-90 were plotted against CLCR and eGFR data, and boxplots were constructed after stratification by renal function.
+
+Results
+The two groups (mild/no renal impairment vs. moderate/severe/end-stage renal impairment) showed comparable demographic covariates for all patch sizes and capsule doses. No correlation was observed between CLCR or eGFR and plasma concentrations of rivastigmine or NAP226-90. Boxplots of concentrations of rivastigmine or NAP226-90 for each dose largely overlapped for patch and capsule. Additionally, model-based estimates of plasma concentrations adjusted for body weight yielded similar results.
+
+Conclusion
+The results of this study show that renal function does not affect rivastigmine or NAP226-90 steady-state plasma concentrations, and no dose adjustment in patients with renal impairment is required.
+
+ClinicalTrials.gov
+NCT00099242.
+
+Novartis Pharma AGissue-copyright-statement© Springer International Publishing Switzerland 2016
+==== Body
+Key Points
+
+We performed a large population pharmacokinetic modeling analysis of the possible effects of renal impairment on steady-state plasma concentrations of rivastigmine and its metabolite, after rivastigmine patch and capsule treatment in patients with Alzheimer’s disease.	
+No correlation was observed between creatinine clearance or estimated glomerular filtration rate and plasma concentrations of rivastigmine or its metabolite, indicating that renal function did not impact steady-state plasma concentrations of rivastigmine or its metabolite.	
+Consequently, no dose adjustment in patients with renal impairment is required. This is a key finding allowing all Alzheimer’s disease and Parkinson’s disease dementia patients to benefit from most optimal therapeutic doses of rivastigmine, irrespective of their renal function status.	
+
+
+
+Introduction
+Alzheimer’s disease (AD) and Parkinson’s disease dementia (PDD) primarily affect older individuals aged >65 years and their prevalence increases with age [1, 2]. The risk of renal impairment is higher in elderly people, as shown in several longitudinal and cross-sectional studies supporting a decline in the glomerular filtration rate (GFR) with advancing age [3–5]. Renal impairment may result in increased plasma concentrations of drugs and their metabolites, potentially resulting in toxicity. It is important to assess the renal function of patients before prescribing drugs that are excreted renally or are known to cause renal impairment or nephrotoxicity.
+
+Rivastigmine is a slowly reversible (pseudo-irreversible), centrally selective dual inhibitor of acetylcholinesterase and bche gene gene, which increases the available acetylcholine levels and improves neurotransmission in AD. It has established efficacy in the symptomatic treatment of AD [6–8] and PDD [9] and has been shown to improve activities of daily living, cognition, behavior, and global function [7, 10–12]. Another study reported similar benefits of rivastigmine in more advanced stages of the disease [13]. Studies of dose–response relationships for cholinesterase inhibitors support greater enzyme inhibition, in turn leading to higher efficacy and long-term benefits with higher drug doses [14].
+
+Rivastigmine has been developed for oral twice-daily administration as a capsule (3, 6, 9, and 12 mg/day) and solution (2 mg/mL), and for transdermal daily administration as a patch (5 cm2 [4.6 mg/24 h], 10 cm2 [9.5 mg/24 h], 15 cm2 [13.3 mg/24 h], and 20 cm2 [17.4 mg/24 h]) (of note, the 20 cm2 patch has not been launched into the market to date).
+
+Rivastigmine is rapidly and extensively metabolized by its target esterase enzymes, acetylcholinesterase and bche gene gene, to NAP266-90, an inactive and non-toxic major metabolite of rivastigmine [15], which is then excreted renally via sulfate conjugation. Although rivastigmine is not (or in trace amounts) excreted unchanged in urine (2–4 % of the dose) [16, 17], investigating the effects of renal function on drug exposure is critical to ensure safe administration of the effective dose of rivastigmine in patients. Accordingly, the US Food and Drug Administration (FDA) draft guidance (2010), Pharmacokinetics in Patients with Impaired Renal Function—Study Design, Data Analysis, and Impact on Dosing and Labeling, recommends pharmacokinetic studies in patients with impaired renal function for drugs that are excreted both renally and non-renally, and staging of kidney function using estimated GFR (eGFR) and creatinine clearance (CLCR) values [18]. As described in the FDA draft guidance [19], a population pharmacokinetic approach in a phase III study with rivastigmine patch and capsule in AD patients with renal impairment was used in place of a specific reduced pharmacokinetic study [18]. Although NAP226-90 is inactive and non-toxic, it was also desirable to investigate the effects of renal function on the steady-state plasma concentrations of NAP226-90, which is an indicator of the extent of rivastigmine metabolism [20] and is excreted renally, amounting to approximately 20 % of the equivalent rivastigmine dose [16].
+
+The current pharmacokinetic analysis aimed to evaluate the possible effects of renal function on drug exposure. The aim of the analysis was to compare (1) the observed rivastigmine and NAP226-90 steady-state plasma concentrations in patients with either mild or no renal impairment at baseline with the corresponding concentrations in patients with moderate or severe renal impairment or end-stage renal disease (ESRD); and (2) the observed steady-state plasma concentrations versus CLCR and eGFR of rivastigmine and NAP226-90.
+
+Methods
+Study Design
+The data used to conduct the pharmacokinetic analysis described in this report were obtained from the pivotal phase III, 24-week, multicenter, randomized, double-blind, placebo- and active-controlled, parallel-group study (IDEAL [Investigation of transDermal Exelon in ALzheimer’s disease]; ClinicalTrials.gov identifier NCT00099242) [21]. The study population included 1195 elderly adults with probable AD recruited at 100 different sites in 21 countries. The protocol, informed consent form, any amendments, and other information given to patients and caregivers were reviewed by an Institutional Review Board or Independent Ethics Committee for each center. A total of 101 Independent Ethics Committees or Institutional Review Boards across the world were responsible to approve these documents and forms (see Winblad et al. [21, 22] for further details). The study was conducted according to the ethical principles of the Declaration of Helsinki, as revised in 2000.
+
+The efficacy, safety, tolerability, and pharmacokinetics of rivastigmine (Exelon®) once-daily patch (5, 10, 15, and 20 cm2) and twice-daily capsule (3, 6, 9, and 12 mg/day) formulations were evaluated in patients aged between 50 and 85 years with probable AD (Mini-Mental State Examination [MMSE] score: 10–20) from 2003 to 2006 [21, 22]. The capsule formulation was the active control arm. This study provided rivastigmine and NAP226-90 (metabolite) concentration data on the four patch sizes (5 cm2 [4.6 mg/24 h), 10 cm2 [9.5 mg/24 h], 15 cm2 [13.3 mg/24 h], and 20 cm2 [17.4 mg/24 h]), and on the four capsule doses (3, 6, 9, and 12 mg/day). One blood sample (3 mL) was collected from each patient to measure steady-state concentrations of rivastigmine and its metabolite NAP226-90 in plasma. All patients were sampled towards the end of the study period while on their maintenance dose, i.e., after 8 weeks of treatment with the same stable daily dose, ensuring complete steady-state conditions (reached after a few days for both rivastigmine and NAP226-90). Only those measurements confirmed to be obtained at steady state were included in the pharmacokinetic evaluation.
+
+Pharmacokinetic Analysis
+Rivastigmine and its metabolite NAP226-90 were determined in plasma by using liquid/liquid extraction followed by liquid chromatography–tandem mass spectrometry (LC–MS/MS) with atmospheric pressure chemical ionization mode, with a limit of quantitation (LOQ) of 0.2 ng/mL for both compounds, using 500 μL of human plasma [23]. The validation of the method is described elsewhere [23]. The study between-run variability was tested using quality control samples with low (0.4 ng/mL), medium (7.5 ng/mL), and high (25 ng/mL) concentrations, and ranged from 1.9 to 3.9 % for rivastigmine and 6.3 to 8.3 % for NAP226-90.
+
+According to the FDA draft guidance (2010), renal function at baseline was quantified by CLCR in addition to eGFR [18]. CLCR and eGFR were estimated (not measured) as follows.
+
+CLCR was estimated by the Cockcroft-Gault method (CLCR-CG) [24]. The equation for men (Eq. 1) is as follows: 1 CLCR(mL/min)=1.23×(140-age[years])×weight(kg)Serumcreatinine[μmol/L] 
+
+
+The CLCR equation for women (Eq. 2) is as follows: 2 CLCRmL/min=1.04×140-ageyears×weightkgSerumcreatinineμmol/L eGFR was estimated based on the abbreviated Modification of Diet in Renal Disease (MDRD) formula (eGFR-MDRD) [25, 26] as follows (Eq. 3): 3 eGFR(mL/min/1.73m2)=175×(serumcreatininemg/dL)-1.154×(age[years])-0.203×(0.742iffemale)×(1.212ifAfrican-American) 
+
+
+Using the estimated values for CLCR (mL/min) and eGFR (mL/min/1.73 m2) at baseline, patients were assigned to the following five renal impairment groups: control/normal renal function, ≥90; mild renal impairment, 60 to <90; moderate renal impairment, 30 to <60; severe renal impairment, 15 to <30; and ESRD <15. Due to the small proportion of patients in certain categories, the patients were pooled into two broader groups to facilitate comparison of drug exposure between the groups: (1) controls and mild renal impairment; and (2) moderate and severe renal impairment and ESRD. The group with mild or no renal impairment served as the ‘control group’ for comparison with the ‘renal impairment group’ comprising patients with moderate and severe renal impairment and ESRD. From here on, these two groups are referred to as the control group and the renal impairment group, respectively.
+
+Boxplots were constructed for the observed steady-state plasma concentrations of rivastigmine and NAP226-90 stratified by baseline renal function. The observed steady-state plasma concentrations were plotted against CLCR and eGFR.
+
+A covariate search on the same study data [21] to determine the relationship of patient demographics with steady-state plasma concentrations of rivastigmine and NAP226-90 showed a significant relationship between drug exposure and body weight, which was expressed by Eqs. 4 and 5. The steady-state plasma concentrations of rivastigmine and NAP226-90 in patients with various body weights relative to the steady-state plasma concentrations in a patient weighing 65 kg were estimated as follows: 4 RivastigmineSS/RivastigmineSS,65kg=(bodyweight/65kg)-1.33 and 5 NAP226-90SS/NAP226-90SS,65kg=(bodyweight/65kg)-0.83 where SS indicates steady state.
+
+Using this known relationship between body weight and plasma rivastigmine or NAP226-90 concentrations, the analyses described above were repeated with the model-based estimates of plasma concentrations adjusted to a body weight of 65 kg.
+
+Results
+When stratified by renal impairment using CLCR and eGFR, the two treatment patient groups showed comparable values for demographic covariates such as age, weight, and MMSE score at baseline across all patch sizes (Table 1) and capsule doses (Table 2). There were no ESRD patients.Table 1 Patient demographic summaries stratified by renal impairment: patch
+
+Patch size (cm2)	Group	
+n
+	Sex (M/F)	MMSEa
+	Age (years)	Weight (kg)	
+Patient demographic summaries stratified by CLCR
+	
+ 5	Control	9	2/7	16.9 ± 1.8	73.8 ± 1.9	65.9 ± 11.3	
+ 5	Renal impairment	10	1/9	18.3 ± 1.5	79.0 ± 5.2	59.4 ± 10.5	
+ 10	Control	101	40/61	16.8 ± 3.3b
+	70.0 ± 7.7	70.6 ± 11.8	
+ 10	Renal impairment	72	21/51	16.2 ± 3.1	76.7 ± 6.4	62.8 ± 11.2	
+ 15	Control	6	3/3	16.5 ± 2.4	71.5 ± 8.3	70.0 ± 13.8	
+ 15	Renal impairment	12	4/8	15.7 ± 2.9	77.8 ± 3.5	59.8 ± 11.0	
+ 20	Control	48	19/29	16.9 ± 2.9	68.7 ± 8.3	72.8 ± 12.0	
+ 20	Renal impairment	49	17/32	16.7 ± 3.0	76.9 ± 5.8	60.5 ± 9.7	
+Patient demographic summaries stratified by eGFR	
+ 5	Control	15	3/12	17.5 ± 1.8	75.6 ± 3.9	60.5 ± 11.4	
+ 5	Renal impairment	4	0/4	18.2 ± 1.5	80.0 ± 6.5	69.9 ± 5.5	
+ 10	Control	136	49/87	16.5 ± 3.4c
+	72.2 ± 8.2	66.4 ± 12.1	
+ 10	Renal impairment	38	12/26	16.7 ± 2.5	74.6 ± 6.7	70.8 ± 11.8d
+	
+ 15	Control	17	6/11	15.9 ± 2.8	75.3 ± 6.1	62.0 ± 11.9	
+ 15	Renal impairment	1	1/0	17.0	82.0	83.0	
+ 20	Control	75	29/46	16.7 ± 2.9	71.8 ± 8.6	65.8 ± 12.6	
+ 20	Renal impairment	22	7/15	17.2 ± 2.9	76.4 ± 5.7	69.3 ± 11.7	
+The control group includes patients with no renal impairment or with mild renal impairment, and the renal impairment group includes patients with moderate or severe renal impairment (control: ≥90; mild: 60 to <90; moderate: 30 to <60; severe: 15 to <30). Of the 310 patients with steady-state pharmacokinetic information, 3 patients had missing CLCR values and 2 had missing eGFR values
+
+
+CL
+CR creatinine clearance, eGFR estimated glomerular filtration rate, F female, M male, MMSE Mini-Mental State Examination
+
+
+aBaseline value
+
+
+b
+n = 100
+
+
+c
+n = 135
+
+
+d
+n = 37
+
+
+Table 2 Patient demographic summaries stratified by renal impairment: capsule
+
+Capsule dose (mg daily)	Group	
+n
+	Sex (M/F)	MMSEa
+	Age (years)	Weight (kg)	
+Patient demographic summaries stratified by CLCR
+	
+ 3	Control	7	1/6	16.1 ± 3.3	71.9 ± 5.5	57.1 ± 13.3	
+ 3	Renal impairment	10	2/8	17.5 ± 2.8	71.0 ± 7.3	66.6 ± 6.1	
+ 6	Control	5	2/3	18.4 ± 2.6	74.8 ± 7.0	52.5 ± 10.6	
+ 6	Renal impairment	13	6/7	16.6 ± 3.2	69.4 ± 9.7	69.7 ± 10.0	
+ 9	Control	5	2/3	17.4 ± 1.8	76.8 ± 6.6	55.7 ± 12.3	
+ 9	Renal impairment	8	4/4	14.9 ± 3.8	65.8 ± 9.0	78.9 ± 15.8	
+ 12	Control	36	14/22	15.5 ± 3.0	76.8 ± 5.1	60.3 ± 10.1	
+ 12	Renal impairment	43	22/21	17.4 ± 2.9	69.6 ± 8.4	71.5 ± 11.4	
+Patient demographic summaries stratified by eGFR	
+ 3	Control	3	0/3	16.3 ± 4.0	69.0 ± 5.8	63.9 ± 5.8	
+ 3	Renal impairment	14	3/11	17.1 ± 2.9	71.9 ± 6.7	62.4 ± 11.4	
+ 6	Control	1	0/1	18.0	65.0	73.0	
+ 6	Renal impairment	17	8/9	17.1	71.2 ± 9.3	64.5 ± 12.9	
+ 9	Control	3	1/2	17.7 ± 1.5	67.3 ± 1.9	76.0 ± 12.5	
+ 9	Renal impairment	10	5/5	15.3 ± 3.6	70.8 ± 9.4	68.2 ± 19.9	
+ 12	Control	15	6/9	15.4 ± 2.5	76.1 ± 6.0	68.2 ± 12.9	
+ 12	Renal impairment	64	30/34	16.8 ± 3.1	72.1 ± 8.2	66.0 ± 12.0	
+The control group includes patients with no renal impairment or with mild renal impairment, and the renal impairment group includes patients with moderate or severe renal impairment (control: ≥90; mild: 60 to <90; moderate: 30 to <60; severe: 15 to <30). Of the 128 patients with steady-state pharmacokinetic information, 1 patient had a missing CLCR value and 1 had a missing eGFR value
+
+
+CL
+CR creatinine clearance, eGFR estimated glomerular filtration rate, F female, M male, MMSE Mini-Mental State Examination
+
+
+aBaseline value
+
+
+
+
+The boxplots depicting the steady-state plasma concentrations stratified by renal impairment (CLCR or eGFR) for both rivastigmine and NAP226-90 largely overlapped for both patient groups within each dose level of patch (Fig. 1) and capsule (Fig. 2) applications. The arithmetic means with standard deviation, and the geometric means with 95 % confidence intervals (and geometric mean ratios) of rivastigmine and NAP226-90 concentrations for each patient group at each dose level are shown in Table 3 (stratified by CLCR and eGFR) for rivastigmine, Table 4 (stratified by CLCR and eGFR) for NAP226-90 following patch application, Table 5 (stratified by CLCR and eGFR) for rivastigmine, and Table 6 (stratified by CLCR and eGFR) for NAP226-90 following capsule administration. Results obtained using the body weight-adjusted concentrations for both rivastigmine and NAP226-90 (data not shown) were similar to those using body weight-unadjusted concentrations.Fig. 1 Rivastigmine and NAP226-90 steady-state plasma concentrations stratified by baseline renal impairment as measured by creatinine clearance (CLCR) and estimated glomerular filtration rate (eGFR) following patch application
+
+
+Fig. 2 Rivastigmine and NAP226-90 steady-state plasma concentrations stratified by baseline renal impairment as measured by creatinine clearance (CLCR) and estimated glomerular filtration rate (eGFR) following capsule administration
+
+
+Table 3 Comparison of rivastigmine steady-state plasma concentrations by patch size stratified by baseline renal impairment
+
+Patch size (cm2)	Group	
+n
+	Median (ng/mL)	Range (ng/mL)	Arithmetic mean (ng/mL)	Standard deviation (ng/mL)	Geometric mean (ng/mL)	Geometric mean 95 % CI	Ratio (%) of geometric means (renal impairment: control)	
+Renal impairment measured by CLCR
+	
+ 5	Control	9	2.2	1.4–14.0	3.9	4.0	2.9	1.8–4.7	93.8	
+ 5	Renal impairment	10	2.7	0.6–7.2	3.5	2.3	2.7	1.7–4.5	
+ 10	Control	100	5.0	0.5–26.9	6.6	5.1	5.0	4.3–5.8	122	
+ 10	Renal impairment	72	5.9	0.7–41.0	8.8	7.8	6.1	5.0–7.5	
+ 15	Control	6	8.6	1.3–21.6	10.3	7.9	7.2	3.1–16.6	121	
+ 15	Renal impairment	12	9.5	2.9–36.6	12.1	11.1	8.7	5.4–13.9	
+ 20	Control	48	14.7	2.6–84.9	20.3	17.0	15.0	12.0–18.8	108	
+ 20	Renal impairment	49	18.1	2.7–75.8	20.7	14.6	16.2	13.2–20.0	
+Renal impairment measured by eGFR	
+ 5	Control	15	2.6	0.6–14.0	3.7	3.4	2.8	1.9–4.1	107	
+ 5	Renal impairment	4	3.7	1.1–5.7	3.6	2.1	3.0	1.4–6.2	
+ 10	Control	136	5.2	0.5–28.8	7.1	5.9	5.3	4.6–6.0	121	
+ 10	Renal impairment	37	5.7	0.7–41.0	9.5	9.3	6.4	4.7–8.6	
+ 15	Control	17	9.1	1.3–32.2	10.0	8.0	7.5	5.0–11.0		
+ 15	Renal impairment	1	36.6		36.6		36.6		
+ 20	Control	75	18.3	2.6–84.9	22.7	16.8	17.5	14.8–20.8	60.2	
+ 20	Renal impairment	22	11.3	2.7–30.9	13.1	7.9	10.5	7.8–14.2	
+The control group includes patients with no renal impairment or with mild renal impairment, and the renal impairment group includes patients with moderate or severe renal impairment
+
+
+CI confidence interval, CL
+CR creatinine clearance, eGFR estimated glomerular filtration rate
+
+
+Table 4 Comparison of NAP226-90 steady-state plasma concentrations by patch size stratified by baseline renal impairment
+
+Patch size (cm2)	Group	
+n
+	Median (ng/mL)	Range (ng/mL)	Arithmetic mean (ng/mL)	Standard deviation (ng/mL)	Geometric mean (ng/mL)	Geometric mean 95 % CI	Ratio (%) of geometric means (renal impairment: control)	
+Renal impairment measured by CLCR
+	
+ 5	Control	8	2.0	1.0–4.7	2.2	1.2	1.9	1.4–2.8	112	
+ 5	Renal impairment	9	2.7	0.4–11.3	3.1	3.2	2.2	1.2–4.0	
+ 10	Control	99	3.2	0.4–9.5	3.4	1.5	2.9	2.6–3.2	117	
+ 10	Renal impairment	72	3.6	0.4–14.9	4.3	3.0	3.4	2.9–4.0	
+ 15	Control	6	5.4	3.0–17.9	8.3	6.2	6.7	3.7–11.9	76.6	
+ 15	Renal impairment	12	4.9	1.3–22.3	6.6	5.8	5.1	3.3–7.8	
+ 20	Control	48	7.8	1.8–47.0	9.1	7.4	7.2	5.9–8.7	110	
+ 20	Renal impairment	49	8.1	1.9–19.5	9.0	4.3	7.9	6.8–9.2	
+Renal impairment measured by eGFR		
+ 5	Control	14	2.0	0.4–4.7	2.1	1.1	1.8	1.3–2.6	197	
+ 5	Renal impairment	3	2.8	1.5–11.3	5.2	5.3	3.6	1.1–11.7	
+ 10	Control	134	3.2	0.6–14.9	3.6	2.4	3.1	2.8–3.4	108	
+ 10	Renal impairment	38	3.7	0.4–14.5	4.1	2.8	3.3	2.6–4.2	
+ 15	Control	17	4.9	1.3–17.9	6.3	4.4	5.1	3.7–7.0		
+ 15	Renal impairment	1	22.3		22.3		22.3		
+ 20	Control	75	8.2	1.8–47.0	9.3	6.6	7.7	6.7–8.9	90.0	
+ 20	Renal impairment	22	6.9	2.4–19.5	7.9	4.1	7.0	5.6–8.7	
+The control group includes patients with no renal impairment or with mild renal impairment, and the renal impairment group includes patients with moderate or severe renal impairment
+
+
+CI confidence interval, CL
+CR creatinine clearance, eGFR estimated glomerular filtration rate
+
+
+Table 5 Comparison of rivastigmine steady-state plasma concentrations by capsule dose stratified by baseline renal impairment
+
+Capsule dose (mg)	Group	
+n
+	Median (ng/mL)	Range (ng/mL)	Arithmetic mean (ng/mL)	Standard deviation (ng/mL)	Geometric mean (ng/mL)	Geometric mean 95 % CI	Ratio (%) of geometric means (renal impairment: control)	
+Renal impairment measured by CLCR
+	
+3	Control	6	1.4	1.1–8.6	3.2	3.1	2.2	1.1–4.5	83.5	
+3	Renal impairment	3	1.5	1.5–2.9	2.0	0.8	1.9	1.2–2.8	
+6	Control	9	5.9	1.9–11.3	6.4	3.4	5.4	3.5–8.2	78.2	
+6	Renal impairment	4	4.7	2.4–6.5	4.6	1.9	4.2	2.6–6.7	
+9	Control	6	6.6	1.6–20.9	8.2	7.1	5.8	2.7–12.5	108	
+9	Renal impairment	5	9.9	0.8–27.1	12.9	12.5	6.3	1.6–25.1	
+12	Control	40	16.0	1.7–41.5	17.8	11.9	12.9	9.6–17.1	84.8	
+12	Renal impairment	35	13.6	1.6–56.9	15.9	12.4	10.9	7.9–15.0		
+Renal impairment measured by eGFR	
+3	Control	8	1.5	1.1–8.6	2.8	2.7	2.0	1.2–3.4		
+3	Renal impairment	1	2.9		2.9		2.9			
+6	Control	12	5.8	1.8–11.3	5.8	3.2	4.9	3.5–7.0		
+6	Renal impairment	1	5.9		5.9		5.9			
+9	Control	9	7.5	1.6–27.1	9.8	8.9	6.4	3.3–12.6	70.2	
+9	Renal impairment	2	12.9	0.8–24.9	12.9		4.5	0.2–128.1	
+12	Control	61	14.5	1.6–41.5	16.6	11.9	11.7	9.2–14.8	112	
+12	Renal impairment	14	15.5	2.0–56.9	18.0	14.1	13.0	8.0–21.2	
+The control group includes patients with no renal impairment or with mild renal impairment, and the renal impairment group includes patients with moderate or severe renal impairment
+
+
+CI confidence interval, CL
+CR creatinine clearance, eGFR estimated glomerular filtration rate
+
+
+Table 6 Comparison of NAP226-90 steady-state plasma concentrations by capsule dose stratified by baseline renal impairment
+
+Capsule dose (mg)	Group	
+n
+	Median (ng/mL)	Range (ng/mL)	Arithmetic mean (ng/mL)	Standard deviation (ng/mL)	Geometric mean (ng/mL)	Geometric mean 95 % CI	Ratio (%) of geometric means (renal impairment: control)	
+Renal impairment measured by CLCR
+	
+ 3	Control	10	1.8	0.2–4.1	1.9	1.3	1.3	0.6–2.5	78.7	
+ 3	Renal impairment	7	0.6	0.3–4.1	1.6	1.6	1.0	0.5–2.2	
+ 6	Control	13	5.0	0.6–10.8	5.1	3.3	3.6	2.1–6.2	81.7	
+ 6	Renal impairment	5	3.2	1.1–6.4	3.5	2.1	3.0	1.6–5.4	
+ 9	Control	8	4.4	1.8–11.8	5.4	3.6	4.5	2.8–7.1	131	
+ 9	Renal impairment	5	6.8	2.3–12.5	6.8	3.9	5.9	3.3–10.3	
+ 12	Control	43	8.9	1.6–41.1	10.7	7.7	8.5	6.9–10.5	93.7	
+ 12	Renal impairment	36	9.7	1.5–22.6	9.7	5.5	8.0	6.4–9.9	
+Renal impairment measured by eGFR	
+ 3	Control	14	1.7	0.2–4.1	1.8	1.5	1.2	0.7–2.1	80.7	
+ 3	Renal impairment	3	0.5	0.4–3.7	1.6	1.9	1.0	0.3–3.6	
+ 6	Control	17	4.8	0.6–10.8	4.7	3.2	3.4	2.2–5.3		
+ 6	Renal impairment	1	4.2		4.2		4.2		
+ 9	Control	10	6.0	1.8–12.5	6.7	3.9	5.6	3.7–8.5	60	
+ 9	Renal impairment	3	3.7	2.3–4.5	3.5	1.1	3.3	2.3–4.9	
+ 12	Control	64	9.1	1.6–41.1	10.3	6.9	8.3	7.0–9.8	97.2	
+ 12	Renal impairment	15	9.7	1.5–22.6	10.1	6.3	8.1	5.6–11.7	
+The control group includes patients with no renal impairment or with mild renal impairment, and the renal impairment group includes patients with moderate or severe renal impairment
+
+
+CI confidence interval, CL
+CR creatinine clearance, eGFR estimated glomerular filtration rate
+
+
+
+
+Patch
+In this phase III study, 515 patients in the intent-to-treat (ITT) population received rivastigmine patch treatment. Steady-state plasma concentrations of rivastigmine and NAP226-90 were available in 309 and 306 of these patients, respectively, and were used in the analysis. None of the analyzed patients had ESRD. When stratified by CLCR, two patients treated with the 20 cm2 (17.4 mg/24 h) patch and one patient treated with the 10 cm2 (9.5 mg/24 h) patch had severe renal impairment. When stratified by eGFR, there was one patient each in the 10 cm2 (9.5 mg/24 h) and 20 cm2 (17.4 mg/24 h) patch groups with severe renal impairment. The control group for the various patch sizes comprised patients with no (up to 25 %) or mild renal impairment.
+
+Overall, the plasma concentrations for rivastigmine as well as NAP226-90 in patients with moderate to severe renal impairment were comparable with, or only slightly higher or lower than, those in patients with no or mild renal impairment. The boxplots largely overlapped for the two patients groups within each dose level.
+
+The average changes in rivastigmine concentrations, depicted by the ratio of geometric means between the two patient groups when measured using CLCR, were −6, +22, +21, and +8 % for patch sizes 5 cm2 (4.6 mg/24 h), 10 cm2 (9.5 mg/24 h), 15 cm2 (13.3 mg/24 h), and 20 cm2 (17.4 mg/24 h), respectively (Table 3). The corresponding results for NAP226-90 were +12, +17, −23, and +10 %, respectively (Table 4).
+
+When measured using eGFR, the average changes in rivastigmine concentrations between the two patient groups were +7, +21, and −40 % for patch sizes 5 cm2 (4.6 mg/24 h), 10 cm2 (9.5 mg/24 h), and 20 cm2 (17.4 mg/24 h), respectively (Table 3); the changes in NAP226-90 concentrations were +97, +8, and −10 %, respectively (Table 4). The ratio could not be estimated for rivastigmine and NAP226-90 following the 15 cm2 (13.3 mg/24 h) patch size as only one patient (i.e., eGFR value) was available in this dose group.
+
+No correlations were observed between rivastigmine or NAP226-90 plasma concentrations and the baseline values of CLCR or eGFR as shown in the scatterplots for steady-state plasma concentrations of rivastigmine and NAP226-90 against CLCR and eGFR in Fig. 3. The coefficients of correlation (R
+2 values) calculated using linear regression to quantify the relationship between concentrations and CLCR or eGFR (i.e., to quantify the fraction of pharmacokinetic variation due to CLCR or eGFR) ranged from 0.1 to 2.5 %, confirming that neither CLCR nor eGFR have a clear effect on the exposure to rivastigmine or NAP226-90. The plasma concentrations of rivastigmine or NAP226-90 did not show any consistent trend of increasing with decreasing CLCR or eGFR values.Fig. 3 Rivastigmine and NAP226-90 steady-state plasma concentrations versus baseline creatinine clearance and estimated glomerular filtration rate following patch application
+
+
+
+
+Capsule
+Overall, 256 patients in the ITT population received the rivastigmine capsule formulation, and 234 of these patients completed the study. A total of 128 patients with steady-state plasma concentration of rivastigmine and/or NAP226-90 were included in the analysis. There were no patients with ESRD in the study population. Two patients treated with rivastigmine 12 mg/day had severe renal impairment when stratified by CLCR, but none had severe renal impairment when stratified by eGFR. The control group for the various capsule doses consisted of patients with no (up to 25 %) or mild renal impairment.
+
+The plasma concentrations for both rivastigmine and NAP226-90 in patients with renal impairment were comparable to, or tended to be slightly lower (though some cases higher) than, those in the control group.
+
+The average changes in rivastigmine concentrations, depicted by the ratio of geometric means between the two patient groups when measured using CLCR, were −16, −22, +8, and −15 % for daily doses of 3, 6, 9, and 12 mg, respectively (Table 5). The corresponding values for NAP226-90 were −21, −18, +31, and −6 %, respectively (Table 6).
+
+When measured using eGFR, the average changes in rivastigmine concentrations between the two patient groups were +42, +20, −30, and +12 % for capsule daily doses 3, 6, 9, and 12 mg, respectively (Table 5); the changes in NAP226-90 concentrations were −19, +23, −40, and −3 %, respectively (Table 6).
+
+No correlations were observed between plasma concentrations of either rivastigmine or NAP226-90 and baseline values of CLCR or eGFR as shown in scatterplots (Fig. 4). The coefficients of correlation (R
+2 values) ranged from 0.1 to 2.4 %, confirming that neither CLCR nor eGFR have a clear effect on the exposure to rivastigmine or NAP226-90. The plasma concentrations of rivastigmine or NAP226-90 following capsule administration did not show any consistent trend of increasing with decreasing CLCR or eGFR values.Fig. 4 Rivastigmine and NAP226-90 steady-state plasma concentrations versus baseline creatinine clearance and estimated glomerular filtration rate following capsule administration
+
+
+
+
+When the analysis was repeated with model-based estimates of plasma concentrations adjusted to a body weight of 65 kg, it yielded similar results for the body weight-adjusted concentrations to those obtained using the observed unadjusted concentrations (data not shown).
+
+Overall, no consistent and relevant differences were observed in plasma concentrations of rivastigmine and NAP226-90 in patients in the renal impairment group when compared with those in the control group.
+
+Discussion
+Medical co-morbidity is highest in the elderly, who constitute 6.4 % of the world’s population. These patients are on long-term multiple medication regimens for their co-morbidities and are the highest consumers of prescription medicines [27]. Polypharmacy increases the risk of medication-related adverse events, and advancing age is associated with alterations in drug pharmacokinetics. Renal impairment is more common in elderly patients, which increases the possibility of drug interactions, drug toxicity, and impaired drug elimination [28]. Elderly patients are more prone to adverse effects, leading to a decreased level of tolerance when compared with healthy individuals, and may require dose adjustment.
+
+As previously demonstrated in a study exploring the ethnic differences in the pharmacokinetics and pharmacodynamics of the rivastigmine patch, urinary elimination of unchanged rivastigmine is low, amounting to a maximum of 4 % of the administered dose of rivastigmine [16]. Excretion of NAP226-90 was, at maximum, 20 % of the equivalent rivastigmine dose [16]. When administered via a transdermal patch, the amount of rivastigmine released from the device is known to increase linearly with the patch size, and the use of larger patch sizes translates into higher plasma exposure to rivastigmine [29]. This might have presented a concern for patients with compromised renal function, particularly at high doses, as the maximum concentration of drug in plasma (C
+max) and area under the plasma concentration–time curve (AUC) of rivastigmine increase more than proportionally with dose increments [16, 29, 30]. Similarly, for the capsule, the rivastigmine C
+max and AUC increased over-proportionally with dose increments [31]. The fact that rivastigmine (and NAP226-90) is poorly excreted in urine [16] means that, so far, there has been no need to conduct a specific study [19] in patients with renal impairment.
+
+However, renal impairment can adversely affect some pathways of hepatic/gut drug metabolism and has also been associated with other changes (absorption, plasma protein binding, transport, and tissue distribution). These changes may be particularly prominent in patients with severely impaired renal function and have been observed even when the renal route is not the primary route of elimination of a drug. Thus, for most drugs that are likely to be administered to patients with renal impairment, including drugs that are not primarily excreted by the kidney, it is strongly recommended, including by the FDA [18], that the pharmacokinetics in patients with renal impairment be investigated to provide appropriate dosing recommendations. Even though rivastigmine and NAP226-90 are poorly excreted in urine, the true effect of renal impairment on pharmacokinetic is unclear and has raised the interest of health authorities and practitioners.
+
+The present pharmacokinetic analyses of rivastigmine and its inactive metabolite NAP226-90 following patch and capsule administration in AD patients showed that the steady-state plasma concentrations of rivastigmine and NAP226-90 were comparable between the control and renal impairment groups. This is a reassuring finding indicating no safety or efficacy concerns with the use of rivastigmine patch or capsule in patients with impaired renal function. The plasma concentrations of both rivastigmine and NAP226-90 largely overlapped between patient groups within each dose level of patch or capsule when renal function was measured using either CLCR or eGFR.
+
+Changes in rivastigmine concentrations (determined by the ratio of geometric means) between the two groups were small and considered to be not clinically relevant when renal impairment was stratified by CLCR or eGFR. Moreover, decreasing CLCR or eGFR values were not associated with a systematic one-way change (e.g., systematic increase) in plasma concentrations of rivastigmine or NAP226-90. The distribution and fluctuation (increase or decrease) of the observed steady-state plasma concentrations after administration of rivastigmine were comparable between the renal impairment patients and the control group for both analytes. The same analysis when using the body weight-adjusted concentrations of rivastigmine or NAP226-90 resulted in the same findings and conclusions as those with the body weight-unadjusted observations, except for effects due to the small patient numbers in the 5 cm2 (4.6 mg/24 h) and 15 cm2 (13.3 mg/24 h) patch groups. In addition, the plasma concentrations of rivastigmine and NAP226-90 did not show any clear or consistent trend between the two patient groups who were administered capsules. Therefore, no dose adjustment for patch or capsule formulations is required in patients with renal impairment.
+
+Other drugs available to treat AD such as memantine, galantamine and donepezil are excreted unchanged by the renal route. Dose restriction is advised with memantine, which is excreted predominantly in urine as unchanged drug, in part via renal tubular secretion among patients with severe renal impairment [32]. Although pharmacokinetic interactions between memantine and other renally excreted drugs have not been observed [32], drugs excreted mainly by the renal route can pose a risk from interaction with other concomitantly administered renally excreted drugs in a patient with a limited renal reserve. Galantamine is excreted unchanged in urine, representing approximately 20–25 % of the administered dose. As observed with memantine, exposures to galantamine in patients with moderate and severe renal impairment are higher than those observed in healthy subjects [33]. Donepezil, another acetylcholinesterase inhibitor, undergoes significant first-pass metabolism and 16.9 % of the administered dose is excreted unchanged in urine [34]. Plasma concentrations of donepezil were found to be numerically but not significantly higher in patients with renal impairment relative to the healthy controls [35]. However, a relationship trend between exposure parameters (in particular AUC) and CLCR was observed. Another study of donepezil extended these findings to steady-state concentrations [36]. On the contrary, rivastigmine administered as both patch and capsule formulations shows insignificant renal excretion and there was no correlation between its systemic exposure and renal function status.
+
+The present analysis is useful in guiding the dose decisions for rivastigmine in patients with compromised renal function as it shows that patients with renal impairment can be administered rivastigmine at dosages similar to those administered to patients with normal renal function, and the dosing should be guided by disease stage and patient tolerability to ensure optimal therapeutic dosing.
+
+Conclusions
+Renal function, as measured by CLCR or eGFR, does not impact the steady-state plasma concentrations of either rivastigmine or its inactive metabolite NAP226-90. The concentrations of both rivastigmine and NAP226-90 in patients with AD treated with rivastigmine patch 5 cm2 (4.6 mg/24 h), 10 cm2 (9.5 mg/24 h), 15 cm2 (13.3 mg/24 h), and 20 cm2 (17.4 mg/24 h) or capsule (3, 6, 9, and 12 mg/day) were comparable between the control and impaired renal function groups, indicating that patients with renal impairment can be administered rivastigmine at dosages similar to those administered to patients with normal renal function.
+
+The authors wish to thank Aditi Kataria and Hemant Kumar Mittal of Novartis Healthcare Pvt. Ltd. for their writing and editorial support in the preparation of this manuscript.
+
+Compliance with Ethical Standards
+Funding
+This study was funded by Novartis Pharma AG, Basel, Switzerland.
+
+Disclosure of Potential Conflicts of interest
+Gilbert Lefèvre and Francesca Callegari are employees of Novartis and as such may be eligible for Novartis stock and stock options. Sandro Gsteiger and Yuan Xiong were employees of Novartis at the time of the research and analysis and as such may have been eligible for Novartis stock and stock options. None of the authors are Fellows of the American College of Clinical Pharmacology (FCP).
+
+Research Involving Human Participants
+The protocol, informed consent form, any amendments, and other information given to patients and caregivers were reviewed by an Institutional Review Board or Independent Ethics Committee for each center. The study was conducted according to the ethical principles of the Declaration of Helsinki, as revised in 2000.
+
+Informed Consent
+Informed consent was obtained from all individual participants included in the study.

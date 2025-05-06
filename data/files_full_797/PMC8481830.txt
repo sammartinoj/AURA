@@ -1,0 +1,209 @@
+==== Front
+Front Immunol
+Front Immunol
+Front. Immunol.
+Frontiers in Immunology
+1664-3224
+Frontiers Media S.A.
+
+10.3389/fimmu.2021.739130
+Immunology
+Mini Review
+PET Imaging of Neuroinflammation in Alzheimer’s Disease
+Zhou Rong 1 †
+
+Ji Bin 2 †
+
+Kong Yanyan 3
+
+Qin Limei 4
+Ren Wuwei 5
+
+Guan Yihui 3 *
+
+Ni Ruiqing 6 7 *
+
+1Department of Nephrology, Yangpu Hospital, School of Medicine, Tongji University, Shanghai, China
+2Department of Radiopharmacy and Molecular Imaging, School of Pharmacy, Fudan University, Shanghai, China
+3Positron Emission Tomography (PET) Center, Huashan Hospital, Fudan University, Shanghai, China
+4Inner Mongolia Baicaotang Qin Chinese Mongolia Hospital, Hohhot, China
+5School of Information Science and Technology, Shanghaitech University, Shanghai, China
+6Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland
+7Institute for Biomedical Engineering, University of Zurich & Eidgenössische Technische Hochschule Zürich (ETH Zurich), Zurich, Switzerland
+Edited by: Maya Koronyo-Hamaoui, Cedars Sinai Medical Center, United States
+
+Reviewed by: Neil Vasdev, Centre for Addiction and Mental Health (CAMH), Canada; Nazanin Mirzaei, Life Molecular Imaging GmbH, Germany
+
+*Correspondence: Yihui Guan, guanyihui@hotmail.com; Ruiqing Ni, ruiqing.ni@uzh.ch
+This article was submitted to Multiple Sclerosis and Neuroimmunology, a section of the journal Frontiers in Immunology
+
+†These authors have contributed equally to this work
+
+16 9 2021
+2021
+12 73913010 7 2021
+27 8 2021
+Copyright © 2021 Zhou, Ji, Kong, Qin, Ren, Guan and Ni
+2021
+Zhou, Ji, Kong, Qin, Ren, Guan and Ni
+https://creativecommons.org/licenses/by/4.0/ This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.
+Neuroinflammation play an important role in Alzheimer’s disease pathogenesis. Advances in molecular imaging using positron emission tomography have provided insights into the time course of neuroinflammation and its relation with Alzheimer’s disease central pathologies in patients and in animal disease models. Recent single-cell sequencing and transcriptomics indicate dynamic disease-associated microglia and astrocyte profiles in Alzheimer’s disease. Mitochondrial 18-kDa translocator protein is the most widely investigated target for neuroinflammation imaging. New generation of translocator protein tracers with improved performance have been developed and evaluated along with tau and amyloid imaging for assessing the disease progression in Alzheimer’s disease continuum. Given that translocator protein is not exclusively expressed in glia, alternative targets are under rapid development, such as monoamine oxidase B, matrix metalloproteinases, colony-stimulating factor 1 receptor, imidazoline-2 binding sites, cyclooxygenase, cannabinoid-2 receptor, purinergic P2X7 receptor, P2Y12 receptor, the fractalkine receptor, triggering receptor expressed on myeloid cells 2, and receptor for advanced glycation end products. Promising targets should demonstrate a higher specificity for cellular locations with exclusive expression in microglia or astrocyte and activation status (pro- or anti-inflammatory) with highly specific ligand to enable in vivo brain imaging. In this review, we summarised recent advances in the development of neuroinflammation imaging tracers and provided an outlook for promising targets in the future.
+
+Alzheimer’s disease
+neuroinflammation
+tau
+microglia
+astrocyte
+amyloid (A) 42
+positron emission tomography (PET)
+TSPO (18 kDa translocator protein)
+Universität Zürich 10.13039/501100006447 MEDEF-20-021 Vontobel-Stiftung 10.13039/501100008494 Helmut Horten Stiftung 10.13039/501100013850
+==== Body
+pmild cognitive impairment  ntroduction
+
+neurodegenerative disorderssss, including Alzheimer’s disease (AD), frontotemporal dementia, Parkinson’s disease (PD), and Lewy body dementia, represent a tremendous unmet clinical need. The major neuropathological features of AD are the deposition of amyloid-beta (Aβ) plaques, Neurofibrillary tangles formed by misfolded hyperphosphorylated tau, neuronal loss, and neuroinflammation characterised by glial activation (1, 2). Neuroinflammation plays an important role in AD; however, its dynamics and impacts (protective or detrimental) have still not been fully elucidated (3, 4). Microglia, as the resident macrophage cells in the brain, have emerged as central players in the AD pathogenesis (1, 2, 5). Microglial activation was previous classified into proinflammatory (M1) or anti-inflammatory (M2) types (2). Recent single-cell sequencing and transcriptomics studies reported gene coexpression network diversity of microglia in AD and disease-associated-microglia (DAM) of transcriptionally distinct and neurodegeneration-specific profiles (6–12). Aβ-laden microglia has a unique gene-expression signature including triggering receptor expressed on myeloid cells 2 (TREM2), apolipoprotein E (ApoE), and other AD-associated genes (13, 14). Microglia phagocytosis driven by Tyro3, Axl, and Mer (TAM) receptor has been shown to promote the development of dense-core plaque and the engulfing of Aβ plaques (15). Astrocytes are categorised into A1 and A2 subtypes based on their phenotype and genetic expression profiles (16–19). A1 astrocyte secretes and produces a large number of inflammatory factors and neurotoxins, whereas A2 astrocyte produces neurotrophic substances and supports neuronal growth. Reactive astrocytes precipitate both Aβ and tau (20–22) and are closely linked with microgliosis (16). cerebral cerebral cerebral cerebral spinal fluid (cerebral cerebral cerebral cerebral spinal fluid) and plasma biomarkers for neurodegeneration and inflammatory markers [e.g., tumor necrosis factor alpha (TNFα), interleukin-6 (IL-6), IL-10] were elevated in patients with AD and mild cognitive impairment   (mild cognitive impairment  ) compared to healthy controls (6, 7, 13, 14), associated with an increasing age (23, 24) and cerebral amyloid pathology (25). Recent advances in molecular imaging have provided insights into the time course of AD pathology, including Aβ, tau, synaptic deficits, and neuroinflammation, in patients and in animal disease models (1, 26–35). In vivo imaging of neuroinflammation, however, is challenging, and the spatial–temporal pattern in the development of AD has still not been fully elucidated (23). One reason is that the astrocytes and microglia are highly dynamic and heterogeneous in their subtypes, locations, and activation status (1).
+
+Neuroinflammation Positron Emission Tomography Imaging
+
+Mitochondrial 18 kDa translocator protein (TSPO) is the most widely investigated neuroinflammation target for PET imaging (36). Other alternative targets are under rapid development (Table 1), such as monoamine oxidase-B (MAO-B), matrix metalloproteinases (144–147, 185, 186), colony-stimulating factor 1 receptor (cerebral cerebral cerebral cerebral spinal fluid1R), imidazoline-2 binding sites (I2BS), cyclooxygenases, the phospholipase A2/arachidonic acid pathway, sphingosine-1-phosphate receptor-1, reactive oxygen species, cannabinoid-2 receptor, purinergic P2X7 receptor and P2Y12 receptor, the fractalkine receptor (CX3CR1) (187), TREM2 (140), and receptor for advanced glycation end products (36, 188) (Table 1).
+
+Table 1 Summary of imaging probes for gliosis.
+
+Target	Tracer	Human	Animal model	
+TSPO	(R)-[11C] PK11195	mild cognitive impairment  , AD, HC (37–43)	3×Tg, APP/PS1 mice, rTg4510 mice (26, 44)	
+[18F]DPA-714	AD, MS, ALS, HC (45, 46)	APP/PS1 mice, TgF344 rats (47–51)	
+[11C]DPA-713	AD, HC (52)	Murine stroke models (53), aged Monkeys (54)	
+[18F]F-DPA		APP/PS1 mice (55)	
+[18F]FEBMP		PS19, rTg4510 mice (56–58)	
+[11C]DAA1106, [18F]FEDAA1106	AD, HC	APP23, APP/PS1, PS19 mice, TgF334 rats (50, 59, 60)	
+[18F]FEMPA	AD, HC (61, 62)		
+[11C]AC-5216	HC (63)	APP23, AppNL-G-F/NL-G-F-knock-in, APPE693, rTg4510, PS19 mice (26, 57, 60, 64, 65)	
+[18F]FEPPA	mild cognitive impairment  , AD, HC (66, 67)	TgAPP21 rats (68)	
+[11C]PBR06	mild cognitive impairment  , AD, HC (69–71)	APPL/S mice (57, 72, 73)	
+[11C]PBR28	AD, SD, mild cognitive impairment  , FTD, DLB, ALS, HC (40, 69, 74–82)	5×FAD, PS19 mice (57, 73)	
+[18F]PBR111		APP/PS1 mice (83, 84)	
+[125I]CLINDE	AD, HC (85)	LPS injected, 3×Tg mice, TgF344 rats (85–87)	
+[18F]GE-180	AD, MS, FTD, HC (88–91)	APP/PS1, PS2APP, APP23, APP-SL70, APPswe, APPNL-G-F, APPL/S, Trem2 p.T66M knock-in, PS19 mice, TgF344 rats (47, 50, 53, 90, 92–102)	
+(S)-[18F]GE-387, (R, S)-[18F]GE-387	HC (103)	LPS injected rats, non-human primates (103, 104)	
+[11C]ER176	HC (75, 105, 106)		
+[11C]CB184, [11C]CB190		Mice, 6-OHDA injected rats (107)	
+[11C]N′-MPB		Stroke rat model (108)	
+[18F]LW223	HC (109)	Rats (109)	
+P2X7R	[11C]GSK1482160	HC (110)	LPS-injected mice, EAE rats, non-human primates (110, 111)	
+[18F]JNJ-64413739	HC (112), ALS (113)	LPS injected mice (112, 114)	
+[11C]JNJ-54173717	ALS (113)	rAAV3flag-hP2X7R, α-synuclein, 6-OHDA injected rats, non-human primates (115, 116).	
+[11C]SMW139	MS (117)	EAE, rAAV3flag-hP2X7R rats (118, 119)	
+[11C]JNJ-47965567 (A-740003)	MS (120)	Rats (121)	
+P2Y12R	[11C]P2Y12R-ant	MS (120)	EAE rats (120)	
+[11C]5	Stroke (122)	Murine stroke model (122)	
+[11C]AZD1283		rTg4510, PS19, APP23, and APPNL-F/NL-F mice, ex vivo (123)	
+cerebral cerebral cerebral cerebral spinal fluid1R	[11C]CPPC	AD, HC (124)	LPS injected, EAE, APPsi, APPNL-G-F/NL-G-Fknock-in mice (64, 124)	
+[11C]GW2580		LPS injected, APPNL-G-F/NL-G-Fknock-in mice, non-human primates (64)	
+COX-1	[11C]-KTP-Me	AD, HC (125, 126)	APPswe mice (125–127)	
+[11C]PS13, [18F]PS2		LPS treated rhesus macaques (128)	
+COX-2	[11C]MC1		LPS treated rhesus macaques (129)	
+[18F]FMTP		LPS injected mice (130)	
+[18F]TMI		Non-human primates (131)	
+iNOS	[18F]FBAT		LPS injected mice (132)	
+ROS	[18F]ROStrace [18F]ox-ROStrace,		LPS-treated mice (133)	
+[18F]dihydromethidine,		LPS-treated mice (134)	
+[11C]Ascorbic. [11C]dehydroascorbic acid		Rats (135)	
+[62Cu]ATSM	PD, ALS, MELAS (136, 137)	Brain tumor mice (138, 139)	
+TREM-2	[124I]mAb1729,mAb1729-scFv8D3CL		APPArcSwe, APPswe mice (140)	
+TREM-1	[64Cu]TREM1-mAb		Murine stroke, MS, GBM models (141–143)	
+			Murine glioma and metastatic breast cancer model (144–146)	
+MMP	[18F]BR-351, [18F]BR-420		Murine stroke models (147, 148)	
+CB2R	[11C]A-836339, [18F]2f	HC (149)	J20APPswe/ind, APP/PS1 mice (150)	
+[18F]RS-126, [18F]RoSMA-18-d6		LPS injected, Huntington, stroke mice (151, 152)	
+[18F]JHU94620		LPS injected mice (153)	
+[11C]NE40	AD, HC (154)	SAMP10 mice (155)	
+MAO-B	[11C]DED	mild cognitive impairment  , AD, HC (156–162)	APPArcSwe, APPswe mice (163, 164)	
+[18F]fluorodeprenyl-D2		Non-human primates (165)	
+[18F]SMBT-1	AD, HC (166, 167)		
+[11C]SL25.1188	HC, MDD (168, 169)	LPS-injected rats (170)	
+astrocyte	[11C]acetate	mild cognitive impairment  , MS, HC (171, 172)		
+I2BS	[11C]BU99008	AD, PD, HC (173–178)	Zucker rats, Non-human primates (179–181)	
+[¹⁸F]FEBU (BU99018)		Mice and rats (182)	
+[¹¹C]FTIMD		Non-human primates (183)	
+OATP1C1	[18F]2B-SRF101		3×Tg mice (184)	
+ALS, amyotrophic lateral sclerosis; COX-1/2, cyclooxygenase 1/2; cerebral cerebral cerebral cerebral spinal fluid1R, colony stimulating factor 1 receptor; DED, deuterium-L-deprenyl; FTD, Frontotemporal dementia; GBM, glioblastoma; HC, healthy control; iNOS, inducible nitric oxide synthase; I2BS, I2-imidazoline binding sites; LPS, lipopolysaccharides; mild cognitive impairment  , mild cognitive impairment  ; MDD, major depressive disorder; MELAS, mitochondrial myopathy, encephalopathy, lactic acidosis and stroke-like episodes; MMP, matrix metalloproteinases; MS, multiple sclerosis; OATP1C1, organic anion-transporting polypeptide 1C1; ROS, reactive oxygen species; PD, Parkinson’s disease; SD, semantic dementia; TREM-1, 2, triggering receptor expressed on myeloid cells 1, 2; TSPO, translocator protein; 6-OHD, 6-hydroxydopamine.
+
+TSPO Imaging
+
+TSPO is expressed mainly in the outer mitochondrial membrane of steroid-synthesizing cells in the central nervous system (microglia, astrocytes, endothelial cell, etc.) (Figures 1A, B ) and in the peripheral (191). TSPO is involved in many physiological processes including transporting cholesterol into mitochondria, steroid hormone synthesis, and bioenergetics (191, 192). Upregulation of TSPO was found in patients with AD and in animal models of AD (92, 193).
+
+Figure 1 Cellular location of emerging neuroinflammation imaging targets. (A, B) The RNA expression of TSPO, cerebral cerebral cerebral cerebral spinal fluid1R, P2RX7, and P2RY12 in mouse (A) and human (B) brain [based on RNA-Seq data (189, 190)]. FPKM, fragments per kilobase of transcript per million mapped reads. Reproduced from https://www.brainrnaseq.org and (189, 190) with permission. (C) Representative transverse planes of [11C]GW2580 and [11C]CPPC SUV 60-120min images of a monkey brain superimposed on the monkey’s own MR images at baseline and with a homologous blocker treatment. (D, E) Time–radioactivity curves of [11C]GW2580 and [11C]CPPC in various brain regions obtained from corresponding PET images. FCTX, frontal cortex; CS, centrium semi-ovale. Reproduced from (64) with permission from Sage Publication. (F, G) Tau lesion-associated microglial TSPO was more sensitively captured by in vivo positron emission tomography (PET) imaging with [18F]FEBMP than [11C]PK11195. T2 magnetic resonance imaging (MRI) images and PET images with [18F]FEBMP and [11C]PK11195 in non-transgenic, and PS19 mice with less and severe brain atrophy at 9 months of age (F). Time course of hippocampus (Hip)-to-striatum (ST) ratios of radioactivity and binding potential (BPnd) calculated by simplified reference tissue model with striatum as reference tissue showing significantly increased [18F]FEBMP but not [11C]PK11195 signal in PS19 compared with non-transgenic mice (G). Reproduced from (57) with permission from Sage Publication.
+
+The First Generation TSPO Tracers
+
+The first-generation tracers exemplified with [11C]PK-11195 have been widely used in preclinical and clinical studies. However, [11C]PK-11195 suffers from several major limitations such as low permeability of the blood–brain barrier and high non-specific plasma binding, leading to a low signal-to-noise ratio in the final reconstructed PET images (194). Careful analysis of plasma metabolites is required to determine the accurate arterial input function for quantitative PET measurement (195). Increased [11C]PK11195 is reported to be associated with Aβ accumulation in patients with mild cognitive impairment   and AD compared to healthy controls, correlating with the deficits in functional network connectivity, grey matters atrophy, and cognitive decline (37–39, 196). Using [11C]PK11195, recent studies have showed a biphasic trajectory of inflammation with an early microglial activation with increasing Aβ load and a later decline when Aβ load reaching plateau (AD) levels (40). Ismail et al. demonstrated a parallel increase in microglial activation and tau accumulation assessed by [11C]PK11195 and [18F]flortaucipir, respectively, in [11C]PIB Aβ-positive mild cognitive impairment   patients (41). Su et al. further showed that grey matter atrophy mediated the effects of tau accumulation and neuroinflammation detected by PET tracers [18F]flortaucipir and [11C]PK11195, respectively on cognitive impairments in AD (42).
+
+The Second Generation TSPO Tracers
+
+A few second generation tracers including [11C]DAA1106, [1(F]FEDAA1106, [125I]CLINDE [11C]PBR06, [11C]PBR28, [18F]PBR111, [18F]DPA-713, [18F]DPA-714, [18F]F-DPA, [11C]AC-5216, [18F]FEMPA, and [18F]FEPPA have been developed to overcome the limitations of [11C]PK11195 (45, 46, 52, 61–63, 66, 69–71, 83, 84, 197) (Table 1). However, the binding affinities of second generation TSPO tracers in human brain differ based on the rs6971 polymorphisms, which introduces higher variability between subjects (45, 46, 52, 61–63, 66, 69–71, 197). In addition, the [11C]PBR28 binding appears to be affected by chromosome 1 variant rs2997325 on microglial activation (198). Several longitudinal studies using [18F]DPA-714, [11C]DAA1106, and [11C]PBR28 have reported decreased glucose metabolism and increased neuroinflammation in amyloidosis, four-repeat tauopathy animal models (47–50, 55) (Table 1). Ishikawa et al. has indicated an association between tau assessed by [11C]PBB3, neuronal damage measured by structural MRI, and neuroinflammation detected by using [11C]AC-5216 in rTg4510 mice (56–58). Chaney et al. showed an increased [18F]DPA-714 binding and myo-inositol levels using 1H magnetic resonance spectroscopy in APP/PS1 mice (48). Zou et al. showed that microglial activation assessed by [11C]PBR28 is independently associated with amyloid load and memory impairment, but not with tau burden assessed by [18F]florbetaben and [18F]MK-6240, respectively, in patients with AD (74). Whereas Dani et al. showed that [11C]PBR28-measured microglial activation correlates with both tau and Aβ deposition assessed by [18F]flortaucipir and [18F]flutemetamol in patients with AD (69) (Figures 2D, E). Studies by Femminell et al. demonstrated an increased regional [11C]PBR28 binding in patient with mild cognitive impairment  , which associated with higher grey matter and hippocampal volume (199). This suggests a potential protective effect of microglia activation in the early stages (199). Hamelin et al. showed a diverging pattern of progression in AD based on [18F]DPA-714 baseline binding, with a higher baseline associates with less subsequent microglial activation and better cognitive performance in 2-years follow-up (45).
+
+Figure 2 Biological parametric mapping (BPM) correlation between [11C]BU99008 and [18F]florbetaben binding in (A) all cognitively impaired (CI) subjects and in (B) Aβ-positive cognitively impaired subjects at a cluster threshold of p < 0.05 with an extent threshold of 50 voxels. These BPM are T maps describing the strength of the voxel-wise correlations between binding of the two radioligands represented in a common brain space. (C) Dot plot demonstrating the regional [11C]BU99008 total volumes of distribution (Vt) using two-tissue compartmental models in Aβ-positive cognitively impaired subjects (purple filled circle), Aβ-negative CI subjects (purple open circle), and healthy controls (HC, green triangle). “Brain” refers to the composite cortex, combining all the major cortical regions. *p < 0.05, uncorrected. Reproduced from (176) with permission from Springer Nature. (D, E) Voxel-level correlation between [18C]PBR28, [18F]florbetapir, and [18F]flutemetamol in the patients with mild cognitive impairment   and Alzheimer’s disease who were positive for all three tracers. (D) Voxel-level correlations between microglial activation assessed by using [18C]PBR28 and tau aggregation assessed by using [18F]florbetapir. (E) Voxel-level correlations between microglial activation assessed by using [18C]PBR28 and amyloid deposition assessed by using [18F]flutemetamol. Reproduced from (69) with permission from Oxford University Press.
+
+The Third Generation TSPO Tracers
+
+Several third generations of TSPO tracers [18F]GE-180, (R,S)-[18F]GE-387, [11C]ER176, [11C]CB184, [11C]CB190, [11C]N′-MPB, and [18F]LW223 have been developed (75, 103, 105–109). [18F]GE-180 (flutriciclamide), (S)-[18F]GE-387, and [11C]ER176 resolve the problem of ligand-dependent attenuation of affinity (90, 97, 197) in in vitro binding assay where these tracers are insensitive to TSPO rs6971 polymorphisms (104). The rs6971 polymorphisms, however, affects in vivo [18F]GE-180 quantification, revealing lower binding in patients of low-affinity binders compared to the mixed- and high-affinity binders (88). Several studies have compared the binding properties and performance of second and third generations of TSPO tracers. James et al. found that the detection of microglial activation by using [18F]Gbche gene gene80 was more sensitive than that by using [18F]PBR06 (94). However, Chaney et al. indicated that [11C]DPA-713 PET reflects microglial activation with higher accuracy and sensitivity compared to [18F]GE-180 in a mouse model of stroke (53). Head-to-head comparative PET study by Zanotti-Fregonara et al. showed a more favourable brain entrance property of [11C]PBR28 compared to [18F]GE-180 in human (76). [11C]ER176 has demonstrated a higher binding potential and smaller variability compared to [11C]PK11195, [11C]PBR28, and [11C]DPA-713 (75, 105, 106). Clinical trial of PET using [11C]ER176 for accessing microglia activation in patients with mild cognitive impairment   and AD is still ongoing (NCT03744312). Microglial activation assessed by using [18F]GE-180 in different amyloidosis, tauopathy rodent models have been reported (47, 50, 53, 89, 90, 92–102) (Table 1). López-Picón et al. showed that [18F]GE-180 signal reached plateaus at an early stage, while the Aβ load detected by [11C]PIB was still increasing in APP23 mice (90). A recent study by Sacher et al. showed an asymmetric pattern (hemispheric predominance) of Aβ load ([18F]florbetaben) accompanied by microglial activation ([18F]GE-180) in AppNL-G-F knock-in mice (96). Increased levels of [18F]GE-180 uptake indicative of microglial activation have been reported in patients with AD, semantic dementia, mild cognitive impairment  , and four-repeat tauopathy compared to non-demented controls (88–91). Ramakrishnan reported that [18F]GE-387 visualised increased uptake in rat of acute inflammation induced by lipopolysaccharides (LPS) injection and demonstrated sufficient brain uptake in non-human primate (104).
+
+The cellular location of the signal is another major concern for TSPO ligands. Two different binding sites on glial and vascular TSPO were reported for several TSPO ligands, e.g., [11C]PK11195 (57). Ji et al. reported that polymorphism-insensitive ligand [18F]FEBMP (200) yielded a higher contrast to neuroinflammation than [11C]PK11195 in PS19 tauopathy mouse model due to its higher glial-TSPO selectivity (Figures 1F, G ) (57, 58). Further studies evaluating the TSPO selectivity and insensitivity to TSPO polymorphism of the second and third generations TSPO tracers including [18F]GE-180, (S)-[18F]GE-387, and [11C]ER176 are highly desired.
+
+Emerging Targets
+
+Given that TSPO is not exclusively expressed in glia, it is thus imperative to search for new imaging biomarkers that can detect neuroinflammation with higher sensitivity and specificity. Promising targets should have almost exclusive expression in microglia or astrocyte and highly specific ligands to enable in vivo imaging evaluations (32, 170, 201, 202).
+
+Colony-Stimulating Factor 1 Receptor
+
+cerebral cerebral cerebral cerebral spinal fluid1R is expressed mainly on microglia and on infiltrating macrophages/monocytes and dendritic cells in the brain (Figures 1A, B ). cerebral cerebral cerebral cerebral spinal fluid1R is important for microglia growth, proliferation, and survival. Two endogenous ligands, the growth factors colony stimulating factor-1 and interleukin-34 (203), have been reported for cerebral cerebral cerebral cerebral spinal fluid1R. Upregulation in cerebral cerebral cerebral cerebral spinal fluid1R have been reported in response to injury and AD-related neuropathology (204, 205). Horti et al. developed a new cerebral cerebral cerebral cerebral spinal fluid1R tracer [11C]CPPC and captured increased microglial levels of cerebral cerebral cerebral cerebral spinal fluid1R in animal models of acute inflammation induced by LPS injection, encephalomyelitis model of multiple sclerosis, and APPsi with cerebral Aβ pathology (124). A recent study from Zhou et al. compared new cerebral cerebral cerebral cerebral spinal fluid1R tracers [11C]GW2580 with [11C]CPPC in detecting both acute inflammation induced by LPS injection and chronic inflammation in APPNL-G-F/NL-G-F knock-in mice and showed that [11C]GW2580 captured changes in cerebral cerebral cerebral cerebral spinal fluid1R with higher sensitivity, associated with increased TSPO pattern in the brain (64) (Figures 1C–E).
+
+Cyclooxygenase-1 and Cyclooxygenase-2
+
+Cyclooxygenase (COX) is an enzyme involved in the production of prostaglandin H2, which is the substrate for molecules including prostaglandins, prostacyclin, and thromboxanes (206). The two isoforms COX-1 and COX-2 are considered to be involved in the neuroinflammation in neurodegenerative disorderssss including AD. Immunochemical evidence showed that COX-1 and COX-2 are expressed in microglia and neuron in the central nervous system (207). Several tracers for COX-1 and COX-2 have been developed including [18F]TMI (131, 208), [18F]triacoxib (209), [11C]rofecoxib (210), [11C]KTP-Me (125, 127, 211), [11C]PS13, and [11C]MC1 (128, 129) (Table 1). Ohnishi et al. and Shukuri et al. reported that [11C]KTP-Me harbours an improved brain–barrier entrance and is highly selective for COX-1 (125, 127, 211). PET study with [11C]KTP-Me showed an increased brain uptake in AD patients compared to healthy controls and in APPswe (Tg2576) mice compared to wild-type mice (125–127): [11C]KTP-Me accumulation was detected in the frontal cortex and hippocampus, in activated microglia surrounding Aβ plaques. Shrestha et al. reported PET imaging of COX-2 ([11C]MC1) and COX-1 ([11C]PS13) in monkey brain after LPS-induced neuroinflammation and in human peripheral tissue with inflammation and showed specific detection patterns (128, 129).
+
+Cannabinoid Receptor Type 2
+
+Cannabinoid receptor type 2 (CB2R) are mainly expressed by immune cells including monocytes, macrophages, and microglia in the brain (151, 152) and have low expression levels under physiological conditions (2, 4, 31). Several classes of tracers for CB2R have been developed including [11C] methoxy-Sch225336 (212), [11C]NE40 (154), [11C]A-836339, [18F]2f (149, 150), [18F]JHU94620 (153), [18F]RS-126, and [18F]RoSMA-18-d6 (151, 152) (Table 1). Upregulation of brain CB2R expression has been demonstrated in acute inflammation such as LPS-injected model and murine stroke model (151–153) in chronic inflammation senescence-accelerated models (155) and in amyloidosis mouse model associated with Aβ deposits (150). Ahmad et al. reported lower CB2R availability in Aβ-positive AD patients compared to healthy controls assessed by PET using [11C]NE40 and [11C]PIB, respectively. However, no relationship between [11C]NE40 and cerebral Aβ load was observed (154).
+
+Purinergic P2X7 Receptor and P2Y12 Receptor
+
+The expression of purinergic P2X7 receptor is found upregulated specifically in M1 microglia. P2X7 receptor mediates NLRP3 inflammasome activation, cytokine and chemokine release, T lymphocyte survival and differentiation, transcription factor activation, and cell death (213). Microglia monitors and protects neuronal function through purinergic P2Y12 receptor-dependent junctions (214) linked with neuronal mitochondrial activity. Brain injury-induced changes at somatic junctions triggered P2Y12-receptor-dependent microglial neuroprotective effect, regulating neuronal calcium load and functional connectivity (215, 216). Immunohistochemical staining indicated that the levels of P2Y12 receptor were decreased in the brains derived from patients with multiple sclerosis and AD cases (217). Several P2X7 receptor tracers including [11C]GSK1482160 (110, 111), [11C]JNJ-47965567 (A-740003) (120), [18F]JNJ-64413739 (112, 114), [11C]JNJ-54173717 (113), [11C]SMW139 (118), and [18F]PTTP (218). Janssen et al. showed that [11C]SMW139 can detect with high affinity and specificity to the P2X7 receptor by using rAAV3flag-hP2X7R rat model overexpressing human P2X7 receptor (119). Moreover, [11C]SMW139 showed higher binding on postmortem brain of AD patients compared to controls by using in vitro autoradiography studies, corroborating with immunohistochemical staining results (119). One clinical trial is ongoing using [11C]SMW139 for imaging neuroinflammation in Parkinson’s disease [(PRI-PD) 2018-000405-23].
+
+Several P2Y12 receptor probes such as [11C]AZD1283, [11C]P2Y12R-ant, and [11C]5 have been developed and evaluated in vivo in animal models (120, 122, 123). Maeda et al. showed a distinct response of P2Y12 receptor to tau and amyloid deposits using P2Y12 receptor tracer [11C]AZD1283. The levels of P2Y12 receptor decline in tau-laden region with increased total level of microglia in rTg4510 and PS19 tau mice and increase in APP23 and APPNL-F/NL-F mice (123). However PET imaging using [11C]AZD1283 showed no uptake signal in the wild-type mouse brain. Two other tracers [11C]P2Y12R-ant and [11C]5 have showed sufficient brain uptake and promising results in experimental autoimmune encephalomyelitis model of multiple sclerosis (120) and stroke model for detecting anti-inflammatory microglia (122).
+
+Astroglia Imaging
+
+MAO-B
+
+Irreversible MAO-B inhibitors [11C]deuterium-L-deprenyl (DED) have been used in PET imaging studies and demonstrated early astrocytosis in sporadic and autosomal dominant AD patients (61, 156–161, 163) and in amyloidosis mouse models (163, 164). [18F]fluorodeprenyl-D2 showed favorable kinetic properties with relatively fast washout from non-human primate brain and improved sensitivity for MAO-B imaging (165). However, the technical challenges of irreversible inhibitors such as deprenyl hinder the accurate image analysis. Several reversible-binding inhibitors have been developed in recent years such as [11C]Cou (170, 219), [11C]SL25.1188 (168), and [11C]SMBT-1 (166). Harada et al. showed a specific increased regional retention of [11C]SMBT-1 in the cortical and hippocampal regions in patients with AD compared to healthy controls (166).
+
+I2BS
+
+I2BS that locates on both monoamine oxidases A (MAO-A) and B (MAO-B) is another emerging target for astrocytosis imaging (173–175, 220). [¹¹C]FTIMD shows the specific-binging to I₂BS as shown by PET and autoradiography in the monkey brain (183). Wilson et al. demonstrated reactive astroglia detected by using [11C]BU99008 PET early in Parkinson’s disease in response to α-synuclein accumulation (174). Recent postmortem binding and autoradiography study by Kumar et al. showed increased level of [3H]BU99008 binding in postmortem brain tissue from patients with AD compared to healthy controls (173, 221). Calsolaro et al. recently demonstrated increased cortical astrocytosis assessed by [11C]BU99008 with high cerebral Aβ load assessed by [18F]florbetaben in patients with mild cognitive impairment   and AD (176) (Figures 2A–C). Livingston et al. demonstrated that increased astrocytosis assessed by [11C]BU99008 in regions of earlier stages with low Aβ loads assessed by [18F]florbetaben and reduced astrocytosis in regions of advanced stage with greater Aβ load and atrophy (177). In vitro autoradiography and immune-histochemical staining showed the specificity of [3H]BU99008 and the colocalization of with glial fibrillary acidic protein staining of astroctyes in brain tissues from patients with AD.
+
+Discussion
+
+Non-invasive detection of central pathologies is indispensable for understanding the mechanism underlying AD continuum and for facilitating early and differential diagnosis (28, 222–225). TSPO-PET is still the most powerful imaging tool for AD-associated neuroinflammation but is currently facing two challenges. First, a human TSPO polymorphism TSPO rs6971 commonly affects the binding affinities of the second generation tracers to a different extent. Classification with polymorphism enables to correct the variability and bias from different binding affinities, but it raises the threshold for sample size of human subjects. Third-generation tracers have been developed for circumventing this limitation. In vitro testing in post-mortem human brain tissues have demonstrated the insensitivity of [11C]GE-180, [11C]GE-387, and [11C]ER176 to TSPO polymorphism (75, 106, 197). However, recent clinical study with [11C]ER176 (105) and [11C]GE-180 (88) demonstrated a significant decrease in ligand retention in low-affinity binders, suggesting the necessity of further in vivo examination. Second, the heterogenous cellular sources of TSPO PET tracers have been demonstrated in astrocytes, endothelial cells, and vascular smooth muscle cells, in addition to microglia in both patients with AD and animal models (61, 85, 86, 193, 226–229) (Figures 1A, B ). Although conventional opinions consider microglia as major cellular source of TSPO in the central nervous system, latest study finds vascular TSPO provides major binding sites for TSPO ligands including most widely used [11C]PK11195 and [11C]PBR28 in normal mouse brains (57). These findings suggest the possibility that changes in TSPO PET signal may be partly due to changes in the levels of vascular TSPO and not purely of glial TSPO. [18F]FEBMP and [11C]AC-5216 showed relatively selectivity for glial-TSPO compared to other ligands such as [11C]PK11195 (200). It remains to be investigated whether the third generation of TSPO tracers shows a portion of vascular TSPO detection similarly. Moreover, further research on next generations of TSPO tracers are needed, with the selection criteria including optimal binding property, insensitivity for TSPO polymorphism, and high glial TSPO selectivity.
+
+The role of neuroinflammation in AD pathogenesis is still not fully elucidated. Early clinical studies with first generation tracer [11C]PK11195 showed conflicting results in the brains from AD patients. Some studies demonstrated significant increases in [11C]PK11195 retention in diseased brain regions in AD (230, 231), which was not observed in some other studies (232, 233). Albrecht et al. recently reported negative associations between regional Aβ and tau PET uptake and cerebral cerebral cerebral cerebral spinal fluid inflammatory markers in patients with AD and in non-demented controls and suggested a protective role of neuroinflammation (234). Ewers et al. showed that a higher cerebral cerebral cerebral cerebral spinal fluid level of soluble TREM2 is indicative of microglia activation in patients with AD. The cerebral cerebral cerebral cerebral spinal fluid level of TREM2 negatively aassociated with the rate of Aβ accumulation assessed by using [18F]florbetapir over 2-years follow-up in AD patients (101). Biphasic trajectory with an early increase and a later decline in the level of microglial activation might explain such inconsistency between results from clinical studies (62). The recently reported biphasic trajectory of astrocytosis (177) adds further complexity in the interpretation.
+
+A recent study has showed that microglia is involved in the formation of senile plaque by promoting the diffuse form converting to dense cored form (15). In vitro immunohistochemical analysis found that TSPO-positive microglia were surrounded dense cored plaque, not diffuse plaques (235). These results may explain the complex spatial association between TSPO-PET and amyloid-PET signals. [11C]PBR28 signal correlated with both tau aggregation and Aβ deposition (55), suggesting distinct dynamic profiles of microglial activation. Collectively, current clinical studies have not provided a consensus on association between TSPO-associated neuroinflammation and AD-pathological changes. Given the different binding sites in glial and vascular TSPO for different tracers, the divergent results using different TSPO-PET tracers are not unexpected. A multitracer imaging paradigm for detecting the regional patterns of Aβ, tau, and microglia activation and astrocytosis is expected to provide better temporal and spatia mapping of disease processes and assessment of immunomodulatory therapeutic interventions in clinical study.
+
+Several promising targets and tracers for neuroinflammation imaging have been reported but not yet been evaluated in AD patients or animal models, such as the ligands for inducible nitric oxide synthase ([18F]FBAT), reactive oxygen species ([18F]ROStrace [18F]ox-ROStrace, [18F]dihydromethidine, [11C]Ascorbic. [62Cu]ATSM, [11C]dehydroascorbic acid) (132–137), TREM-1 ([64Cu]TREM1-mAb), matrix metalloproteinases ([18F]BR-351, [18F]BR-420) (144–146), astrocyte metabolism ([11C]acetate) (171, 172), I2BS([¹⁸F]FEBU) (182), and organic anion-transporting polypeptide 1C1 ([18F]2B-SRF101) (184). More preclinical and clinical evidence are required to indicate the utilities of these emerging ligands in in vivo imaging. An almost exclusive expression of cerebral cerebral cerebral cerebral spinal fluid1R and P2X7 receptor and P2Y12 receptor in microglia have demonstrated their potentials as next-generation imaging targets for microglia activation. Further evaluation of these tracers in amyloidosis and tauopathy models and patients with mild cognitive impairment   and AD will potentially facilitate better phenotyping of microglia activation. The association of these emerging targets with AD pathologies, disease progression, and the improvement in the ligand binding properties and analysis methods for PET data require further investigations (236). With the advances in new techniques, e.g., single-cell analysis of neuroinflammatory responses and plasma biomarkers, the link between neuroinflammation PET with other indicators will likely be studied in a more systematic manner.
+
+Author Contributions
+
+RZ, BJ, and RN wrote the first draft and prepared the figures. All authors contributed to the article and approved the submitted version.
+
+Funding
+
+RN acknowledged the funding by Helmut Horten Stiftung, Vontobel Stiftung, UZH Entrepreneur Fellowship (reference no. MEDEF-20-021).
+
+Conflict of Interest
+
+The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+
+Publisher’s Note
+
+All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.

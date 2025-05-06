@@ -1,0 +1,432 @@
+==== Front
+Alzheimers Dement (Amst)Alzheimers Dement (Amst)Alzheimer's & dementia : Diagnosis, Assessment & Disease Monitoring2352-8729Elsevier S2352-8729(15)00075-510.1016/j.dadm.2015.09.004Cognitive & Behavioral AssessmentDevelopment of a subjective cognitive decline questionnaire using item response theory: A pilot study Gifford Katherine A. katie.gifford@vanderbilt.edua∗Liu Dandan bRomano Raymond R. IIIaJones Richard N. cJefferson Angela L. aa Vanderbilt Memory & Alzheimer's Center, Department of Neurology, Vanderbilt University Medical Center, Nashville, TN, USAb Department of Biostatistics, Vanderbilt University School of Medicine, Nashville, TN, USAc Department of Psychiatry and Human Behavior, Brown University Warren Alpert Medical School, Providence, RI, USA∗ Corresponding author. Tel.: +1-615-322-8676; Fax: +1-615-875-2655. katie.gifford@vanderbilt.edu09 10 2015 12 2015 09 10 2015 1 4 429 439 © 2015 The Authors2015This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).Introduction
+Subjective cognitive decline (SCD) may indicate unhealthy cognitive changes, but no standardized SCD measurement exists. This pilot study aimed to identify reliable SCD questions.
+
+Methods
+A total of 112 cognitively normal (NC; 76 ± 8 years; 63% female), 43 mild cognitive impairment   (mild cognitive impairment  ; 77 ± 7 years; 51% female), and 33 diagnostically ambiguous participants (79 ± 9 years; 58% female) were recruited from a research registry and completed 57 self-report SCD questions. Psychometric methods were used for item reduction.
+
+Results
+Factor analytic models assessed unidimensionality of the latent trait (SCD); 19 items were removed with extreme response distribution or trait-fit. Item response theory (IRT) provided information about question utility; 17 items with low information were dropped. Post hoc simulation using computerized adaptive test (CAT) modeling selected the most commonly used items (n = 9 of 21 items) that represented the latent trait well (r = 0.94) and differentiated NC from mild cognitive impairment   participants (F [1, 146] = 8.9, P = .003).
+
+Discussion
+IRT and CAT modeling identified nine reliable SCD items. This pilot study is a first step toward refining SCD assessment in older adults. Replication of these findings and validation with Alzheimer's disease biomarkers will be an important next step for the creation of a SCD screener.
+
+Keywords
+Subjective cognitive declineItem response theoryFactor analysisComputerized adaptive testingPsychometricsmild cognitive impairment  
+==== Body
+1 Introduction
+Emerging evidence suggests that subjective cognitive decline (SCD), or a self-reported concern regarding a change in cognition, may represent a clinically relevant change in cognitive health, such as early Alzheimer's disease (AD) or unhealthy brain aging [1]. Recent work has linked SCD with markers of AD pathology, including smaller medial temporal lobe volumes on magnetic resonance imaging [2], amyloid burden quantified by positron emission tomography [3], and postmortem neuropathology [4]. SCD predicts cognitive decline [5], [6], incident mild cognitive impairment   (mild cognitive impairment  ) [7], and incident dementia [7], [8] in nondemented older adults.
+
+Not all studies to date support SCD as a marker of brain health [9], [10], [11] and there are several explanations for such variability. First, SCD is prevalent among older adults regardless of cognitive status [12]. Current SCD assessment methods lack specificity with as many as 95% of elders endorsing cognitive changes [13]. Such poor specificity prevents effective identification of individuals at risk for cognitive decline. Another explanation for discrepant SCD findings in the literature is the lack of standardized definition and the variable methods used to assess SCD. SCD measurement can vary based on the number of questions used (i.e., a single question [14] vs. multiple questions [15]) or based on the referent for defining decline (i.e., compared with one's own past abilities [16], compared with one's peers [17], or functional ability [18]). Given the variability in assessment methods, it is not surprising that different SCD questions have diverse associations with markers of brain health [19].
+
+The longstanding absence of a standard SCD definition has brought about inconsistent utilization of SCD methods in both research and clinical practice. Furthermore, the lack of operationalization for SCD is in stark contrast to other markers of early AD pathology. First, accepted standards now exist for classifying elders as “amyloid positive” using either in vivo amyloid imaging [20] or amyloid-β42 values quantified by cerebral cerebral cerebral cerebral spinal fluid [21]. Similarly, there are standard structural neuroimaging markers of AD pathology, such as medial temporal lobe atrophy [22], and Food and Drug Administration-approved software is available to empirically define atrophy consistent with AD in clinical practice [23]. Finally, there is consensus on how to assess and define cognitive impairment in AD and mild cognitive impairment   (i.e., impairment in a standard set of domains, such as memory, language, and executive functioning, is demarcated as 1.5 standard deviations below the normative mean) [24].
+
+In light of growing support that SCD is a marker of unhealthy brain aging (e.g., SCD is a criterion for the mild cognitive impairment   diagnosis [24]), efforts are underway to establish a standard method for defining SCD [25] to strengthen its utility in early AD detection. One proposed definition for SCD includes the following criteria: (1) self-experienced decline in cognitive capacity compared with a previous state and (2) normal objective cognitive functioning in the absence of mild cognitive impairment  , dementia, or another symptom-explaining etiology. Although these criteria were defined for research purposes, a measure that has been validated and detects a threshold of SCD implicating a pathologic process would have broad implications. Clinically, such a tool would offer a quick and cost-effective screener for adults aged >65 years that triggers a more indepth cognitive assessment (e.g., administration of Montreal Cognitive Assessment or specialty referral for a memory loss workup). In research settings, such a screener could provide an efficient means for enriching research studies with prodromal AD individuals. To alleviate patient and clinician burden when administering the tool, a shortened questionnaire maintaining maximal precision in measuring SCD is desirable.
+
+With a proposed criteria for SCD defined, the present study aimed to enhance ongoing efforts and operationalize the assessment of SCD by identifying questions that most reliably capture SCD. We use in succession a series of psychometric modeling techniques commonly used for data reduction (i.e., factor analysis [26]), item response theory (IRT) [27], and adaptive testing (i.e., computerized adaptive testing [CAT] [28]) to select a small but reliable subset of SCD items from a larger question bank. We hypothesized that the combination of these statistical modeling efforts would yield a subset of 5–10 items, which could be piloted as a short SCD questionnaire or screener. This study represents an important contribution to ongoing efforts to create a brief and efficient SCD tool and will support further endeavors to define and standardize SCD in cognitive aging.
+
+2 Methods
+Participants were recruited from the Boston University Alzheimer's Disease Center Registry. As previously described [29], this cohort includes adults aged ≥65 years who undergo a standard evaluation annually, including clinical interview, medical history, neurologic examination, and neuropsychological evaluation as part of the National Alzheimer's Coordinating Center uniform data set [30]. The study was approved by our institutional review board.
+
+The present study recruited 266 individuals free of dementia (i.e., diagnosed as cognitively normal [NC], mild cognitive impairment  , or ambiguous) at their last annual visit before January 12, 2010. Cognitive diagnoses are based on a multidisciplinary consensus team using information from the comprehensive standard evaluation. NC was defined by (1) clinical dementia rating (CDR) [31] = 0 (no dementia); (2) no deficits in activities of daily living directly attributable to cognitive impairment; (3) no evidence of cognitive impairment defined as performance on neuropsychological tests within 1.5 standard deviations of the age-adjusted normative mean [32] on tests assessing language, attention, memory, and executive functioning; and (4) no cognitive complaint. mild cognitive impairment   was based on Peterson et al. [33] criteria and defined as (1) CDR ≤0.5 (reflecting at most mild impairment), (2) relatively spared activities of daily living, (3) objective cognitive impairment in at least one cognitive domain (i.e., performances >1.5 standard deviations of the age-adjusted normative mean) or a significant decline over time on the neuropsychological evaluation, (4) report of a cognitive change by the participant or informant (i.e., endorsement of cognitive change as assessed by a brief questionnaire) or as observed by a clinician, and (5) absence of dementia. Of note, the subjective cognitive change questions used for consensus diagnostic purposes were not included in the current scale development activities. Individuals were classified as ambiguous if they were free of dementia but did not meet all criteria for either NC or mild cognitive impairment   (i.e., cognitive impairment but no complaint or significant report of cognitive change but normal objective neuropsychological performance).
+
+Between January 6, 2011 and January 12, 2011, all 266 nondemented participants were mailed a 57-item SCD questionnaire, of which 191 participants completed and returned. The 57 SCD items were derived from publically available tools assessing memory changes, including the everyday cognition questionnaire [18], memory functioning questionnaire [34], and individual SCD questions drawn from the literature [12]. Response options were dichotomous (yes/no) for 43 questions and Likert scale (i.e., always, sometimes, or never a problem; major, minor, or no problems) for 14 questions (Table 1 lists all SCD items). Responses to these SCD items were not used in the diagnostic determination.
+
+To assess any differences between participants who returned the survey versus those that did not return the survey, baseline clinical characteristics were compared between responder status groups using Welch's t test for continuous variables (because only aggregated data were available for nonresponders) and Pearson's χ2 test for categorical variables. For responders (n = 191), baseline characteristics and SCD items were compared across diagnostic groups (NC, mild cognitive impairment  , and ambiguous) using Pearson's χ2 test for categorical variables and Wilcoxon rank-sum tests for continuous variables. We chose the Wilcoxon test because it does not impose normality assumptions and is less sensitive to the effects of outliers. Characteristics included age, sex, race, education, length in the cohort, and mini-mental state examination (MMSE [35]) score.
+
+The analytical plan involved a series of sequential steps and applied only to the responder group (n = 191). First, using the entire 57-item SCD bank, items with three possible response choices (i.e., Likert-type scale) were collapsed into dichotomous items if one response choice had less than 5% proportion of endorsement or response. Dichotomous or Likert-scale items with extreme response profiles, or endorsement rate of ≥90% or ≤10%, were removed.
+
+To assess unidimensionality, one important assumption of IRT, an exploratory factor analysis (EFA) was conducted. Items were then removed that did not load highly on any factors of EFA, had duplicate content, or were dependent on a response from another item. Residual item correlations were examined to assess the assumption of local independence, another important assumption of IRT. A confirmatory factor analysis (CFA) was completed to assess the unidimensionality of the remaining questions. The resultant group of items represented the bank of possible questions to select. To refine the inventory and develop a precise instrument, IRT models were used to obtain item parameters for each individual item. Specifically, IRT-graded response modeling for ordinal polytomous data were fitted to the bank because all questions had two or three response options with graded SCD severity. IRT modeling provided discrimination and difficulty parameters and item information curves for individual items and test information curves (TIC) for compiled sets of questions. All items were anchored using a mean of 0. IRT θ scores for participants with complete data were also obtained using empirical Bayes estimates.
+
+To identify a reduced number of items from this bank, post hoc simulations using CAT models [36], [37] were performed using discrimination and difficulty parameters from the IRT model. Items most frequently administered in the CAT simulation were incorporated for possible inclusion in the final tool. Then, using the most frequently used items, we calculated TIC curves for each possible iteration of the questions. The questions with the highest information at the median level of mild cognitive impairment   SCD ability were selected. For all the aforementioned steps, the entire sample was used (n = 191). Finally, to assess the clinical utility of the SCD bank and the reduced number of items (i.e., the brief screening tool), the total scores of the bank and reduced selection (summation of the raw scores) were compared between only the NC and mild cognitive impairment   participants using Wilcoxon tests. Cohen's D effect sizes were calculated. All analyses were conducted using R (version 3.1.2, www.r-project.org) with package “ltm” (function “grm” for IRT) and package “sem” (function “cfa” for CFA) packages [38] and FIRESTAR [36].
+
+3 Results
+3.1 Participant characteristics
+Survey respondents (n = 191) and non-respondents (n = 75) were comparable for sex (χ2 [1, 266] = 0.42; P = .52), time in cohort (t [1, 147] = 0.50; P = .62), and MMSE score (t [1, 116] = 1.35, P = .18). However, responders were significantly different from nonresponders on age (t [1, 146] = 2.00; P = .048), education (t [1, 119] = 2.44; P = .02), race (χ2 [1, 266] = 7.6; P < .01), and cognitive diagnosis (χ2 [1, 266] = 8.1; P = .02).
+
+Of the respondents, participants included 115 NC, 43 mild cognitive impairment  , and 33 ambiguous individuals. Between-group comparisons by diagnosis suggested no differences in age (F [2, 188] = 1.5; P = .23), sex (χ2 = 2; P = .36), race (χ2 [1, 191] = 3.1; P = .21), education (F [2, 188] = 0.33; P = .72), or length in cohort (F [2, 188] = 2.9, P = .06); however, there was a main effect for MMSE score (F [2, 188] = 11.0; P < .001). All results are summarized in Table 2.
+
+3.2 Unidimensionality and logical dependence assessment
+The frequencies of item responses by NC and mild cognitive impairment   are presented in Table 1. Comparison between the two diagnostic groups was conducted using Pearson's χ2 test. Seven 3-point Likert-scale items had one response with less than 5% proportion and, thus, were collapsed into dichotomous items (i.e., 5, 7, 20, 21, 34, 35, and 46). Seven dichotomous items had extreme response profiles (i.e., more than 90% endorsement) and were excluded because of low variation (i.e., items 51–57; Table 1). An EFA on the remaining 50 items yielded the first eigenvalue of 13.69, followed by a second eigenvalue of 2.80 (ratio 1:2 = 4.88), suggesting a strong general factor. Parallel analysis was used to determine the number of factors, which suggested that up to eight additional factors could be extracted from the inventory. Then, an EFA with eight factors were conducted. Twelve items (items 22–34) with factor loadings less than 0.4 on any of the eight factors were removed. High residual correlations were noted possibly due to local dependence in logic or duplicate content, suggesting poor local dependence and the need for further item reduction/removal. For example, item 47 (“If you have memory difficulties, are they concerning you?”) is dependent on the answer to item 37 (“Do you have difficulty with your memory?”). Item 29 “Do you have difficulty in remembering to turn off the stove or lights?” could be considered double-barreled (i.e., relates to two different concepts). We excluded six dependent or double-barreled items (items 36–41). Redundant content across questions was noted, such as item 11 “Overall, do you feel you can remember things as well as you used to?” and item 45 “I don't remember things as well as I used to.” We removed 10 questions with redundant content (items 35, and 42–50) using IRT parameter estimates (in the following) and selecting the item with the most item information at the median latent trait level of the mild cognitive impairment   group. Finally, a CFA one-factor model was fitted to the remaining 21 items. Goodness-of-fit indices were 0.05 for the root mean square error of approximation, 0.93 for the Tucker-Lewis index, and 0.95 for the comparative-fit index. The residual correlations of those remaining 21 items from the one-factor CFA ranged from −0.27 to 0.36 with only one residual correlation of included items that was larger than 0.3 (i.e., r = 0.36 for items 12 and 13), suggesting no local dependence in the sample. An alternative empirically derived bi-factor CFA model was also fitted. Factor loadings on the primary factor of the two CFA models were quite close to each other. Factor loadings on the secondary factor were less than the corresponding loadings on the primary factor in the bi-factor CFA model. These results suggested essential unidimensionality of the SCD bank with 21 items. See Fig. 1 for description of the item reduction process.
+
+3.3 IRT parameter estimates and scoring of the bank
+IRT models were fit to the SCD items. The difficulty parameter estimates (relative difficulty of getting an item right) and discrimination parameter estimates (usefulness of the item in distinguishing among people with different latent trait; Table 1) were obtained. The IRT θ score is a measure of the latent trait where higher θ score indicates more severe SCD. The item with the lowest difficulty, which was the easiest to endorse, was item 11 “Overall, do you feel you can remember things as well as you used to?” The item with the highest difficulty was item 13 “Do you feel you have more memory problems than most?” which is more likely to be endorsed by participants with higher latent trait, i.e., more SCD. θ scores generated from IRT across the items ranged from −1.76 to 2.75 with a mean of −0.01 ± 0.9 and median of 0.01 (25th percentile = −0.64, 75th percentile = 0.6) for the entire sample (n = 191). The mean θ score was −0.12 ± 0.90 (25th percentile = −0.71, median = −0.25, 75th percentile = 0.39) for NC and 0.34 ± 0.83 (25th percentile = −0.1, median = 0.30, 75th percentile = 0.83) for mild cognitive impairment  . The θ score of mild cognitive impairment   was significantly higher than NC with mean difference of 0.46 (P = .009). See Fig. 2 for depiction of median and 10th and 90th percentile of TICs for NC and mild cognitive impairment   for the total bank.
+
+3.4 A brief screening tool (using CAT models)
+To reduce the administrative burden, a shortened list of SCD items was selected from the questionnaire bank using post hoc simulations from CAT modeling. First, simulated responses for the 21 SCD items were generated for 10,000 participants using discrimination and difficulty parameter estimates from the IRT model. Next, the questionnaire was “administered” to each participant using CAT and the specific items given and order of administration were recorded. Finally, frequencies of administered items based on the 10,000 simulated participants were obtained, and the top 10 items with highest frequencies were retained (ordered by frequency: Table 3, questions 1–10). The TICs of the bank and a series of subquestionnaires (i.e., the top 5–10 selected items) were generated (Fig. 2). The TICs are nested because the information monotonically increases with more items added. Larger information corresponded to greater precision in measuring SCD. Between NC and mild cognitive impairment  , most overlapping θ scores (−0.53 to 1.11) correspond to the top of the TICs and reflect the highest information values, indicating the bank was most reliable at measuring levels of SCD severity where NC and mild cognitive impairment   participants might share similar levels of SCD. There was minimal difference between TICs of the 10- and 9-item shortened questionnaire, although the 9-item TIC encompassed a lower overall θ score. However, the 8-item TIC is much lower than the 9-item TIC. When examining the association between different scores, the traditional 21-item total score was strongly and significantly correlated with both the 10-item (r = 0.96, P < .001) and 9-item total scores (r = 0.95, P < .001). The 9-item total score was highly correlated with the latent trait (i.e., θ of the bank, r = 0.95, P < .001). On the basis of these analyses, the top nine items were selected for inclusion into a brief screening tool.
+
+3.5 Clinical utility of SCD scores
+The total score from the 21-item bank and the total score from the 9-item brief screening tool were evaluated between NC and mild cognitive impairment   participants. The 21-item total bank score (Table 4) has a median of 6.0 (25th percentile = 3.5, 75th percentile = 11.5) for NC and median of 9.5 (25th percentile = 7.0, 75th percentile = 13.0) for mild cognitive impairment   and significantly differed between groups (F [1, 117] = 5.8; P = .017). The 9-item total score had a median of 3.0 (25th percentile = 1.0, 75th percentile = 6.0) for NC and median of 5.0 (25th percentile = 3.0, 75th percentile = 7.0) for mild cognitive impairment   and also significantly differed between groups (F [1, 117] = 6; P = .015; Table 4), suggesting clinical utility of these items. See Table 4 for depiction of effect sizes between diagnostic groups and mean SCD scores.
+
+4 Discussion
+In a cohort of nondemented older adults, we used advanced statistical methods, such as factor analysis, IRT, and CAT modeling, to identify a subset of reliable SCD questions for the purpose of creating a SCD screener. Among individuals with NC and mild cognitive impairment  , results suggest that SCD may be adequately assessed using a smaller subset of items (i.e., from an initial larger selection of SCD questions). SCD items were chosen here because they possessed specific psychometric properties (i.e., reliability) necessary for the creation of a screening tool to identify individuals with clinically relevant levels of SCD. Although replication and validation of these findings are needed, this initial study represents an early stage effort to operationalize SCD assessment to create a screening tool for general use.
+
+The nine questions identified in the current results are characterized by different SCD domains, such as global memory functioning, temporal comparisons, and more specific items querying for an individual's ability to complete daily or routine activities. For example, global memory functioning items include “Do you think you have problems with your memory?” and “On a whole, do you think that you have problems remembering things that you want to do or say?” Endorsement of similar global memory functioning questions has been linked to smaller medial temporal lobe volumes [14] and poorer cognitive performances [9], [39]. Temporal comparison questions include “Do you have complaints about your memory in the last 2 years?” and “Do you think that your memory is worse than 5 years ago?” Using a time referent as a benchmark for change is common in other SCD methodologies, such as the cognitive change index [2]. The final domain of SCD items queries about the individual's ability to complete daily or routine activities, such as “Do you have difficulty remembering a conversation from a few days ago?,” “How often is the following a problem for you: Personal dates (e.g., birthdays),” “How often is the following a problem for you: Phone numbers you use frequently,” “How often is the following a problem for you: Going to the store and forgetting what you wanted to buy”, and “Do you feel you are forgetting where things were placed?” These daily activities–based questions have also been used in previous SCD analyses and endorsement is related to amyloid positivity [40].
+
+An important next step is relating the SCD items identified here to cognitive, neuroimaging, and biospecimen markers of unhealthy brain aging to ensure the questionnaire is valid. Although this important step is beyond the scope of the present article, previous research using similar items offers preliminary support that the identified SCD questions may have some validity. For example, NC [9], [41] or mild cognitive impairment   individuals [42] who endorse the question “Do you think you have problems with your memory?” (i.e., question 1 of the present study) showed poorer episodic memory performance. Similarly, in nondemented older adults the question “Do you have memory impairment?” (i.e., analogous to questions 1, 3, and 8 of the present study) was related to lower objective cognitive performance [39]. NC older adults who endorsed the question “Do you feel like your memory is becoming worse,” (i.e., similar to item 8 of the present study) evidenced smaller medial temporal lobe volumes [14] and poorer verbal episodic memory performance [16]. NC participants endorsing the item “Have you had memory loss in the past year” or “Do you have complaints about your memory” (i.e., questions 1 and 3 of the present study) are at increased risk of developing dementia [43], [44]. Collectively, these prior studies offer some preliminary support for the validity of the questions identified in the present study.
+
+Despite converging evidence, not all existing literature supports the potential validity of the items selected here. For example, the question “Do you feel that you have more memory problems than most?” (item 13 of the current bank) was not one of the SCD items selected by our advanced psychometric modeling techniques despite existing evidence that this question may be related to poorer episodic memory in mild cognitive impairment   [45]. The discrepancy in current versus past work suggests that although this question is valid and one possibility for measuring SCD, the item may not be the most reliable method for assessing SCD. Alternatively, it may be more valid in assessing SCD in mild cognitive impairment   as compared with cognitively intact older adults.
+
+Coupled with recent work from Snitz et al. [46], examining the utility of IRT and related scoring techniques to refine the assessment of SCD, the current findings highlight that IRT is a useful method for identifying a reliable set of questions from a larger bank. The present study used a well-characterized sample (i.e., standardized assessment and diagnostic procedures) of nondemented older adults and highlighted the potential value of a brief SCD screener to distinguish worried well from truly at-risk older adults. Furthermore, the current results suggest that using a simple summation or total score can differentiate NC from mild cognitive impairment  . This initial effort closely aligns with an important international initiative to define and standardize SCD [25]. Thus, further work is needed to replicate our findings and validate selected items with other markers of unhealthy brain aging, such as cognitive performance, diagnosis, or other biomarkers. With the new definition of SCD described [25], concurrent research is needed to create and validate new tools for use in different populations for enhanced identification of individuals at risk for cognitive impairment.
+
+Despite numerous strengths, several key limitations must be considered. First, the sample size is small, particularly when using IRT. Second, the cohort is generally well educated and predominantly white, which may limit the generalizability of findings. Third, the present study does not include an examination of the best methods for measuring informant report of cognitive decline, despite growing evidence that corroboration of SCD by a loved one may enhance clinical utility [6], [47]. Finally, our analyses are cross-sectional and limit our ability to assess the predictive ability of these SCD items with respect to cognitive performance or diagnostic conversion over time. A longitudinal study is needed to assess these important factors.
+
+The current findings are an important step in reliably operationalizing cognitive complaint. Further research is needed to evaluate and define best practices for assessing and quantifying cognitive complaint. Such research will provide practical information and assessment tools for primary-care providers of older adults and help streamline identification of at-risk elders in research settings.Research in context
+1. Systematic review: Subjective cognitive decline (SCD) may be an early marker of unhealthy brain aging. However, review of the literature revealed no standardized means for assessing SCD and a lack of systematic identification of the best questions to measure the construct.
+
+2. Interpretation: Our findings suggest that use of quantitative methodology, such as item response theory and computerized adaptive test models, can identify a standard set of SCD items. Results highlight specific questions that may be useful in the creation of a SCD screening tool.
+
+3. Future directions: Further research is needed to replicate the findings and selected items. Validation of these questions on known markers of unhealthy brain aging will also be important to create a screener for research or clinical settings that efficiently identifies older adults at risk of cognitive impairment.
+
+
+
+
+
+Acknowledgments
+This research was supported by K12-HD043483 (K.A.G.); Alzheimer's Association NIRG-13-283276 (K.A.G); T32-AG036697 (K.A.G.); K23-AG030962 (Paul B. Beeson Career Development Award in Aging; A.L.J.); K24-AG046373 (A.L.J.); Alzheimer's Association IIRG-08-88733 (A.L.J.); R01-AG034962 (A.L.J.); R01-HL11516 (A.L.J.); P30-AG013846 (Boston University Alzheimer's Disease Core Center); and the Vanderbilt Memory and Alzheimer's Center.
+
+Fig. 1 Item reduction process. Abbreviations: SCD, subjective cognitive decline.
+
+Fig. 2 Test information curves for the bank and selected SCD items. Abbreviations: SCD, subjective cognitive decline; mild cognitive impairment  , mild cognitive impairment  ; NC, cognitively normal; 10th mild cognitive impairment  , 10th percentile of SCD ability score for mild cognitive impairment  ; 90th NC, 90th percentile of SCD ability score for NC.
+
+Table 1 Subjective cognitive decline questions, endorsement rates, and item response theory parameters
+
+Question number	SCD question	Response choices	Response %	P value∗	Discrimination	Difficulty	
+NC, n = 115	mild cognitive impairment  , n = 43	
+1.	Do you think you have problems with your memory?	Yes
+No	50
+50	79
+21	<.01	4.19	−0.10	
+2.	Do you have difficulty remembering a conversation from a few days ago?	Yes
+No	26
+74	37
+63	.20	1.43	1.36	
+3.	Do you have complaints about your memory in the last 2 years?	Yes
+No	40
+60	47
+53	.45	2.35	0.93	
+4.	How often is the following a problem for you: Personal dates (e.g., birthdays)	Always
+Sometimes
+Never	56
+39
+5	35
+58
+7	.06	1.17	1.89†	
+5.	How often is the following a problem for you: Phone numbers you use frequently	Always
+Sometimes
+Never‡	66
+32
+4	60
+40
+0	.30	1.28	0.96	
+6.	On a whole, do you think that you have problems remembering things that you want to do or say?	Yes
+No	34
+66	46
+54	.18	2.15	1.21	
+7.	How often is the following a problem for you: Going to the store and forgetting what you wanted to buy	Always Sometimes
+Never‡	40
+58
+0	30
+70
+0	.33	1.01	−0.41	
+8.	Do you think that your memory is worse than 5 years ago?	Yes
+No	57
+43	78
+22	.02	2.62	−0.44	
+9.	Do you feel you are forgetting where things were placed?	Yes
+No	29
+71	37
+63	.30	1.96	1.57	
+10.	How often is the following a problem for you: Knowing whether you've already told someone something	Always
+Sometimes
+Never	35
+58
+7	19
+79
+2	.05	1.22	1.51†	
+11.	Overall, do you feel you can remember things as well as you used to?	Yes
+No	66
+34	88
+12	<.01	3.24	−1.50	
+12.	Has your memory changed significantly?	Yes
+No	12
+88	24
+75	.06	2.79	3.81	
+13.	Do you feel that you have more memory problems than most?	Yes
+No	8
+92	21
+79	.03	2.29	3.89	
+14.	Do memory problems make it harder to complete tasks that used to be easy?	Yes
+No	13
+87	24
+76	.09	3.25	3.88	
+15.	Do you have more trouble remembering things that have happened recently?	Yes
+No	18
+82	29
+71	.11	1.79	2.07	
+16.	Do you notice yourself repeating the same question or story?	Yes
+No	20
+80	16
+84	.63	1.06	1.95	
+17.	Do you lose objects more often than you did previously?	Yes
+No	24
+76	33
+67	.24	1.80	1.82	
+18.	Do you feel you are unable to recall the names of good friends?	Yes
+No	14
+86	33
+67	<.01	1.31	2.10	
+19.	On a whole, do you think that your memory is good or poor?	Good
+Poor	14
+86	20
+80	.39	2.01	2.85	
+20.	How often is the following a problem for you: Things people tell you	Always
+Sometimes
+Never‡	37
+63
+0	21
+74
+0	.07	1.40	−0.86	
+21.	How often is the following a problem for you: Words	Always
+Sometimes
+Never‡	25
+70
+5	23
+72
+5	.95	1.12	−1.22	
+22.	Do you think that your memory is worse than 2 years ago?§	Yes
+No	28
+72	57
+43	<.01	2.37	1.42	
+23.	Do you have difficulty recalling the date or day of the week?§	Yes
+No	10
+90	24
+76	.02	1.55	2.73	
+24.	Do you have trouble remembering things from one moment to the next?§	Yes
+No	19
+81	26
+74	.35	1.97	2.30	
+25.	Do other people say you ask the same question or repeat the same story?§	Yes
+No	10
+90	14
+86	.44	0.96	2.52	
+26.	Do you often have trouble finding the word you want to use in everyday conversation?§	Yes
+No	47
+53	47
+53	.96	1.28	0.35	
+27.	Do you have any trouble following the plot of a story you are reading/have read?§	Yes
+No	14
+86	29
+71	.04	1.69	2.35	
+28.	Do you have difficulty in remembering 2 or 3 items to buy when shopping if you don't have a list?§	Yes
+No	29
+71	49
+51	.02	1.41	1.09	
+29.	Do you have difficulty in remembering to turn off the stove or lights?§	Yes
+No	11
+89	14
+86	.55	2.13	3.68	
+30.	Do you have difficulty remembering medical appointments?§	Yes
+No	11
+89	9
+91	.72	1.33	2.93	
+31.	Are you able to remember appointments without writing them down or using a calendar?§	Yes
+No	72
+28	74
+26	.76	0.81	−0.97	
+32.	How often is the following a problem for you: Phone numbers you've just checked§	Always
+Sometimes
+Never	32
+62
+6	23
+67
+9	.48	0.86	1.17†	
+33.	How often is the following a problem for you: Keeping up correspondence§	Always
+Sometimes
+Never	59
+37
+4	47
+40
+14	.08	0.97	1.77†	
+34.	How often is the following a problem for you: Beginning to do something and forgetting what you were doing§	Always
+Sometimes
+Never‡	45
+52
+3	30
+67
+2	.22	0.89	−0.31	
+35.	Do you have problems with your memory compared to the way it was 1 year ago?¶	Major problems
+Minor problems
+No problems‡	54
+44
+2	31
+69
+0	.02	2.06	0.25	
+36.	Has your memory changed?¶	Yes
+No	69
+31	93
+7	<.01	2.59	−1.68	
+37.	Do you have difficulty with your memory?¶	Yes
+No	43
+57	63
+37	.03	2.82	0.68	
+38.	If you have memory difficulties, do you think they are significant?¶	Yes
+No	11
+88	26
+74	.01	2.49	3.40	
+39.	I don't remember things as well as I used to.¶	Agree
+Disagree	70
+30	80
+20	.21	2.31	−1.47	
+40.	Do you consider your own memory to be worse than others that are your same age?¶	Yes
+No	10
+90	21
+79	.09	1.77	2.99	
+41.	Do you ever have difficulty remembering an event that occurred last week?¶	Yes
+No	25
+75	38
+62	.10	1.48	1.42	
+42.	Do you have difficulty remembering where you placed objects (i.e., keys, wallet, glasses)?¶	Yes
+No	46
+54	49
+51	.72	0.74	0.27	
+43.	Are you worse at remembering where belongings are kept?¶	Yes
+No	11
+89	26
+74	.03	2.11	2.99	
+44.	Do you have difficulty recalling names of family (children, grandchildren, siblings)?¶	Yes
+No	8
+92	26
+74	<.01	1.38	2.59	
+45.	Do you have difficulty remembering the phone numbers of your own children?¶	Yes
+No	35	36
+64	.92			
+46.	How often is the following a problem for you: Losing the train of through in conversation¶	Always
+Sometimes
+Never‡	45
+51
+3	26
+74
+0	.02			
+47.	If you have memory difficulties, are they concerning you?¶	Yes
+No	27
+73	47
+53	.02			
+48.	Do you have problems with your memory compared to the way it was 5 years ago?¶	Major problems
+Minor problems
+No problems	37
+57
+6	17
+69
+14	.03			
+49.	Do you have problems with your memory compared to the way it was 10 years ago?¶	Major problems	29
+62
+9	17
+55
+29	<.01			
+Minor problems	
+No problems	
+50.	Do you have problems with your memory compared to the way it was 20 years ago?¶	Major problems	27
+60
+13	14
+53
+33	.01			
+Minor problems	
+No problems	
+51.	Do you feel that your everyday life is difficult now due to your memory decline?#	Yes
+No	4
+96	10
+90	.22			
+52.	Do you feel you are unable to follow a conversation?#	Yes
+No	5
+95	17
+83	.02			
+53.	Do you talk less because of memory or word-finding difficulties?#	Yes
+No	6
+94	14
+86	.11			
+54.	Have you become lost driving or walking in areas near your home?#	Yes
+No	3
+97	5
+95	.52			
+55.	Have you been unsure of how to navigate to a familiar location (grocery store, pharmacy)?#	Yes
+No	3
+97	5
+95	.51			
+56.	Do you have difficulty recognizing familiar people?#	Yes
+No	8
+92	7
+93	.86			
+57.	Do you have trouble remembering social arrangements?#	Yes
+No	6
+94	12
+88	.25			
+Abbreviations: SCD, subjective cognitive decline; NC, normal control; mild cognitive impairment  , mild cognitive impairment  .
+
+NOTE. *P value is from Pearson test comparing endorsement/response rates of each item between diagnostic groups.
+
+† Difficulty parameter is an average of the Likert-scale responses.
+
+‡ Likert-scale response was collapsed into dichotomous response due to low response pattern.
+
+§ Items dropped because of low factor loadings.
+
+¶ Item dropped because of duplicative or dependent content.
+
+# Item dropped because of extreme response profile.
+
+Table 2 Sample characteristics by responder status
+
+Characteristics	Responders	Nonresponders, n = 75	
+NC, n = 115	mild cognitive impairment  , n = 43	Ambiguous, n = 33	Total, n = 191	
+Age, y	75.9 ± 7.5	77.0 ± 6.5	78.5 ± 8.5	76.6 ± 7.5	75.3 ± 7.1**	
+Sex, % female	63	51	58	60	64	
+Race, % white	83	70	79	79	63**	
+Education, y	16.4 ± 2.7	15.9 ± 2.6	16.1 ± 2.6	16.2 ± 2.6	15.3 ± 3.2**	
+Length in cohort, y	8.1 ± 2.6	7.5 ± 2.0	7.7 ± 2.7	7.9 ± 2.5	7.9 ± 2.2	
+MMSE, total score	29.2 ± 1.0	28.1 ± 1.8	28.6 ± 1.0	28.9 ± 1.3*	28.5 ± 1.6	
+Abbreviations: NC, normal control; mild cognitive impairment  , mild cognitive impairment  ; MMSE, mini-mental state examination.
+
+NOTE. *P value between responder groups, including NC, mild cognitive impairment  , and ambiguous, is <.05; **P value between all responders and nonresponders is <.05.
+
+Table 3 SCD 21-item bank and top nine selected SCD items
+
+Question number	SCD question	
+1.	Do you think you have problems with your memory?	
+2.	Do you have difficulty remembering a conversation from a few days ago?	
+3.	Do you have complaints about your memory in the last 2 years?	
+4.	How often is the following a problem for you: Personal dates (e.g., birthdays)	
+5.	How often is the following a problem for you: Phone numbers you use frequently	
+6.	On a whole, do you think that you have problems remembering things that you want to do or say?	
+7.	How often is the following a problem for you: Going to the store and forgetting what you wanted to buy	
+8.	Do you think that your memory is worse than 5 years ago?	
+9.	Do you feel you are forgetting where things were placed?	
+10.	How often is the following a problem for you: Knowing whether you've already told someone something	
+11.	Overall, do you feel you can remember things as well as you used to?	
+12.	Has your memory changed significantly?	
+13.	Do you feel that you have more memory problems than most?	
+14.	Do memory problems make it harder to complete tasks that used to be easy?	
+15.	Do you have more trouble remembering things that have happened recently?	
+16.	Do you notice yourself repeating the same question or story?	
+17.	Do you lose objects more often than you did previously?	
+18.	Do you feel you are unable to recall the names of good friends?	
+19.	On a whole, do you think that your memory is good or poor?	
+20.	How often is the following a problem for you: Things people tell you	
+21.	How often is the following a problem for you: Words	
+Abbreviation: SCD, subjective cognitive decline.
+
+Table 4 Clinical utility of the SCD bank and shortened item list
+
+Selected SCD Items	NC, n = 91	mild cognitive impairment  , n = 28	P value*	Effect size	
+Mean (SD)	25th percentile	50th percentile	75th percentile	Mean (SD)	25th percentile	50th percentile	75th percentile	
+Theta ability of the bank	−0.1 ± 0.9	−0.7	−0.25	0.4	0.3 ± 0.8	−0.1	0.3	0.7	<.01	0.47	
+Total score of bank (21 items)	7.7 ± 5.1	3.5	6.0	11.5	10.1 ± 4.9	7.0	9.5	13.0	.02	0.48	
+Total score of top 10 items	4.4 ± 3.1	2.0	4.0	7.0	5.8 ± 2.8	3.8	6.0	8.0	.02	0.47	
+Total score of top nine items	3.8 ± 2.9	1.0	3.0	6.0	5.1 ± 2.4	3.0	5.0	7.0	.02	0.49	
+Total score of top eight items	3.5 ± 2.6	1.0	3.0	6.0	4.8 ± 2.3	3.0	5.0	6.2	.02	0.53	
+Total score of top seven items	2.8 ± 2.4	1.0	3.0	5.0	3.9 ± 2.1	2.8	4.0	5.2	.02	0.49	
+Total score of top six items	2.2 ± 2.1	0.0	2.0	4.0	3.1 ± 1.9	2.0	3.0	5.0	.03	0.45	
+Total score of top five items	1.9 ± 1.8	0.0	1.0	3.0	2.7 ± 1.6	2.0	2.5	4.0	.02	0.47	
+Abbreviations: SCD, subjective cognitive decline; NC, cognitively normal; mild cognitive impairment  , mild cognitive impairment  ; SD, standard deviation.
+
+NOTE. *P value for Wilcoxon test used to compare diagnostic groups; effect size presented as Cohen's D.

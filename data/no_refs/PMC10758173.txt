@@ -1,0 +1,232 @@
+==== Front
+Age Ageing
+Age Ageing
+ageing
+Age and Ageing
+0002-0729
+1468-2834
+Oxford University Press
+
+10.1093/ageing/afad228
+afad228
+Research Paper
+AcademicSubjects/MED00280
+ageing/7
+ageing/15
+Acoustic stimulation during sleep predicts long-lasting increases in memory performance and beneficial amyloid response in older adults
+https://orcid.org/0000-0001-8782-2821
+Wunderlin Marina University Hospital of Old Age Psychiatry and Psychotherapy, University of Bern, 3000 Bern, Switzerland
+Graduate School for Health Sciences, University of Bern, 3012 Bern, Switzerland
+
+Zeller Céline Jacqueline University Hospital of Old Age Psychiatry and Psychotherapy, University of Bern, 3000 Bern, Switzerland
+Graduate School for Health Sciences, University of Bern, 3012 Bern, Switzerland
+
+Senti Samira Rafaela University Hospital of Old Age Psychiatry and Psychotherapy, University of Bern, 3000 Bern, Switzerland
+
+Fehér Kristoffer Daniel University Hospital of Psychiatry and Psychotherapy, University of Bern, 3000 Bern, Switzerland
+
+Suppiger Debora Department of Neonatology, University Hospital Zurich and University of Zurich, 8006 Zürich, Switzerland
+
+Wyss Patric University Hospital of Old Age Psychiatry and Psychotherapy, University of Bern, 3000 Bern, Switzerland
+
+Koenig Thomas University Hospital of Psychiatry and Psychotherapy, University of Bern, 3000 Bern, Switzerland
+
+Teunissen Charlotte Elisabeth Neurochemistry Laboratory, Department of Clinical Chemistry, Amsterdam Neuroscience, Neurodegeneration, Amsterdam UMC, Vrije Universiteit Amsterdam, 1081 HV Amsterdam, Netherlands
+
+Nissen Christoph University Hospital of Psychiatry and Psychotherapy, University of Bern, 3000 Bern, Switzerland
+Division of Psychiatric Specialties, Geneva University Hospitals (HUG), 1205 Geneva, Switzerland
+
+Klöppel Stefan University Hospital of Old Age Psychiatry and Psychotherapy, University of Bern, 3000 Bern, Switzerland
+
+https://orcid.org/0000-0003-3043-2106
+Züst Marc Alain University Hospital of Old Age Psychiatry and Psychotherapy, University of Bern, 3000 Bern, Switzerland
+
+Address correspondence to: Marc Alain Züst. Tel: +41 (0)31 932 89 03. Email: marc.a.zuest@unibe.ch
+Stefan Klöppel and Marc Alain Züst authors contributed equally to this work.
+
+12 2023
+30 12 2023
+30 12 2023
+52 12 afad2289 5 2023
+10 10 2023
+© The Author(s) 2023. Published by Oxford University Press on behalf of the British Geriatrics Society. All rights reserved. For permissions, please email: journals.permissions@oup.com
+2023
+https://creativecommons.org/licenses/by-nc/4.0/ This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (https://creativecommons.org/licenses/by-nc/4.0/), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited. For commercial re-use, please contact journals.permissions@oup.com
+
+Abstract
+
+Background
+
+Sleep and neurodegeneration are assumed to be locked in a bi-directional vicious cycle. Improving sleep could break this cycle and help to prevent neurodegeneration. We tested multi-night phase-locked acoustic stimulation (PLAS) during slow wave sleep (SWS) as a non-invasive method to improve SWS, memory performance and plasma amyloid levels.
+
+Methods
+
+32 healthy older adults (agemean: 68.9) completed a between-subject sham-controlled three-night intervention, preceded by a sham-PLAS baseline night.
+
+Results
+
+PLAS induced increases in sleep-associated spectral-power bands as well as a 24% increase in slow wave-coupled spindles, known to support memory consolidation. There was no significant group-difference in memory performance or amyloid-beta between the intervention and control group. However, the magnitude of PLAS-induced physiological responses were associated with memory performance up to 3 months post intervention and beneficial changes in plasma amyloid. Results were exclusive to the intervention group.
+
+Discussion
+
+Multi-night PLAS is associated with long-lasting benefits in memory and metabolite clearance in older adults, rendering PLAS a promising tool to build upon and develop long-term protocols for the prevention of cognitive decline.
+
+acoustic stimulation
+slow wave sleep
+memory
+amyloid beta
+dementia prevention
+ageing
+Dementia Research Switzerland—Synapsis Foundation Peter Bockhoff Foundation Heidi Seiler Foundation 10.13039/100018851 2018-PI02 Dr. med. Kurt Fries-Foundation 2021-CDA03
+==== Body
+pmcKey Points
+
+Decreased slow wave sleep and cognitive decline are locked in a vicious cycle.
+
+Acoustic stimulation is a promising intervention to boost slow wave sleep.
+
+Stimulation is associated with long-lasting memory benefits and amyloid clearance.
+
+Multiple nights of stimulation benefit memory in a dose-dependent manner
+
+Acoustic stimulation might be feasible for prevention of cognitive decline.
+
+Background
+
+A good night’s sleep is fundamentally important for a healthy brain. Particularly, slow wave sleep (SWS)—the deepest sleep stage—has been highlighted for its role in the strengthening of memory traces [1] and the clearance of amyloid-beta (Aβ)—a pathophysiological marker of Alzheimer’s disease [2, 3]. In the electroencephalogram (EEG), SWS appears as slow wave activity (SWA)—subdivided into slow oscillations (SOs, (~1 Hz)) and delta activity (1–4 Hz [1]). A precise temporal coupling of SO-peaks and sleep spindles—oscillatory events of 12–16 Hz—enables the reactivation of memory traces during sleep [1] and might be associated with decreased Aβ-burden [4]. SWS decreases with healthy ageing [5, 6], but to a greater extent in individuals with mild cognitive impairment and dementia [7, 8]. Due to a bi-directional link between SWS impairment and Aβ-accumulation, impaired SWS and neurodegeneration have been suggested to be caught in a vicious cycle [9–13]. Sustainably improving SWS could break this vicious cycle, and might decelerate cognitive decline [9].
+
+Recently, phase-locked acoustic stimulation (PLAS) during SWS has become a popular method to enhance SWS [14, 15]. PLAS algorithms detect SO-peaks in sleeping participants and present short, non-intrusive acoustic stimuli time-locked to positive SO-peaks, which increases SWA [16–23]. Importantly, PLAS can induce overnight increases in memory performance [16, 17, 20, 22, 24], but in older adults, current evidence points towards less robust effects compared to young adults [25]. PLAS efficacy is usually tested in isolated intervention sessions. We hypothesise that in older individuals, multiple nights of intervention are necessary for effects to manifest to compensate for age-related reductions in both SWA and memory performance [9]. In addition, recent evidence suggests that PLAS algorithms specifically tailored to older adults’ lower-amplitude SWA are superior to previously used algorithms [26].
+
+Here, we used repeated advanced PLAS interventions to enhance sleep and evaluate down-stream effects on memory performance and Aβ-clearance in older adults. We performed a randomised, single-blind, sham-controlled parallel group study across 1 week in 32 healthy older adults. Our results hint towards a potential future use of PLAS as a long-term therapeutic or preventative tool to counteract cognitive decline in those at risk for dementia.
+
+Methods
+
+Sample
+
+Study participants were 32 healthy older adults (agemean: 68.9 (0.77)), 18 in the intervention group (agemean: 68.2 (0.94), 14/4 female/male), 14 in the control group (agemean: 69.9 (1.27), 10/4). Covariate-adaptive randomisation ensured comparable baseline (BL) cognition (Montreal Cognitive Assessment (MOCA) [27]), ages and self-reported sleep quality (Pittsburgh Sleep Quality index (PSQI) [28]). Exclusion criteria were hearing impairment, sleep disorders (negative screening for sleep apnea and restless leg syndrome), neurological/psychiatric conditions, psychotropic drug-use and non-German speaker. Due to technical difficulties, Aβ-samples were limited to subsamples of n = 31 pre- (nINTERVENTION = 18, nCONTROL = 13) and n = 23 post-intervention measurements (nINTERVENTION = 13, nCONTROL = 10). See supplementary information (SI), Section 1 for further information.
+
+Study design
+
+Following an adaptation night, participants underwent a BL night representing undisturbed sleep with sham-PLAS, where time markers for stimulations were set without presenting stimuli. In the ensuing three consecutive experimental nights (E1–E3), the control group received sham-PLAS and the intervention group received real-PLAS. Participants maintained consistent personalised bedtime schedules across all nights. Memory was assessed via a Face-Occupation Association task (FOA, see SI, Section 2) every evening and morning across the intervention. On the evening before the first experimental night (t0, Figure 1), FOA-pairs were encoded and an immediate retrieval occurred (baseline performance). The FOA consisted of 40 faces, randomly paired with 20 occupations. Feedback-based retrievals occurred from t1 to t4, while t5 to t7 entailed feedback-free retrieval sessions. Pre- and post-intervention, blood samples were obtained and additional cognitive assessments were completed (see SI, Section 2). Cognitive performance was re-assessed after 1 week and 3 months. This study was pre-registered.
+
+Figure 1 Study design. This study consisted of five over-night-, and two 1-hour follow-up visits (1-week and 3-months post-intervention) to the sleep laboratory at the University Psychiatric Hospital in Bern. The first visit was an adaptation and screening night (Adapt) to exclude sleep pathologies. Participants spent the subsequent night in their own home and returned to the lab for four consecutive nights. Next, a baseline night (Baseline) assessed participants’ sleep using sham-PLAS, where the PLAS algorithm marked detected SO peaks, but no stimulation ensued. Finally, three experimental nights contained real-PLAS for the intervention group or sham-PLAS for the control group. Participants completed a face-occupation association (FOA) memory task eight times across the intervention, including the two follow-ups (t0–t7). Initial encoding took place on the evening before the first experimental night where the associated stimuli were presented in two encoding runs (t0). As a baseline, this session also contained an immediate cued recall run, where the faces were shown and participants verbally responded with the corresponding occupations. The remaining sessions (t1–t7) comprised cued recall and were assessed at all mornings (mor), evenings (eve) and follow-ups, with faces presented in random order. From t1 to t4, recall trials contained written feedback showing the correct response as additional learning runs. In the morning after the baseline night (pre-intervention) and after the last experimental night (post-intervention), participants completed additional cognitive assessments and blood samples were taken to be analysed for plasma Aβ. Cognitive assessments were repeated at the two follow-ups. Please refer to the SI, Section 2 for detailed descriptions of the FOA task, all additional cognitive and sleep-related assessments as well as stimulus material.
+
+Plasma Aβ
+
+Plasma-Aβ 1–42 and 1–40 isoforms were quantified from blood samples collected pre- and post-intervention using N4PE Simoa immunoassays (IA-N4PE) developed by the Amsterdam University Medical Center and Adx Neurosciences, Ghent, Belgium (commercially available from Quanterix, Billerica, Massachusetts, [29, 30]). Reduced Aβ42/Aβ40 ratios are associated with increased MCI/AD risk [31]. Change scores from pre- to post-intervention were calculated as indicators of Aβ-response to treatment, higher change scores indicating an advantageous response.
+
+E‌EG recordings
+
+EEG/polysomnography was recorded using a 128-channel net (400 series Geodesic EEG System™) and a Physio16 input box (Magstim EGI, Eugene, OR, USA), at a sampling rate of 500 Hz, referenced to Cz. Polysomnographic scoring of sleep stages according to official guidelines [32] was performed by a certified rater. The PLAS-algorithm (see SI, Section 3) was adapted from a novel algorithm [26, 33].
+
+Statistical analysis
+
+We provide a brief analysis-overview here and the detailed version in the SI, Section 4. Memory performance was assessed as FOA-score increases from t0/baseline to t1–t7 (see Figure 1). An ANOVA implementing the within factor session (t1–t7) and between factor group (intervention, control) was calculated.
+
+To assess physiological PLAS-response within the stimulation window, event related potentials (ERPs) and event related spectral perturbations (ERSPs) were calculated, time-locked to the presentation of the real- and sham-PLAS markers. Treatment response was evaluated by comparing experimental nights to the baseline using non-parametric permutation tests. Baseline-corrected median power values at temporospatial-frequency clusters of interest were extracted. Change scores from the baseline to the experimental nights (indicating in/decrease) were calculated and compared between the groups using t-tests.
+
+To assess global all-night physiological response to PLAS, spectral band power was calculated during sleep stages N2/N3 for frequency ranges 0.5–1 Hz (SOs), 1–4 Hz (delta), 12–16 Hz (spindles) and theta (4–8 Hz). To evaluate SO-spindle coupling, SO-peaks and spindles were first detected as previously described [34, 35]. To quantify SO/Spindle coupling, we used: (i) the relative increases (from BL to E1–E3) in the number of SO-coupled spindles (i.e. spindles occurring within +/−250 ms of a SO-peak) and (ii) the relative increases in coupling strength/consistency via resultant vector lengths [36]. Longer resultant vectors indicate closer grouping of spindles around a preferred phase of the SO-peak, as opposed to a more dispersed spindle placement.
+
+For each participant, individual physiological responsiveness values averaged over the experimental nights were calculated, indicating the magnitude to which PLAS induced increases in ERSPs power values and SO/spindle coupling (number and strength). A linear regression analysis of responsiveness on relative memory increases at post-intervention/follow-ups was calculated. We further investigated each experimental night’s responsiveness separately (instead of averaged) and assigned participants to one of four groups, depending on how many nights (0, 1, 2 or 3) their physiological response to PLAS was considered higher than the per-night-median. This allowed for an assessment of dose–response (i.e. advantage of multiple PLAS-nights) using generalised linear mixed-effects models.
+
+Results
+
+PLAS induces slow oscillations and sleep spindles
+
+Figure 2A’s left panel depicts a PLAS-induced significant SO entrainment (P < 0.01) in the intervention group’s experimental nights (red lines) with an induced trough (~0.5–1 s) a second peak (~1–1.5 s) and an increased first peak (~0–0.5 s) post-stimulation (0 s). There was no entrainment in the BL night (black line) or the control group (right panel), where sham-PLAS was applied. See SI, Section 3 and Table S2 for more information on stimulation parameters. Furthermore, when analysing the spectral power within the stimulation window (Figure 2B), we saw an increase in power in the SO (~1 Hz), delta (1–4 Hz) and theta (4–8 Hz) range corresponding to the induced trough as well as an increase in spindle (12–16 Hz) and SO-power corresponding to the induced second peak (P < 0.01, red (positive) clusters, Figure 2C). Significant decreases in power were observed for delta and theta power corresponding to the induced second peak (P < 0.01, blue (negative) clusters). Critically, the control group showed no significant power changes. To further investigate group differences, relative increases from the BL to experimental nights in the respective power bands and time windows were calculated. Figure 2D shows significant (P < 0.001) group-differences for delta-, SO- and theta-power increases during the SO-trough, SO- and spindle-power increases during the SO-peak, but not theta and delta power decreases.
+
+Figure 2 Physiological changes in (EEG) brain activity time locked to the stimulation. (A) Grand mean ERPs (channel Fz). Left: The intervention group’s ERPs in the three experimental nights (red lines) differed from the baseline night’s ERP (black dotted line). Significant differences corrected for multiple comparisons are displayed by black bars below the ERPs. Right: there are no differences in the control group. (B) Grand mean ERSPs over frontal channels. Sham-PLAS (top row and bottom right) is represented by high activity in the SO and spindle bands within the first second of the sham stimulation. Bottom left: In the intervention group stimulation induced additional power in the delta (1–4 Hz), theta (4–8 Hz) and spindle (12–16) band corresponding to the entrained trough and peak. (C) Significant clusters showing differences between the baseline and the collapsed experimental nights in the intervention group. Clusters in red show increased power and clusters in blue show decreased power. The colour gradient represents the proportion of involved electrodes, where 1 = 128 electrodes, positive effect (E > BL), and −1 = 128 electrodes, negative effect (BL > E). In the induced trough, SO, delta and theta power were significantly increased. In the induced second peak, spindle and SO power were increased, while delta and theta power were decreased. (D) Left: Difference scores (experimental nights—BL night) for extracted median power values in temporospatial-frequency clusters of interest for the intervention (red solid bars) and the control group (black dashed bars). The frequency bins are displayed on the x-axis. The time-windows were indicated by Figure 2C: trough: 0.25–0.75, induced peak: 1–1.3 (1–1.5 for spindles). Right: Group differences in PLAS-induced SO/spindle coupling parameters during N2/N3 sleep for the intervention (red solid bars) and control group (black dashed bars). Relative averaged increases in the experimental nights compared to the baseline night are depicted for the number of SO-coupled spindles (left) and SO/spindle coupling strength (right). Note:***P < 0.001, *P < 0.05.
+
+PLAS benefits SO/spindle coupling
+
+Concerning SO/spindle-interactions, PLAS significantly increased SO-coupled spindles in the intervention (+24%, t = 2.81, P = 0.01, Figure 2D) but not the control group (0%, t = 0.11, P = 0.9), with a significant group-difference (t = −2.41, P = 0.02). Resultant vector length, measuring coupling strength, showed a 4%-increase/3%-decrease in the intervention/control group, which was not significantly different (P = 0.4). The results indicate that PLAS particularly increases global SO-coupled spindle occurrences, considered the functional basis of sleep-dependent memory replay [1].
+
+PLAS did not systematically influence sleep architecture, or subjective sleep quality (see SI, Section 5 and Table S3), nor global spectral activity in the SO, delta, spindle or theta band (all p > 0.4).
+
+PLAS-induced benefits predict increases in memory performance
+
+There was no overall PLAS-induced increase in memory performance (P > 0.7), see SI, Section 6 for learning curves. Baseline memory performance did not differ between groups (P = 0.5). Linear regression models examined if individual PLAS-induced sleep physiology changes (=responsiveness) correlated with memory increases relative to the baseline. In the intervention group, SO-, spindle-, delta- and SO/spindle coupling responsiveness significantly predicted relative memory increase. SO-power responsiveness within the stimulation window (−1 to 2 s around stimulations) significantly predicted relative memory increase post-intervention (F(1,16) = 6.7, P = 0.02, R2 = 0.25), at the 1-week follow-up (F(1,16) = 10.5, P = 0.005, R2 = 0.35) and the three-months follow-up (F(1,16) = 6.6, P = 0.02, R2 = 0.24; see Figure 3A). Spindle-power responsiveness during the induced peak predicted relative memory performance in all three sessions (Figure 3B: post-intervention: F(1,16) = 5.6, P = 0.03, R2 = 0.21; FU1: F(1,16) = 8.5, P = 0.01, R2 = 0.31; FU2: F(1,16) = 7.1, P = 0.02, R2 = 0.26), as did delta-power responsiveness during the SO-trough (Figure 3C: post-intervention: F(1,16) = 9.1, P = 0.008, R2 = 0.32; FU1: F(1,16) = 10.9, P = 0.004, R2 = 0.37; FU2: F(1,16) = 8.5, P = 0.01, R2 = 0.31). Responsiveness in other power bands did not predict memory increases (all P > 0.5). Responsiveness in SO/Spindle coupling strength (resultant vector lengths), but not responsiveness in SO/spindle occurrences significantly predicted relative memory increase at post-intervention (F(1,16) = 4.9, P = 0.04, R2 = 0.19) and at a trend-level at the 1-week follow-up (F(1,16) = 4.1, P = 0.06, R2 = 0.15, Figure 3D). This indicates that the greater the treatment-related shifts in the way spindles are bundled at a preferred phase of the SO, rather than a more spread placement, the better the increase in memory performance.
+
+Figure 3 Linear regression models between responsiveness to the stimulation and relative memory increase at post-stimulation (left), the 1-week (middle) and 3-months (right) follow-up. Responsiveness values are based on a weighted mean over each experimental night’s increase in the respective responsiveness measure compared to the baseline night. Increases in SO power (−1 to 2 s, A), spindle power (induced peak, B) and delta power (induced trough, C) significantly predicted relative memory increase at all three sessions. The respective time windows under B and C are based on significant differences in ERSPs (see Figure 2C). (D) Increases in SO/spindle coupling strength (=increases in resultant vector length) significantly predicted memory increase at post intervention and at a trend level at the 1-week follow-up. Note: resvec = resultant vector, *P < 0.05, **P < 0.01, (*)P = 0.06.
+
+Critically, all analyses were repeated for the control group, yielding no significant responsiveness-effects (all P > 0.2).
+
+Next, we tested for cumulative effects of multiple nights of PLAS on memory performance. Generalised linear mixed models suggested a dose-dependent effect of PLAS on memory performance: the more nights participants exhibited a strong (i.e. above median) physiological response, the steeper their memory increase (SI, Section 7). Intervention nights with strong responses were added per participant to produce a ‘response group’ regressor (values 0–3). Significant predictive ‘response group’ measures were SO- (P < 0.001), spindle and delta-power (P < 0.01), as well as SO/spindle-coupling strength (P < 0.05, Figure 4). This dose-dependence-effect is absent at baseline but gradually unfolds with the progression of the intervention as indicated by significant ‘session × response group’ interactions (P < 0.05 from session t2 onwards; see flat regression lines for t0/t1 in Figure 4 and Table S5). These results are limited to the intervention group (Tables S5 and S6).
+
+Figure 4 Dose–response effect. Repeated responsiveness across multiple stimulation nights based on four physiological responsiveness measures (SO power, spindle power, delta power and SO/spindle coupling). Based on a median split for each night’s responsiveness in each measure, participants were allocated to a ‘higher responsiveness’ group (above median) or a ‘lower responsiveness’ group (at or below median). The x-axis displays the number of nights a participant was allocated to the ‘higher responsiveness’ group, zero indicating never and three indicating for all experimental nights. The y-axis shows the memory score as a proportion of correct responses per session. Different colours represent different sessions during which memory was assessed. Linear best-fit regression lines of data points are displayed as a mean over all sessions (black line) as well as colour coded for the individual sessions. Significant interactions (likelihood-ratio χ2-tests) between session and Response Group exclusively in the intervention group indicates that repeated responsiveness drives memory gains in the intervention group but not the control group. Note: Session t0 = pre-intervention (evening before first experimental night), Session t1 = morning after first experimental night, Session t2 = evening before second experimental night, [. . .], Session t5 = post intervention (morning after last experimental night), Session t6 = 1-week follow-up, Session t7 = 3-month follow-up, pre int BL = pre-intervention (baseline), E1 = experimental night 1, E2 = experimental night 2, E3 = experimental night 3, post int = post-intervention, FU1 = 1-week follow-up, FU2 = 3-month follow-up, *P < 0.05, **P < 0.01, ***P < 0.001.
+
+See SI, Section 8 for results on other cognitive assessments.
+
+Favourable amyloid changes are associated with PLAS-induced physiological- and cognitive effects
+
+Plasma-Aβ42/Aβ40 change scores (post-intervention—baseline) as a measure for treatment response in amyloid burden did not differ between groups (see SI, Section 9). However, Aβ42/Aβ40-change correlated at trend-level with physiological responsiveness in SO-power—exclusively in the intervention (r = 0.5, P = 0.08; all other responsiveness variables P > 0.2) but not the control group (r = −0.11, P = 0.8). Hence, those with greater PLAS-induced SO-power increases tended to display a more favourable Aβ development. Furthermore, in the intervention group exclusively, Aβ42/Aβ40 change scores significantly predicted relative memory increases at the first follow-up session (Figure 5A, right), indicating that more favourable amyloid development across the intervention corresponds to enhanced memory increase at the 1-week follow-up (F(1,11) = 5.913, P = 0.03, R2 = 0.29). Importantly, baseline Aβ42/Aβ40 ratios did not predict memory increases (PCONTROL = 0.09 and PINTERVENTION = 0.7, Figure 5A and B, left).
+
+Figure 5 Amyloid-beta (Aβ) 42/40 ratios related to memory at the 1-week follow-up. (A) Intervention group. Left plot: baseline Aβ42/Aβ40 ratios (x-axis), an index for pre-intervention Aβ-burden, did not predict memory gains (y-axis). Right plot: Beneficial changes in Aβ42/Aβ40 ratios across the intervention period (x-axis) predicted memory gains (y-axis), indicating PLAS-induced physiological responses and their potential down-stream effect on beneficial Aβ clearance and memory. (B) Control group. Neither baseline Aβ42/Aβ40 ratios (left plot), nor across-intervention changes in Aβ42/Aβ40 ratios (right plot) predicted memory gains. Note: post int = post-intervention, *P < 0.05, n.s. P > 0.1.
+
+Determinants of responsiveness
+
+Neither baseline cognitive abilities nor age were systematically associated with the responsiveness variables. However, all-night baseline spindle power correlated with SO (r = 0.48; P < 0.04), delta (r = 0.53; P < 0.02) and spindle (r = 0.62; P < 0.006) responsiveness, whereas all-night baseline delta and SO power significantly correlated with spindle (rdelta = 0.47; P < 0.05; rSO = 0.48; P < 0.04) and delta (rdelta = 0.66; P < 0.003; rSO = 0.67; P < 0.002) responsiveness. Baseline SO/spindle coupling strength (r = −0.59, P = 0.01) negatively correlated with SO/spindle coupling-responsiveness. Hence, while within-stimulation window responsiveness was elevated in those with higher baseline spindle-, SO- and delta-power, SO/spindle coupling response was stronger in those with lower baseline SO/spindle coupling strength.
+
+Furthermore, unfavourable baseline Aβ42/Aβ40 values were associated with a stronger SO/spindle coupling-responsiveness (r = −0.66, P = 0.003) and worse baseline SO/spindle coupling strength (r = 0.54, P = 0.02), suggesting that those with higher amyloid burden—and consequently greater dementia risk—could profit most from PLAS through re-coupling of spindles and SOs.
+
+Discussion
+
+We demonstrated that the individual magnitude of PLAS-induced sleep enhancement was associated with long-term memory benefits in older adults—lasting up to 3 months post intervention. Furthermore, individual PLAS-responsiveness was associated with a beneficial amyloid response, potentially due to improved clearance. However, we found no PLAS-induced group-level effect on memory performance or amyloid clearance.
+
+Contrary to most previous reports [25, 37], PLAS-induced physiological responses transcended the stimulation window, producing a PLAS-induced global increase in the number of SO-coupled spindles. Furthermore, PLAS-induced increases in SO/spindle coupling strength (but not number of SO-coupled spindles) predicted increased memory performance. Precise SO/spindle coupling promotes memory functions, and this coupling deteriorates with age, predicting forgetting and brain atrophy [36, 38]. We show that PLAS can re-couple SOs and spindles in older adults, shifting these oscillatory events back into a configuration that optimises their functional potential.
+
+Aside from SO/spindle coupling, PLAS induced power increases in sleep-related frequency bands that were restricted to the immediate stimulation window. Sleep architecture and global power spectra remained unaffected. This finding is in line with earlier reports also showing that PLAS effects are mostly restricted to the immediate stimulation window [25, 37]. Only one recent study found PLAS globally increased SO-power, arguably owing to the extended multi-night home-use treatment regime employed in that study [39].
+
+We argued that in older adults, multiple PLAS-nights might be needed for memory effects to unfold. Our analysis taking every experimental night’s responsiveness into account showed a dose–response effect: the more nights a participant responded well to PLAS, the greater the memory increase. Hence, PLAS-responsiveness started to drive memory performance after repeated intervention nights, highlighting the advantage of multiple PLAS-nights. This might also explain the lack of memory effects in previous single-night studies [21, 40]. Additionally, no performance plateau occurred after three intervention nights, suggesting potential added benefits from further PLAS sessions.
+
+We found large individual variance regarding physiological responsiveness to PLAS. It seems the effectiveness of PLAS is subject to inter- and intra-individual factors, which is in line with recent reports in young [41], middle-aged [42] and older adults [39]. Specifically, we observed greater PLAS-response in individuals with higher baseline SO, delta and spindle power, similar to a previous report [39]. Interestingly, the opposite was observed for SO/spindle coupling and plasma amyloid levels. Here, individuals with worse initial SO/spindle coupling strength exhibited larger PLAS-induced increases in coupling strength. Furthermore, those with a higher plasma amyloid burden had the greatest SO/spindle coupling response. This indicates a double dissociation: while PLAS works best if existing activity in sleep-related electrophysiological power bands is still high, it is seemingly most effective in alleviating a suboptimal oscillatory coupling hierarchy and blood-based biomarker profile. PLAS might help re-couple spindles with SOs and benefit metabolic clearance—especially in those who could arguably profit most from such interventions: individuals at risk for dementia.
+
+It is promising to see that higher amyloid burden need not necessarily be linked to changes in power spectra, but rather in the temporal dispersion of SO-peaks and spindles—therefore keeping a window open where PLAS can still be effective. However, the literature is mixed concerning Aβ—SO/spindle coupling associations, with some suggesting a link [4] but others not [43, 44].
+
+Limitations
+
+Our results revealed no group-level memory increase which can partially be explained by unequal PLAS-responsiveness. Low responders might have encountered SWA disruptions rather than improvements, potentially leading to memory decline during the intervention. Thus, future research should cautiously address possible side effects in PLAS-low responders. Furthermore, an alternative explanation might see PLAS-responsiveness as a mere predictor for how memory/amyloid-levels might develop irrespective of any intervention. Thus, individuals whose brain networks exhibit a more robust response might also demonstrate enhanced cognitive functions related to memory and amyloid clearance. Although the correlation between baseline spectral power and PLAS-responsiveness might suggest this, the negative correlation between baseline SO/spindle coupling and PLAS responsiveness renders this unlikely. Furthermore, if our effects were a mere reflection of robust brain networks, we would expect to see a dose–response effect in the baseline memory session (Figure 4, red lines), which is not the case. Rather, PLAS effects gradually build up across the intervention.
+
+Finally, Aβ42/Aβ40 ratio was evaluated in plasma rather than cerebrospinal fluid. While this novel approach to Aβ-assessments warrants deeper investigation into its associations with sleep parameters, using plasma-based markers offers a unique opportunity for a non-invasive, accessible, specific and sensitive measurement of Aβ42/Aβ40 ratios [29, 30]. Unfortunately, due to pre- and post-plasma-Aβ sample availability in only a subset of participants, the reported effects on change scores should be interpreted with caution. We can only infer that within the intervention group, some individuals exhibited beneficial Aβ42/Aβ40 changes which were correlated with increased memory performance at the 1-week follow-up. We can further only speculate that changes in Aβ42/Aβ40 were due to increased metabolic clearance. The trend-level correlations between SO-responsiveness and Aβ42/Aβ40 change score along with the lack of a correlation between Aβ42/Aβ40 change scores and memory in the control group, suggests that it might at least be possible that PLAS is able to influence Aβ-clearance. Future studies should investigate PLAS’s impact on metabolite clearance using both CSF and blood-based biomarkers [45].
+
+Conclusion and future directions
+
+This study provides evidence that consecutive application of PLAS in older adults benefits SWS which is associated with long-lasting memory increases and a beneficial plasma-Aβ response. A crucial future objective is to delve deeper into the origins of inter- and intra-individual physiological responsiveness variations. This is particularly important when discussing PLAS as a preventative tool against cognitive decline. It is vital to define potential situational factors impacting responsiveness (like healthy sleep physiology) and determining feasibility of overcoming potential limiting factors (like reduced SWA). More research is needed, especially in populations that might profit most from PLAS interventions, like individuals with mild cognitive impairment or dementia. Critically, the association between Aβ and sleep has been described as a vicious cycle where pre-existing amyloid burden decreases SWS, and decreased SWS further worsens amyloid burden [10]. With its potential to benefit amyloid clearance, PLAS could break this vicious cycle by providing much-needed opportunities for the brain to recuperate and ameliorate the progression of cognitive decline. It will be crucial to further investigate PLAS-induced metabolite clearance via long-term studies and PLAS-capable home-use devices outside the lab. With such long-term interventions—for which our results provide the basis—PLAS could be developed into an important preventative- or therapeutic tool to tackle increasing incidence rates of dementia.
+
+Supplementary Material
+
+Table_S1_afad228 Click here for additional data file.
+
+Table_S2_afad228 Click here for additional data file.
+
+Table_S3_afad228 Click here for additional data file.
+
+Table_S4_afad228 Click here for additional data file.
+
+Table_S5_afad228 Click here for additional data file.
+
+Table_S6_afad228 Click here for additional data file.
+
+Figure_S1_afad228 Click here for additional data file.
+
+Figure_S2_afad228 Click here for additional data file.
+
+Figure_S3_afad228 Click here for additional data file.
+
+AA_SupportingInfo_update_clean_afad228 Click here for additional data file.
+
+Acknowledgements
+
+We thank all interns, students and assistants for their valuable work during data acquisition.
+
+Declaration of Conflicts of Interest
+
+C.N. has served on advisory boards of Idorsia and Janssen.
+
+Declaration of Sources of Funding
+
+This work was supported by Dementia Research Switzerland—Synapsis Foundation, the Peter Bockhoff Foundation, the Heidi Seiler Foundation (2018-PI02), the Dr. med. Kurt Fries-Foundation (2021-CDA03) and the Interfaculty Research Cooperation ‘Decoding sleep’ at the University of Bern.
+
+Study Preregistration
+
+This study was pre-registered (clinicaltrials.gov; NCT04277104).

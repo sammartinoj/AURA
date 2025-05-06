@@ -1,0 +1,205 @@
+==== Front
+Front Artif Intell
+Front Artif Intell
+Front. Artif. Intell.
+Frontiers in Artificial Intelligence
+2624-8212
+Frontiers Media S.A.
+
+10.3389/frai.2022.660581
+Artificial Intelligence
+Original Research
+Targeted Screening for Alzheimer's Disease Clinical Trials Using Data-Driven Disease Progression Models
+Oxtoby Neil P. 1 *
+
+Shand Cameron 1
+
+Cash David M. 2
+
+Alexander Daniel C. 1
+
+Barkhof Frederik 1 3
+For the Alzheimer's Disease Neuroimaging Initiative and the Alzheimer's Disease Cooperative Study
+1Centre for Medical Image Computing, Department of Computer Science, University College London, London, United Kingdom
+2dementia Research Centre, Department of neurodegenerative disorderss, UCL Queen Square Institute of Neurology, University College London, London, United Kingdom
+3Amsterdam University Medical Center, Amsterdam, Netherlands
+Edited by: Kathiravan Srinivasan, Vellore Institute of Technology, India
+
+Reviewed by: Pengwei Hu, Merck, Germany; Kewei Chen, Banner Alzheimer's Institute, United States
+
+*Correspondence: Neil P. Oxtoby n.oxtoby@ucl.ac.uk
+This article was submitted to Medicine and Public Health, a section of the journal Frontiers in Artificial Intelligence
+
+26 5 2022
+2022
+5 66058129 1 2021
+25 4 2022
+Copyright © 2022 Oxtoby, Shand, Cash, Alexander and Barkhof.
+2022
+Oxtoby, Shand, Cash, Alexander and Barkhof
+https://creativecommons.org/licenses/by/4.0/ This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.
+Heterogeneity in Alzheimer's disease progression contributes to the ongoing failure to demonstrate efficacy of putative disease-modifying therapeutics that have been trialed over the past two decades. Any treatment effect present in a subgroup of trial participants (responders) can be diluted by non-responders who ideally should have been screened out of the trial. How to identify (screen-in) the most likely potential responders is an important question that is still without an answer. Here, we pilot a computational screening tool that leverages recent advances in data-driven disease progression modeling to improve stratification. This aims to increase the sensitivity to treatment effect by screening out non-responders, which will ultimately reduce the size, duration, and cost of a clinical trial. We demonstrate the concept of such a computational screening tool by retrospectively analyzing a completed double-blind clinical trial of donepezil in people with amnestic mild cognitive impairment   (clinicaltrials.gov: NCT00000173), identifying a data-driven subgroup having more severe cognitive impairment who showed clearer treatment response than observed for the full cohort.
+
+disease progression modeling
+Alzheimer's disease
+mild cognitive impairment  
+clinical trials
+screening
+dementia
+biomarkers
+donepezil
+UK Research and Innovation 10.13039/100014013 MR/S03546X/1 Horizon 2020 10.13039/501100007601 666992 UCLH Biomedical Research Centre 10.13039/501100012317
+==== Body
+pmc1. Introduction
+
+Alzheimer's Disease (AD) is one of the most important socioeconomic challenges of the twenty-first century, being the leading cause of age-related dementia in an aging global population. Despite decades of research and clinical trials of potential therapies (Cummings et al., 2018b), no trials have been able to prove disease-modifying efficacy (Cummings et al., 2014, 2016, 2017, 2018a, 2019, 2020). There are multiple possible explanations for this. For example, potentially targeting the “wrong” pathology at the wrong time—typically amyloid protein pathogens are the target but if a treatment is given to symptomatic individuals, it may be too late to halt or reverse any damage done. Notwithstanding this, enrolling the right people at the right time (disease stage) into a clinical trial remains a considerable challenge because of undetected heterogeneity in phenotype/presentation (Firth et al., 2020) and/or ensuring the underlying pathology is present (Salloway et al., 2014), which can be a general problem because clinical trials often cannot adapt their designs to accommodate research discoveries made after they have begun. This can result in enrolment of non-responders into a clinical trial that wash out treatment effect in any subgroup of responders. Identification of non-responders typically occurs in post hoc subgroup analysis, which does not confer the benefits of a reduced trial size, and requires careful analysis to infer conclusions which can be misleading (Wang et al., 2007; Cummings, 2018). Given the breadth of evidence in support of the amyloid hypothesis (Hardy and Higgins, 1992) that has driven this clinical research for two decades, albeit with some controversies (Morris et al., 2014), here we focus on the aforementioned challenges of screening to identify the right participants at the right time. The good news is that there has been a swell of computational research into unraveling the heterogeneity of Alzheimer's disease progression over the past decade (e.g., see Oxtoby et al., 2017), driven largely by the increasing availability of large open medical datasets (Marinescu et al., 2018).
+
+Computational approaches for aging and age-related diseases have been designed to fuse multimodal data into a quantitative template (Bilgel and Jedynak, 2019) of disease progression. These signatures often include a patient staging mechanism (Young et al., 2014) that provides a quantitative tool for fine-grained, individualized inference based on disease severity that goes above and beyond standard clinical phenotyping using patient symptoms. A recent innovation of data-driven disease progression modeling incorporates unsupervised machine learning, i.e., clustering, to provide both subtype and stage inference (Young et al., 2018). A frequent occurrence in this literature are claims of how these data-driven models can benefit clinical trials in Alzheimer's disease, but we are yet to find any evidence of studies actually analyzing clinical trial data to demonstrate the claimed benefit.
+
+In this work we demonstrate the potential of data-driven models of disease progression to enhance clinical trials in Alzheimer's disease via targeted screening. We achieve this by example, using a particular modeling approach—the event-based model (Fonteijn et al., 2012)—in a post hoc subgroup analysis of a particular completed clinical trial that concluded without evidence of efficacy (Petersen et al., 2005).
+
+2. Materials and Methods
+
+This section describes the data, the computational model, and the statistical analysis used in our study. Overall, our analysis includes three steps. First, we fit a data-driven disease progression model of cognitive decline in AD to data from a large multicentre observational study, the Alzheimer's Disease Neuroimaging Initiative (ADNI; training set). Second, we use this computational model to score disease progression at baseline for participants in the completed “mild cognitive impairment  ” clinical trial from the Alzheimer's Disease Cooperative Study (ADCS-mild cognitive impairment  ; test set). Finally, this disease progression score is used to stratify the ADCS-mild cognitive impairment   Trial participants for a post hoc analysis of subgroup treatment effect.
+
+2.1. Data
+
+Our reference model fit to data from the ADNI observational study is used to stage participants from the ADCS-mild cognitive impairment   clinical trial (clinicaltrials.gov: NCT00000173; Petersen et al., 2005). For this we use a set of features common to both data sets, which is a subset of cognitive instruments used in the ADCS-mild cognitive impairment   trial (see the vertical axis of Results, Figure 1), taking care to exclude ADAS-Cog (being a secondary outcome of the trial).1 For simplicity, we included only ADNI participants having complete data for this feature set.
+
+Figure 1 Event based model of cognitive decline (ADNI). Positional density/variance diagram showing the sequence (top to bottom) and uncertainty (left to right) under five-fold cross-validation (repeated 10 times). CDR, clinical dementia rating; MMSE, mini-mental state examination; bwd, backward; DSST, digit symbol substitution test.
+
+Data used in the preparation of this article were obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu). The ADNI was launched in 2003 as a public-private partnership, led by Principal Investigator Michael W. Weiner, MD. The primary goal of ADNI has been to test whether serial magnetic resonance imaging (MRI), positron emission tomography (PET), other biological markers, and clinical and neuropsychological assessment can be combined to measure the progression of mild cognitive impairment   (mild cognitive impairment  ) and early Alzheimer's disease (AD).
+
+Additional data used in the preparation of this article were obtained from the Alzheimer's Disease Cooperative Study (ADCS) database (adcs.org). Specifically, we analyse data from the completed ADCS-mild cognitive impairment   clinical trial of donepezil and vitamin E, reported in Petersen et al. (2005). The ADCS-mild cognitive impairment   trial aimed to assess the efficacy of vitamin E and donepezil in subjects with amnestic mild cognitive impairment  . The primary end point was the time to the development of possible or probable AD dementia, with secondary outcomes on cognition and function. Measurements were taken at 6-month intervals until the end of the trial (36 months). At screening, 769 subjects were included in the trial, randomized into 259, 257, and 253 subjects for the placebo, vitamin E, and donepezil arms, respectively—reducing to 174, 158, and 145 by the end of the trial.
+
+2.2. Event-Based Model
+
+The event-based model (EBM) (Fonteijn et al., 2012; Young et al., 2014) estimates the most likely sequence, and uncertainty in this sequence, of observable cumulative abnormality events in the pathophysiological cascade (Jack et al., 2010) of a progressive disease. In this context, an event constitutes deviation of a biomarker measurement from those typical of healthy controls, toward those typical of patients. Events, and the overall sequence of events, are probabilistic entities. The EBM sequence of cumulative abnormality is estimated from cross-sectional data. This is made possible by combining data from a cohort of individuals at different stages of cumulative abnormality. The EBM sequence estimation is achieved directly from the data distributions in diseased and healthy groups and without a priori-defined disease stages or biomarker cutpoints /thresholds. The EBM, in its various versions, has been applied to a variety of diseases since 2011 (e.g., Fonteijn et al., 2012; Eshaghi et al., 2018; Oxtoby et al., 2018, 2021; Wijeratne et al., 2018; Firth et al., 2020). For a detailed intuitive description of the EBM, we refer the reader to Oxtoby et al. (2021).
+
+Here, we employ the recently-developed kernel density estimation (KDE) EBM that copes naturally with the ceiling/floor effects seen in cognitive data (Firth et al., 2020), and gives a cleaner interpretation of the model by exploiting prior information on disease direction (Oxtoby et al., 2021). To improve generalizability, we perform repeated five-fold cross-validation (10 repeats) and combine all 50 sets of posterior samples of the EBM into a cross-validated positional density map (Oxtoby et al., 2021).
+
+The EBM affords us a screening tool by way of the patient staging mechanism introduced by Young et al. (2014). This process assigns a model stage (disease progression score) that maximizes the likelihood given an individual's set of measurements. Here, we use the ADNI-trained EBM to stage baseline data from the ADCS-mild cognitive impairment   clinical trial, then stratify subjects into strata based on disease progression scores for post hoc subgroup analyses. In future, this process could be performed as part of the screening process to homogenize the clinical trial cohort.
+
+2.3. Statistical Analysis
+
+Our hypothesis is that AD clinical trial cohorts are likely to contain undetected heterogeneity that washes out treatment effects which may exist in an independently identifiable subgroup of responders. Accordingly, in order to examine whether our proposed screening tool can detect this heterogeneity and reveal such a subgroup of responders, our post hoc subgroup analysis of the ADCS-mild cognitive impairment   clinical trial closely follows the primary analyses in Petersen et al. (2005). We describe the key steps below.
+
+Primary Outcome: We use Kaplan–Meier estimators to estimate the rate of progression from mild cognitive impairment   to AD over the course of the trial. Additionally, Cox proportional-hazards models were constructed to compare the risk for progression in each treatment arm with the placebo (using baseline age, MMSE, and APOE-ϵ4 carrier status as covariates). This intention-to-treat analysis in the trial was conducted for both placebo vs. vitamin E and placebo vs. donepezil, but in this paper we focus on the latter.
+
+To correct for multiple comparisons in the Cox proportional-hazards model (for the two treatment arms), the Hochberg method was used. As our introduction of subgroups increases the number of comparisons made, we extend this adjustment for the total number of subgroups, regardless of whether a single subgroup is the focus of analysis.
+
+Secondary Outcome: We compare ADAS-Cog 13 scores between placebo and donepezil arms in subgroups at each 6-month interval to assess the difference in longitudinal cognitive decline. A two-sided Mann–Whitney U-test is used to compare the treatment groups at each time point for each subgroup, correcting for multiple comparisons using the Hochberg method.
+
+3. Results
+
+3.1. Reference Model
+
+Figure 1 shows a positional variance diagram for an event-based model (Firth et al., 2020) of cognitive decline due to probable Alzheimer's disease, across a set of cognitive instruments from N = 810 (of 2,040) ADNI participants [229 cognitively normal (CN), 181 AD, 400 mild cognitive impairment  ] having complete data (see Section 2). The cross-validated model's confidence in the sequence is higher where the positional variance is reduced—a dark diagonal corresponds to strong confidence in the data-driven ordering. The estimated sequence of cognitive decline starts from the Clock Drawing test and Clinical dementia Rating (CDR), through tests of memory recall (Logical Memory) and general cognition (MMSE), to verbal fluency (Boston Naming; Animals), working memory (Digit span backwards), and executive function (Digit Symbol Substitution Test, DSST).
+
+Figure 2 shows a key component of the EBM—the normal/abnormal mixture models for each cognitive instrument (blue/orange solid lines, respectively), and the resulting cumulative probability of an event having occurred (dashed lines) (Fonteijn et al., 2012). These sigmoidal event probabilities quantify divergence from normality (Oxtoby et al., 2021) and provide a visualization of the data-driven event threshold (akin to a data-driven biomarker cutpoint). Histograms show the AD (orange) and CN (blue) data from ADNI. Early/late events are, respectively, those that have occurred in many/few patients and thus show greater/smaller separation between the group histograms.
+
+Figure 2 ADNI data histograms (adjusted for age and education level) and EBM mixture models for each feature. Orange bars corresponds to AD patient data, blue bars to data from CN participants, showing the “normal” and “abnormal” distributions and the determined probability of the event having occurred (dashed line).
+
+3.2. Patient Staging: Re-screening the ADCS-mild cognitive impairment   Trial
+
+Figure 3 shows the distribution of patient stages assigned to participants in the (Figure 3A) ADNI study and (Figure 3B) ADCS-mild cognitive impairment   trial, using the ADNI-trained EBM shown in Figure 3. The mild cognitive impairment   distributions show considerable heterogeneity, with a notable late-stage ADCS-mild cognitive impairment   subgroup beyond stage 8 in Figure 3B, delineated by a red dashed line. Table 1 compares the whole ADCS-mild cognitive impairment   cohort and 2 subgroups (“Late-stage” and “Others”) on demographic and cognitive measures at baseline.
+
+Figure 3 Histograms of model stage for subjects in the ADNI dataset (A) and ADCS-mild cognitive impairment   trial (B).
+
+Table 1 Demographic and cognitive comparison of ADCS-mild cognitive impairment   trial participants (All) and the model-determined subgroups thereof (“Late-stage” and “Others”).
+
+	Group	
+	All	Others	Late-stage	
+Measure	(N = 769)	(N = 648)	(N = 121)	
+Age (years)	72.9 (7.3)	73.0 (7.2)	72.4 (7.9)	
+Education (years)	14.6 (3.1)	14.6 (3.1)	15.0 (3.0)	
+Sex (% female)	352 (45.8%)	290 (44.8%)	62 (51.2%)	
+APOE-ϵ4 carrier (%)	424 (55.1%)	352 (54.3%)	72 (59.5%)	
+Donepezil arm (%)	253 (32.9%)	219 (33.8%)	34 (28.1%)	
+Vitamin E arm (%)	257 (33.4%)	216 (33.3%)	41 (33.9%)	
+Placebo arm (%)	259 (33.7%)	213 (32.9%)	46 (38.0%)	
+ADAS-Cog 11	11.3 (4.4)	10.8 (4.2)	14.1 (4.0)	
+ADAS-Cog 13	17.7 (6.1)	17.0 (5.9)	21.6 (5.6)	
+ADAS-Cog Q4	6.3 (2.2)	6.1 (2.2)	7.3 (2.0)	
+Boston naming	6.9 (2.4)	7.3 (2.2)	5.1 (2.5)	
+CDR global	0.5 (0.0)	0.5 (0.0)	0.5 (0.0)	
+CDR sum of boxes	1.8 (0.8)	1.8 (0.8)	2.2 (0.8)	
+Clock drawing	4.3 (0.9)	4.5 (0.8)	3.4 (1.0)	
+Digit span bwd	6.2 (2.1)	6.4 (2.1)	5.1 (1.9)	
+DSST	31.5 (10.9)	33.4 (10.2)	21.1 (8.0)	
+Logical memory - delayed	3.3 (2.4)	3.5 (2.5)	2.2 (2.0)	
+Logical memory - immediate	6.2 (3.1)	6.5 (3.1)	4.7 (2.7)	
+MMSE	27.3 (1.8)	27.5 (1.8)	26.2 (1.7)	
+Verbal fluency - animals	15.8 (5.2)	16.8 (5.0)	10.5 (3.0)	
+
+Primary Outcome: Figure 4 shows Kaplan–Meier curves for the whole ADCS-mild cognitive impairment   cohort (Figure 4A), the early-to-middle “Others” subgroup (Figure 4B) and the “Late-stage” subgroup (Figure 4C) in the placebo and donepezil arms, illustrating the change in survival rates (specifically, not progressing to probable AD dementia) during the trial. For each survival function estimate, 95% confidence intervals are shown in the shaded area. Figure 5 shows the corresponding hazard ratios and 95% confidence intervals for Cox proportional-hazards models quantifying the risk of progression from mild cognitive impairment   to AD. Although there are no significant differences between all subjects (hazard ratio 0.80; 95% CI 0.57–1.13; p = 0.42), the estimated effect seems larger than in the early-to-middle stage subgroup (hazard ratio 1.00; 95% CI 0.67–1.51; p = 0.99), or the late-stage subgroup (hazard ratio 0.55; 95% CI 0.28–1.07; p = 0.24).
+
+Figure 4 Kaplan–Meier survival curves for all 769 participants (A), the “Others” subgroup (B), and the “Late-stage” subgroup (C) in the ADCS-mild cognitive impairment   trial.
+
+Figure 5 Hazard ratios (with 95% confidence intervals) for the progression to AD for the two subgroups and all subjects when comparing the placebo and donepezil arms.
+
+Figure 6 shows ADAS-Cog 13 scores at 6-month intervals throughout the ADCS-mild cognitive impairment   trial separately for the two subgroups. Conducting a two-sided Mann–Whitney U-test at each time point, no significant difference (in adjusted p-values) was found in either subgroup, despite the apparent trend toward treatment effect in the late-stage subgroup.
+
+Figure 6 Progression of ADAS-Cog 13 scores in the placebo and donepezil arms throughout the trial for each of the two subgroups.
+
+4. Discussion
+
+We fit an event-based model of cognitive decline in Alzheimer's disease using a reference data set (ADNI), which was then used to score disease progression in subjects at baseline in a completed clinical trial (ADCS-mild cognitive impairment  ). This disease progression score was used to stratify trial participants for a post hoc subgroup analysis of treatment effect.
+
+The event-based model of cognitive decline in Figure 1 is representative of typical (memory-led) Alzheimer's disease, with CDR and impaired memory recall occurring before decline in verbal fluency, working memory, and executive function. Indeed, the estimated sequence shares similarities with results in Firth et al. (2020), which involved an independent cohort. We deliberately excluded ADAS-Cog scores from the model to avoid circularity with the corresponding secondary outcome of the trial (and also to avoid having to perform the relatively arduous ADAS-Cog test at a screening visit). Supplementary Figure 1 shows that the sequence is largely unchanged with ADAS-Cog features included. Notably, Clock Drawing appears as the first event (before even CDR features), albeit with an additional component of positional density around stages 7–9, supporting the presence of additional heterogeneity among individuals. This result warrants further investigation but is beyond the scope of our study.
+
+The event-based model patient staging mechanism (Young et al., 2014) revealed considerable heterogeneity in the cognitive impairment of mild cognitive impairment   participants in both the ADNI observational study (Figure 3A) and the ADCS-mild cognitive impairment   clinical trial (Figure 3B). Such clinical heterogeneity is likely to mask treatment response in clinical trials, particularly if the underlying source is biological heterogeneity relevant to the experimental treatment. The biological underpinnings here are unknown due to the absence of biomarker data in the ADCS-mild cognitive impairment   trial, and we need access to such individual-level biomarker data from more recent clinical trials if we are to assess the value of EBM screening vs. biomarker screening. Regardless, we found promising trends in our post hoc subgroup analyses (discussed below). Of course, the reduced sample size increases screen-in cost of a clinical trial and potentially diminishes the treatable patient group (affecting also the drug label). This is mostly positive. Pros: a medicine that is effective on a subgroup is better than no medicine at all; not treating non-responders reduces the occurrence of unnecessary side-effects. Con: the smaller group of potential responders limits the treatable patient population (but at least those treated are likely to benefit).
+
+In the ADCS-mild cognitive impairment   trial we found encouraging trends toward improved survival (Figure 4), preserved cognition (Figure 6), and a lower hazard ratio (Figure 5) in the more severely affected “Late-stage” mild cognitive impairment   subgroup (N = 121) compared to the less affected “Others” subgroup (N = 648). These results suggest that the treatment (donepezil) may protect cognition and provide more protection against mild cognitive impairment   conversion to dementia for late-stage mild cognitive impairment  . This result concurs with the fact that donepezil is approved for symptomatic relief in more severely affected groups—specifically, dementia patients. Additionally, a recent re-analysis of the ADCS-mild cognitive impairment   trial unmasked beneficial effects of donepezil (Edmonds et al., 2018) in a more severely affected subgroup by screening out false-positive mild cognitive impairment   participants using hierarchical clustering by Ward's method.
+
+There are multiple possible explanations for why more severely impaired individuals with mild cognitive impairment   seem to benefit from donepezil preferentially over less impaired individuals. For one, donepezil may have less cognitive benefit earlier in the disease. Another is that ADAS-Cog might be inadequate to detect such a benefit. Regardless, the key finding is that our approach was able to stratify a clinical trial population into potential responders and non-responders using only baseline/screening data. This supports the notion that computational, data-driven screening can substantially reduce the size (and cost) of a clinical trial, without sacrificing statistical power (see also Franzmeier et al., 2020).
+
+Our work motivates using event-based model staging as a screening tool to enrich clinical trials, but the general principle can be applied using other models that can calculate disease progression scores (e.g., Jedynak et al., 2012; Leoutsakos et al., 2016; Stallard et al., 2017; Wang et al., 2020). While many such works mention the potential application to analyzing clinical trial data, fewer suggest incorporating this into the screening stage, and none (to our knowledge) have actually applied such models in clinical trials, nor in post hoc analyses that follow the original analysis protocol to retrospectively determine subgroup treatment effects. Closest to this work is the aforementioned study of the ADCS-mild cognitive impairment   trial data by Edmonds et al. (2018), and the work of Schneider et al. (2016), but the approaches used in these studies do not provide an interpretable disease progression signature, nor do they allow for future extension to seamlessly incorporate imaging data and other biomarkers.
+
+In summary, the ADCS-mild cognitive impairment   trial was an attempt to test whether donepezil, an approved symptomatic treatment of dementia patients, could slow progression from mild cognitive impairment   to dementia. This placebo-controlled, double-blind, phase 3 study found no significant treatment effects (Petersen et al., 2005). Here, we reanalyzed the trial in a post hoc subgroup analysis, with the subgroups defined by a data-driven disease progression model: the event-based model (Fonteijn et al., 2012; Young et al., 2014; Firth et al., 2020). Our two key findings are: (1) there was considerable heterogeneity in cognitive impairment in the ADCS-mild cognitive impairment   trial, suggesting an inadequate screening protocol; (2) this heterogeneity masked a possible treatment effect in a sample of more severely impaired late-stage mild cognitive impairment   participants, despite the likelihood of this smaller sample being under-powered to detect an effect of this magnitude. Our study has highlighted a potential mechanism for improving clinical trial design but the general applicability will require broader verification, ideally in more recent trials having biomarker data.
+
+In conclusion, our findings support the use of our proposed data-driven screening method to enhance targeting and efficiency of future clinical trials in Alzheimer's disease. What is perhaps most exciting in the immediate future is the prospect of performing similar post hoc analyses in other “failed” clinical trials, which could resurrect some Alzheimer's disease drug research programs, saving billions of dollars and years of research. This work is continuing.
+
+Author's Note
+
+Data used in preparation of this article were obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu). As such, the investigators within the ADNI contributed to the design and implementation of ADNI and/or provided data but did not participate in analysis or writing of this report. A complete listing of ADNI investigators can be found at: http://adni.loni.usc.edu/wp-content/uploads/how_to_apply/ADNI_Acknowledgement_List.pdf.
+
+Data used in the preparation of this manuscript were obtained from the Alzheimer's Disease Cooperative Study legacy database.
+
+Data Availability Statement
+
+The original contributions presented in the study are included in the article/Supplementary Material, further inquiries can be directed to the corresponding author.
+
+Ethics Statement
+
+Ethical review and approval was not required for the study on human participants in accordance with the local legislation and institutional requirements. The patients/participants provided their written informed consent to participate in this study.
+
+Author Contributions
+
+NO conceived of the study and obtained funding. NO and CS performed the data analysis and drafted the manuscript. All authors contributed to interpretation of results and manuscript writing. All authors contributed to the article and approved the submitted version.
+
+Funding
+
+NO is a UKRI Future Leaders Fellow. NO and CS acknowledge funding from the UKRI Medical Research Council (MRC MR/S03546X/1). NO, DA, and FB acknowledge funding from the EuroPOND project. This project has received funding from the European Union's Horizon 2020 Research and Innovation Programme under grant agreement no. 666992—and the National Institute for Health Research University College London Hospitals Biomedical Research Centre.
+
+Conflict of Interest
+
+The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+
+Publisher's Note
+
+All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.
+
+The authors are extremely grateful to the participants of the ADNI observational study and ADCS-mild cognitive impairment   trial, without whom this research would not have been possible.
+
+Data collection and sharing for this project was funded by the Alzheimer's Disease Neuroimaging Initiative (ADNI) (National Institutes of Health Grant U01 AG024904) and DOD ADNI (Department of Defense award number W81XWH-12-2-0012). ADNI was funded by the National Institute on Aging, the National Institute of Biomedical Imaging and Bioengineering, and through generous contributions from the following: AbbVie, Alzheimer's Association; Alzheimer's Drug Discovery Foundation; Araclon Biotech; BioClinica, Inc.; Biogen; Bristol-Myers Squibb Company; CereSpir, Inc.; Cogstate; Eisai Inc.; Elan Pharmaceuticals, Inc.; Eli Lilly and Company; EuroImmun; F. Hoffmann-La Roche Ltd. and its affiliated company Genentech, Inc.; Fujirebio; GE Healthcare; IXICO Ltd.; Janssen Alzheimer Immunotherapy Research & Development, LLC.; Johnson & Johnson Pharmaceutical Research & Development LLC.; Lumosity; Lundbeck; Merck & Co., Inc.; Meso Scale Diagnostics, LLC.; NeuroRx Research; Neurotrack Technologies; Novartis Pharmaceuticals Corporation; Pfizer Inc.; Piramal Imaging; Servier; Takeda Pharmaceutical Company; and Transition Therapeutics. The Canadian Institutes of Health Research is providing funds to support ADNI clinical sites in Canada. Private sector contributions are facilitated by the Foundation for the National Institutes of Health (www.fnih.org). The grantee organization is the Northern California Institute for Research and Education, and the study is coordinated by the Alzheimer's Therapeutic Research Institute at the University of Southern California. ADNI data are disseminated by the Laboratory for Neuro Imaging at the University of Southern California.
+
+Data collection and sharing for this project was also funded by the Alzheimer's Disease Cooperative Study (ADCS), funded by the National Institutes of Health Grant U19 AG010483.
+
+Supplementary Material
+
+The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/frai.2022.660581/full#supplementary-material
+
+Click here for additional data file.
+
+1Results with ADAS-Cog included can be found in the Supplementary Material.

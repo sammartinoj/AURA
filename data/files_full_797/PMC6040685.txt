@@ -1,0 +1,179 @@
+==== Front
+PLoS OnePLoS ONEplosplosonePLoS ONbche gene gene932-6203Public Library of Science San Francisco, CA USA 10.1371/journal.pone.0196636PONE-D-17-19099Research ArticleBiology and Life SciencesAnatomyNervous Systemcentral nervous systemMedicine and Health SciencesAnatomyNervous Systemcentral nervous systemMedicine and Health SciencesPublic and Occupational HealthPhysical ActivityPhysical FitnessMedicine and Health SciencesPublic and Occupational HealthPhysical ActivityPhysical FitnessExerciseMedicine and Health SciencesSports and Exercise MedicineExerciseBiology and Life SciencesSports ScienceSports and Exercise MedicineExerciseBiology and Life SciencesNeuroscienceCognitive ScienceCognitionMedicine and Health SciencesDiagnostic MedicineDiagnostic RadiologyMagnetic Resonance ImagingResearch and Analysis MethodsImaging TechniquesDiagnostic RadiologyMagnetic Resonance ImagingMedicine and Health SciencesRadiology and ImagingDiagnostic RadiologyMagnetic Resonance ImagingBiology and Life SciencesNeuroscienceCognitive ScienceCognitive PsychologyAttentionBiology and Life SciencesPsychologyCognitive PsychologyAttentionSocial SciencesPsychologyCognitive PsychologyAttentionBiology and Life SciencesNeuroscienceSensory PerceptionVisionBiology and Life SciencesPsychologySensory PerceptionVisionSocial SciencesPsychologySensory PerceptionVisionBiology and Life SciencesNeuroscienceCognitive ScienceCognitive PsychologyLearningBiology and Life SciencesPsychologyCognitive PsychologyLearningSocial SciencesPsychologyCognitive PsychologyLearningBiology and Life SciencesNeuroscienceLearning and MemoryLearningDance training is superior to repetitive physical exercise in inducing brain plasticity in the elderly Dance and physical exercise induce brain plasticityhttp://orcid.org/0000-0001-9775-763XRehfeld Kathrin ConceptualizationData curationFormal analysisInvestigationMethodologySupervisionWriting – original draft12*Lüders Angie Data curationFormal analysisWriting – review & editing1Hökelmann Anita ConceptualizationProject administrationSupervisionWriting – review & editing2Lessmann Volkmar ResourcesSupervision34Kaufmann Joern Data curationFormal analysisMethodologySoftwareWriting – review & editing5Brigadski Tanja Data curationFormal analysisMethodologyVisualizationWriting – review & editing34Müller Patrick Data curationMethodologyVisualization1Müller Notger G. Project administrationWriting – original draft1451 
+German Center for neurodegenerative disorderssss (DZNE), Magdeburg, Saxony-Anhalt, Germany2 
+Institute for Sport Science, Otto-von-Guericke University, Magdeburg, Saxony-Anhalt, Germany3 
+Institute for Physiology, Magdeburg, Saxony-Anhalt, Germany4 
+Center of Behavioral Brain Sciences (CBBS), Magdeburg, Saxony-Anhalt, Germany5 
+University Clinic for Neurology, Magdeburg, Saxony Anhalt, GermanyBuchowski Maciej S. EditorVanderbilt University, UNITED STATESCompeting Interests: The authors have declared that no competing interests exist.
+
+* E-mail: kathrin.rehfeld@ovgu.dbche gene gene1 7 2018 2018 13 7 e019663625 8 2017 9 4 2018 © 2018 Rehfeld et al2018Rehfeld et alThis is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.Animal research indicates that a combination of physical activity and sensory enrichment has the largest and the only sustaining effect on adult neuroplasticity. Dancing has been suggested as a human homologue to this combined intervention as it poses demands on both physical and cognitive functions. For the present exploratory study, we designed an especially challenging dance program in which our elderly participants constantly had to learn novel and increasingly difficult choreographies. This six-month-long program was compared to conventional fitness training matched for intensity. An extensive pre/post-assessment was performed on the 38 participants (63–80 y), covering general cognition, attention, memory, postural and cardio-respiratory performance, neurotrophic factors and–most crucially–structural MRI using an exploratory analysis. For analysis of MRI data, a new method of voxel-based morphometry (VBM) designed specifically for pairwise longitudinal group comparisons was employed. Both interventions increased physical fitness to the same extent. Pronounced differences were seen in the effects on brain volumes: Dancing compared to conventional fitness activity led to larger volume increases in more brain areas, including the cingulate cortex, insula, corpus callosum and sensorimotor cortex. Only dancing was associated with an increase in plasma BDNF levels. Regarding cognition, both groups improved in attention and spatial memory, but no significant group differences emerged. The latter finding may indicate that cognitive benefits may develop later and after structural brain changes have taken place. The present results recommend our challenging dance program as an effective measure to counteract detrimental effects of aging on the brain.
+
+The authors received no specific funding for this work. Data AvailabilityAll relevant data are within the paper and its Supporting Information files.Data Availability
+All relevant data are within the paper and its Supporting Information files.
+==== Body
+Introduction
+Aging is associated with a reduction in brain volumes, mainly in the prefrontal and temporal cortices. Regions such as the occipital cortex, on the other hand, show relatively few alterations throughout the lifespan [1,2]. The changes affect both gray [2,3] and white matter [4]. The cortical volume decrease (i.e., atrophy) is not primarily caused by a loss of neurons but is due to an age-related shrinking of cells and reduced synaptic density [2,5]. In white matter, aging generates axonal deflections, resulting in defective neuronal transmission. Again, the most deflections are observed in the prefrontal cortex [6] and are associated with working memory and executive dysfunction [7].
+
+These age-related changes, however, are not inevitable. It has become clear over the past several years that the aging brain is capable of neuroplasticity. This raises the possibility of counteracting the detrimental effects of aging on the brain. Most studies in this regard have investigated the effects of physical fitness on the aging brain. For example, Colcombe et al. (2006) reported that six months of aerobic training, in comparison to an anaerobic stretching program, led to a significant volume increase at multiple sites of the elderly subjects’ brains [8]. Others found volume and perfusion of the hippocampus, a brain region crucial for memory consolidation, to be related to the physical fitness levels of seniors [9, 10, 11]. It has been suggested that this adult neuroplasticity is mediated by BDNF, a neurotrophic factor that is also found in human blood [12, 13]. BDNF is an important growth factor supporting multiple functions in the central nervous system, including synaptic plasticity [14, 15, 16, 17, 18]. It has been suggested that release of BDNF from the brain is the source for circulating BDNF after physical exercise [19, 20]. An increase in circulating BDNF levels due to physical exercise has already been investigated by different groups [21] and seems to depend on exercise intensity and the type of training [22, 23, 24]. Erickson et al. (2011), for instance, demonstrate that increased hippocampal volume is associated with a greater volume of serum BDNF in seniors engaged in one year of aerobic training. From animal research, it is known that a combination of physical exercise and sensory enrichment has the strongest impact on neuroplasticity [25, 26]. Moreover, only this combination guarantees that newborn neurons survive in the long run [26]. For humans, dancing has been suggested as a homologue of this combined training, as it involves sensory, motor and cognitive challenges [27, 28]. To the best of our knowledge, only three published studies have assessed the possible impact of dancing on the brain so far [29, 30, 31]. However, these studies were cross-sectional observational studies that compared the brains of professional dancers to those of non-professionals. With such studies, there is an inevitable possibility that life-style factors other than those of interest contributed to the observed differences. Moreover, professional dancing is hardly comparable to what can be achieved in untrained healthy seniors. Therefore, in the current study, we designed a novel dance program that, on the one hand, was tailored to the needs of healthy seniors (e.g., safety) but, on the other hand, was designed to continuously challenge them by introducing new and increasingly difficult choreographies throughout the intervention. The effects of this dancing program were compared with an active, not passive, well-established sport fitness program, as we wanted to test whether our new intervention is truly superior to conventional ones. Hence, the control group engaged in sportive exercises that involved mainly repetitive exercises such as cycling. These activities were comparable regarding their cardiovascular demands but not their cognitive and coordinative demands. With this approach, we should be able to distinguish the specific effects of the dance training program from other factors, especially physical fitness. Consistent with this approach, on the brain level, we made use of a new symmetric VBM analysis method especially designed to compare longitudinal group differences.
+
+Materials and methods
+Subjects
+Approval for the study was obtained from the ethics committee of the Otto-von-Guericke University, Magdeburg. All subjects signed a written informed consent and received payment for their participation. This study has been registered subsequently at DRKS (DRKS00012605), a WHO-accepted platform, in terms of omission (S1, S2 and S3 Files). The authors confirm that all ongoing and related trials for this intervention are registered. Sixty-two normal volunteers, who responded to a local advertisement, were screened. Subjects with any neurological condition, metallic implants, claustrophobia, tinnitus, BMI ≤30, high blood pressure (systolic≤140 mmHg), diabetes mellitus, intensive physical engagement (more than 1 hour/week) and abnormal performance in a cognitive screening test (MMSE < 27)[32] and a test devoted to depressive symptoms (BDI-II > 13) [33] were excluded. Fifty-two seniors (25 males; 27 females) aged 63–80 years were then randomly assigned to the experimental dance group (DG) and the control sport group (SG) controlling for age, MMSE status and physical fitness. We had some drop-outs during the training period (Fig 1), including subjects who did not reach the adherence rate of 70% (6 subjects) or got seriously sick (6 subjects) or who were unsatisfied with the group assignment (2 subjects). This left us with 38 complete data sets (S1 Table).
+
+10.1371/journal.pone.0196636.g001Fig 1 Flow chart of the study design.
+After all drop outs, we compared the data from 20 individuals in the experimental dance group with the data sets from 18 sportspersons in the control group.
+
+Interventions
+The training conditions in both groups were almost identical regarding intensity, frequency and duration. We also controlled for psychosocial effects by providing a group-based program in both study arms. Furthermore, the SG also enjoyed musical accompaniment. Both interventions occurred twice a week, lasted 90 minutes per session and were provided for six months. To control for the conditional load in both groups, we measured the heart frequency in every single training session after warm-up twice: during the main part and after cool down.
+
+Dance intervention
+A qualified dance instructor supervised every training session. The focus of this program was on continuous learning of new movement patterns and choreographies, thereby including coordination training and learning of specific dancing skills. Subjects were trained to accurately memorize and access different rhythms and step sequences in space, all under accuracy and time pressure. In brief, the dance intervention was divided into two blocks, each lasting three months. Each block comprised the teaching of choreographies of five different genres: line dance, jazz dance, rock ‘n’ roll, Latin-American dance and square dance. Coordinative demands and time pressure were increased in the second block by demanding more complex dance moves and introducing more beats per minute in the music.
+
+Sport intervention
+The SG trained according to scientific guidelines and recommendations of health sports [34] and was also supervised by a qualified trainer. Unlike the dancers, SG participants performed the same exercises repeatedly. Each session included three different units: endurance training, strength-endurance training and flexibility training. Each unit lasted 20 minutes. The endurance training was performed on bicycle ergometers with the intensity adjusted to the individual training heart frequency. The strength-endurance unit implied training with equipment such as barbells, rubber bands, Redondo balls, gymnastic sticks and fitness balls. We avoided combined arm and leg movements in order to keep coordinative demands low.
+
+Structural MRI scanning protocol
+Magnetic resonance imaging was performed on a 3 Tesla Siemens MAGNETOM Verio scanner (Syngo MR B17). A 3-D structural MRI was acquired of each subject using a T-1-weighted MPRAGE sequence (224 sagittal slices, voxel size: 0.8 x 0.8 x 0.8 mm3, TR: 2500 ms, TE: 3,47 ms, TI: 1000 ms, flip angle: 7°).
+
+Voxel-based morphometry for pairwise longitudinal group comparison
+Since systematic bias in longitudinal image registration has recently become an issue, we used a relatively new VBM method implemented in SPM 12. This method has been developed especially for the analysis within longitudinal studies [35]. It counteracts biases from asymmetric processing, where within-subject image processing often treats one time-point differently from the others. With this new approach, it is possible to directly compare the effects of one intervention vs the other (dance vs sport) on gray and white matter structures [36].
+
+Analysis of BDNF
+The BDNF serum and plasma levels were determined using a sandwich ELISA system (BDNF DuoSets; R&D Systems, Wiesbaden, Germany) as described previously [40, 41]. Blood samples were taken in the morning under fasting conditions.
+
+Cognitive assessments
+We applied an extensive battery of cognitive tests that probed attention (alertness, Go/Nogo, divided attention, flexibility) [42], processing speed (trail making test) [43], verbal word fluency [44], short-term and working memory (digit span forward and backward of the Wechsler-Memory Scale) [45], verbal episodic memory (verbal learning and memory task) [46] and visuospatial memory (Rey-Osterrieth-Complex-Figure Test) [47].
+
+Physical fitness assessment
+We employed the Physical Working Capacity 130 Test (PWC130) on a bicycle ergometer to assess endurance-related fitness. The test reflects the linear relationship between the heart rate during submaximal exercise and exercise load and highly correlates to VO2max [48].
+
+Statistical analysis
+MRI data processing and analysis
+Before preprocessing, all structural images were checked for artifacts, and the center point was placed on the anterior commissure. T1-weighted images of baseline and post measures of each subject were taken to run a pairwise longitudinal registration. The second step included the segmentation of gray and white matter as well of cerebral cerebral cerebral cerebral spinal fluid for all average images. To measure volumetric changes in gray and white matter, every average image of each subject was disguised with the 3-D segmented maps of gray and white matter. Subsequently, spatial normalization using DARTEL (Diffeomorphic Anatomical Registration Through Exponentiated Lie Algebra) [36] was applied in the standardized MNI space. The normalized, segmented images were smoothed using an 8-mm FWHM isotropic Gaussian kernel. For each subject, normalized and smoothed images displaying volume changes in gray and white matter were created. Since we were especially interested in group differences, we investigated only average images for each individual, as in previous studies [37]. Group analyses using t-tests for independent samples compared volume changes in both gray and white matter between the two intervention groups. Co-variables such as age, sex and intracranial volume were entered in the analysis. For both groups, aligned t-contrasts (dance>sport; sport>dance) were calculated. As in previous longitudinal studies [38, 39], we applied a threshold of p< 0.001 (uncorrected) across the whole brain with a minimal cluster size of 50 voxel for gray and white matter.
+
+Cognitive and physical data
+Explorative analysis for cognitive and physical data was performed using SPSS (SPSS 22 Inc./IBM). Intervention effects were tested using repeated-measurement ANOVAS with group (dance, sport) as the between-subject factor and time (pre, post) as the within-subject factor.
+
+Results
+To assess baseline differences between the dance and sport groups we analyzed gray and whiter matter volume using voxel-based morphometry. Two-sample t-tests revealed no significant group differences. Baseline values of gray (p = .340) and white matter volume (p = .497) were similar for both groups and did not differ.
+
+Gray matter changes
+After the intervention, compared to the SG, DG participants showed significantly larger volumes in multiple frontal and temporal cortical areas, including the anterior und medial cingulate cortex, the left supplementary motor area, the left precentral gyrus, the left medial frontal gyrus, the left insula, the left superior temporal gyrus and the left postcentral gyrus. The red-colored regions in Fig 2 give an overview of these brain areas. The participants from the SG showed greater volume increases compared to the dancers in occipital and cerebellar regions. These included the primary visual cortex, the left lingual gyrus, the right fusiform gyrus, the right temporal pole and the right lobe of the cerebellum. The blue-colored regions in Fig 2 give an overview of these brain regions. The corresponding MNI-coordinates and specific values for the contrast dance > sport and sport > dance are presented in S2 Table.
+
+10.1371/journal.pone.0196636.g002Fig 2 Gray matter volume increases for the contrast dance > sport (red-colored) and for the contrast sport > dance (blue-colored).
+Annotation. ACC: anterior cingulate cortex, MCC: medial cingulate cortex, SMA: supplementary motor area, V1: primary visual cortex.
+
+White matter changes
+Participants from the DG demonstrated larger volume increases in the truncus and splenium of the corpus callosum. An increased volume was also observed in the right and left frontal and right parietal white matter. These regions are presented in Fig 3. The SG showed greater volume increases than the dancers in the right temporal and right occipital white matter. Further information about MNI-coordinates and specific values for contrast dance > sport and sport > dance is given in S3 Table.
+
+10.1371/journal.pone.0196636.g003Fig 3 Comparison of white matter volume increases for the contrast dance > sport (red-colored) and for the contrast sport > dance (blue-colored).
+Annotation. AWS: anterior white matter, OWS: occipital white matter, TWS: temporal white matter.
+
+Brain-derived neurotrophic factor (BDNF)
+Whereas no intervention effects were observed in BDNF serum values, the plasma values showed an increase after dance training. This is confirmed by a time x group interaction with F(1,35) = 4,3; p = 0.046; η2 = ,115. Although the dance group started with a lower plasma BDNF level, a t-test did not reveal a significant between-group difference at baseline (S4 Table). To exclude interindividual variations, we calculated intraindividual changes in BDNF levels after intervention. Again, DG participants showed significantly larger increases in plasma BDNF level than SG participants (Fig 4).
+
+10.1371/journal.pone.0196636.g004Fig 4 Intraindividual changes in plasma BDNF level after intervention.
+As it is evident from the figure, the increase in BDNF level was significantly increased in the DG compared with the SG (Mann-Whitney’s U-test, p < 0.018).
+
+Cognitive results
+We found a main effect of time for alertness with acoustic cues (F (1,37) = 9,48; p = .004; η2 = ,218) but no time x group interaction. Visuospatial memory improved after both trainings, demonstrated by a main effect of time for immediate (F(1,37) = 38,04; p < .001; η2 = ,54) as well as for delayed recall (F(1,37) = 28,37; p < .001; η2 = ,455). There was, however, no significant group x time interaction (all p-values > 0.6). Other cognitive functions did not change in either group (all p-values > 0.28). For detailed information see S5, S6 and S7 Tables.
+
+Physical fitness results
+After six months of training, both groups enhanced their aerobic fitness, indicated by a significant main effect of time for the PWC 130 test (F(1,32) = 11,4; p = 0.002; η2 = ,275). No group differences emerged.
+
+Discussion
+This study examined the effects of a specially designed dance training program requiring constant learning of new choreographies compared to a conventional sportive fitness training with mainly repetitive exercises on brain structure and function in healthy seniors. We used a new voxel-based morphometry approach specifically designed for a pairwise longitudinal group comparison. Both groups improved their fitness levels. However, as there was no group difference, the observed differences in brain plasticity cannot simply be attributed to physical fitness but must reflect the specific components of the intervention programs.
+
+Gray matter changes in dancers
+In general, dancing induced more wide-spread gray matter increases than the sportive control program. The dancers showed gray matter volume increases after training in the anterior and medial cingulate cortex, in the left supplementary motor area, in the left sided precentral gyrus, in the left medial frontal gyrus, in the left superior temporal gyrus, in the left insula and in the left post-central gyrus.
+
+The anterior cingulate cortex and the medial frontal gyri are mainly associated with working memory [49, 50]. These areas also form the basis of executive functions, cognitive control and attention regulation. In addition, the cingulate gyrus is also a part of the limbic system and is engaged in the storage of new information in long-term-memory, as well as in the retrieval of stored information [50]. In the insula, the networks of working memory and attention overlap and potentially interact [51, 52]. Dancing poses demands on both attention and memory. Our dancing program was intended to keep the dancers in a constant learning process by confronting them continuously with novel motion sequences. They had to attentively follow the movements of the instructor to retain, retrieve and perform the choreographies under several conditions of pressure. Since the genre or the dancing style was changed every second week, no monotony could evolve. Rather this approach placed high demands on attentional and memory processes, especially working memory [53]. These cognitive functions usually underlie an age-related degradation making the results especially promising with respect to a preventive potential.
+
+Enhanced volumes after dance training were also seen in motor and somatosensory areas. Among these were the precentral gyri and the supplementary motor area. These areas have a preprocessing and executive function within the motor system [54, 55]. Again, the increased volumes of these regions can be attributed to the complexity of the dance movement patterns. The simultaneous use of different body parts for different rhythms promotes the coordination of the whole body. In addition, the changing tempi of the music induce a dynamic and temporal variability in the execution of partial (segmented) and whole-body movements. Dancing also increased the volume of the postcentral gyrus. In this area, somatosensory fibers end, which convey information from proprioceptive organs such as neuromuscular spindles, joint and sinew receptors. Other than the fitness program, our dancing program involved manifold steps and constant shifts of balance and regular turns. Hence, it can be assumed that body movement perception was trained as well as the perception of the location and position of the body and body segments to each other in space. This kind of feedback (reafference) to the cortex is needed to align and refine movement processes.
+
+Additionally, the superior temporal gyrus displayed an increased gray matter volume after six months of dance training. This part of the temporal lobe is associated with episodic memory and deteriorates early in Alzheimer’s disease [8]. Furthermore, it is closely linked to the adjacent superior temporal sulcus, which is crucial for auditory short-term memory [56] and audio-visual integration [57, 58]. While learning to dance, participants needed to keep the verbal instructions of the teacher in mind. Another important aspect constitutes the audio-visual integration of stimuli because dancing involves multisensory stimulation with visual, sensory and auditory input. For example, dancers have to visually observe and sense their movements while they listen to music and have to set these pieces of information in accordance with each other.
+
+White matter changes in dancers
+White matter volume increases associated with dancing were seen in close spatial proximity to the cortical changes in frontal and parietal parts of the brains. Most outstanding was the enlargement of the corpus callosum, which carries the largest part of the commissure fibers and connects nearly all parts of the hemispheres. Hence, the corpus callosum ensures the communication between both cerebral hemispheres. Aging leads to degradation of this region, a process that has been associated with age-related loss in cognitive performance [59]. The present findings indicate that dancing can intensify the connectivity and interaction between both cerebral hemispheres. This appears plausible given that different motor, somatosensory and cognitive areas have to communicate in order to accomplish the complex task of dancing.
+
+Brain changes after sport training
+Compared to dancing, the completion of the sport program led to fewer and smaller brain volume increases. For both white and gray matter, they were seen mainly in the cerebellum and higher visual and adjacent areas. The increased volume in the cerebellum seems plausible. Compared to dancing, the movements of the sport group had a cyclic and repetitive character. After the initial phase of training, these routines hardly required any conscious control; instead, they were performed automatically [28]. The cerebellum is crucial for unconscious planning and execution of movements [60]. Furthermore, together with the basal ganglia, it constitutes the basis of procedural memory [61, 62]. In procedural memory, the retrieval of movement programs does not underlie conscious cognitive control and does not require focused attention. In sum, in contrast to dancing, the fitness training required less cognitive resources.
+
+The volume change in visual areas including the right fusiform gyrus came rather unexpectedly. Initially, it is unclear why fitness training should boost areas related to visual perception, especially that of faces, more than dancing [63]. However, as outlined above, dancing stresses audio-visual integration rather than visual perception per se. The fitness training, on the other hand, with its low cognitive demands, may have seduced participants to focus their attention on visual input–especially the faces of the other participants.
+
+Possible neurophysiological basis of the observed volume changes
+Animal models have suggested that age limits the capacity for adaptive changes related to dynamic neural network modulations induced by environmental and intrinsic changes [64]. On the other hand, it is known that new neurons are generated in the vertebrate brain throughout the life span [65]. This neurogenesis increases with physical exercise and occurs in the hippocampus as well as in the subventricular zone around the lateral ventricles [66]. However, a large fraction of the new neurons does not survive [26]. It was stated that while exercise increases the rate of neurogenesis, environmental enrichment increases the ratio of new neurons that survive and get incorporated into the lattice of the existing neural network [67]. In this respect, dancing, which can be considered a combination of exercise and sensory enrichment, may have a similar potential for inducing long-lasting survival of newly created neurons. BDNF may be a possible mediating factor of adult neuroplasticity [13]. In the present study, BDNF plasma levels increased during the dance training. BDNF is known to be important for synaptogenesis, dendritogenesis as well as neurogenesis [14, 15, 16, 17, 18]. Activity-dependent release of BDNF during dancing, a training program that involves attention and memory process could underlie the observed volume increases of gray matter. In Alzheimer’s disease, known for its neurodegenerative process and cognitive decline, BDNF levels in the brain and also in the blood were found to be significantly reduced [68]. Therefore, the observed increase in gray matter volume associated with the increase in circulating BDNF support the idea of BDNF-induced structural changes in the brain.
+
+Cognitive effects
+Compared with the effects on the brain, the effects of the trainings on cognitive functions were rather low and showed no significant differences between the groups. Improvements of some attentional processes and of visual spatial memory were observed in both groups. This raises the general question of why the effects on cognition were so small compared to those induced in the brain. Two explanations will be discussed: First, the tests were not sensitive for revealing changes in cognitive processes. Second, the brain changes may precede the changes in measurable behavior, so that the latter would have required a longer intervention program. This assumption is currently under investigation in our laboratory.
+
+Limitations
+Like other studies on training induced neuroplasticity [38, 39], our MRI results are based on uncorrected data because with the small sample size, the results would not have survived traditional corrections such as FDR. Next, we tested highly selected, healthy and motivated samples of elder adults; hence, whether the results generalize to the elderly population as a whole needs to be investigated in future studies. Lastly, the assessment of subcortical structures with VBM has been criticized as being less reliable [69]. Future studies should make use of DTI white matter tractography to assess white matter changes.
+
+Conclusions
+We were able to demonstrate in a randomized intervention trial that dancing has a strong potential to induce more positive effects on brain volumes in elderly people. Previous research has mainly focused on other, more monotonic aerobic exercises such as running, walking, cycling (endurance training) or on anaerobic strength and stretching exercises. Compared to these standard fitness programs, our specially designed six-month dancing program increased volumes in regions which relate to higher cognitive processes such as working memory and attention and which are especially affected by age-related decline. In our view, the more pronounced effects of dancing on the human brain can be explained by the fact that dancing promotes a large number of processes at the same time: spatial orientation, movement coordination, balance, endurance, interaction and communication. Furthermore, by presenting our participants with ever new choreographies, our program induced a constant learning processes. This dance training program does not need special requirements, has a low risk of accidents and can be implemented at low costs. Therefore, it endorses itself as an appropriate measure to counteract age-related declines in brain structure.
+
+Supporting information
+S1 Table Characteristics of the dance and sport group (M = Mean; SD = Standard deviation).
+Annotation. BMI = Body-Mass-Index; BDI-II = Becks-Depressions-Inventar II; MMSE = Mini Mental State Examination.
+
+(PDF)
+
+Click here for additional data file.
+
+ S2 Table MNI-coordinates and statistical values for gray matter.
+Annotation. lGTS = left gyrus temporalis superior, lGPre = left gyrus precentralis, MCC = medial cingular cortex, lSMA = left supplementary-motor area, lGPo = left gyrus postcentralis, ACC = anterior cingular cortex, lGFM = left gyrus frontalis medius, rGF = right gyrus fusiformis, lGL = left gyrus lingualis, rTP = right temporalpol, V1 = primary visual cortex, ***p ≤ .001 (uncorrected).
+
+(PDF)
+
+Click here for additional data file.
+
+ S3 Table MNI-coordinates and statistical values for white matter.
+Annotation. CC-T = truncus of corpus callosum, CC-S = splenium of corpus callosum, AWS = anterior white matter, PWS = posterior white matter, TWS = temporal white matter, OWS = occipital white matter, ***p ≤ .001 (uncorrected).
+
+(PDF)
+
+Click here for additional data file.
+
+ S4 Table BDNF serum and plasma levels before and after intervention.
+Annotation. Repeated-measures ANOVA following post hoc pairwise comparison (Bonferroni).
+
+(PDF)
+
+Click here for additional data file.
+
+ S5 Table Mean and standard deviation of performances in the domain attention in both groups.
+Annotation. Testbattery for Attention: Alter_vis = alertness (visual), Alert_aud = alertness (+ auditive distractor), Go/NoGo = selective attention (RT = reaction time; F = false; M = missed), D_Att_vis = devided attention (visual), Dev_Att_aud = devided attention (auditive), Flex = flexibility; ZVT = Zahlenverbindungstest (trail making; processing speed), level of significance: p < .05.
+
+(PDF)
+
+Click here for additional data file.
+
+ S6 Table Mean and standard deviation of performances in the domain memory in both groups.
+Annotation. VLMT = Verbaler Lern-und Merkfähigkeitstest (verbal learning and memory test): VLMT-L = Learning, VMLT_RI = recall after interference list, VLMT_DR = delayed recall, VLMT_REC = recognition; ROCFT = Rey-Osterrieth Complex Figure Test, ROCFT_C = copy, ROCFT_IR = immeadiate recall, ROCFT_DR = delayed recall, ROCFT_REC = recognition; WMS_DS_fw = Wechselr-Memory Scale (Digit Span forward); pt = points.
+
+(PDF)
+
+Click here for additional data file.
+
+ S7 Table Mean and standard deviation of performances in the domain executive functions in both groups.
+Annotation. WMS_DS_bw = Wechsler Memory Scale (Digit Span backward); RWT = Regensburger Wortflüssigkeitstest (verbal word fluency), RWT_M-Words = formallexikal word fluency, RWT_G-R-words = formallexikal. shift between categories, RWT_animals = semantic word fluency, RWT_Cl-Fl = Clothing and flowers (semantic shift of category).
+
+(PDF)
+
+Click here for additional data file.
+
+ S1 File TREND Checklist.
+(PDF)
+
+Click here for additional data file.
+
+ S2 File Study protocol (DRKS00012605).
+(PDF)
+
+Click here for additional data file.
+
+ S3 File Study protocol approved by ethical commitee.
+(DOCX)
+
+Click here for additional data file.

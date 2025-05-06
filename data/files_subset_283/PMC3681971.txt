@@ -1,0 +1,210 @@
+==== Front
+PLoS OnePLoS ONEplosplosonePLoS ONbche gene gene932-6203Public Library of Science San Francisco, USA 23785466PONE-D-13-0715910.1371/journal.pone.0066022Research ArticleMedicineAnatomy and PhysiologyNeurological Systemcentral nervous systemNeural PathwaysDiagnostic MedicineNeurologyneurodegenerative disorderssssNeuroimagingParkinson DiseaseRadiologyDiagnostic RadiologyPhysicsMedical PhysicsAssessment of Global and Regional Diffusion Changes along White Matter Tracts in Parkinsonian Disorders by MR Tractography Diffusion Changes in Parkinsonian DisordersSurova Yulia 
+1
+
+2
+
+*
+Szczepankiewicz Filip 
+3
+Lätt Jimmy 
+4
+Nilsson Markus 
+5
+Eriksson Bengt 
+1
+
+6
+Leemans Alexander 
+7
+Hansson Oskar 
+1
+
+6
+van Westen Danielle 
+4
+
+8
+Nilsson Christer 
+6
+
+1 
+Department of Clinical Sciences, Neurology, Lund University, Lund, Sweden
+
+2 
+Department of Neurology Lund, Skåne University Hospital, Lund, Sweden
+
+3 
+Department of Medical Radiation Physics, Lund University, Lund, Sweden
+
+4 
+Center for Medical Imaging and Physiology, Skåne University Hospital, Lund, Sweden
+
+5 
+Lund University Bioimaging Center, Lund University, Lund, Sweden
+
+6 
+Clinical Memory Research Unit, Department of Clinical Sciences Malmö, Lund University, Sweden
+
+7 
+Image Sciences Institute, University Medical Center Utrecht, Utrecht, The Netherlands
+
+8 
+Department of Clinical Sciences, Diagnostic Radiology, Lund University, Lund, Sweden
+Zhan Wang Editor
+University of Maryland, College Park, United States of America
+* E-mail: yulia.surova@med.lu.seCompeting Interests: The authors have declared that no competing interests exist.
+
+Conceived and designed the experiments: CN DvW OH. Performed the experiments: YS FS. Analyzed the data: YS. Contributed reagents/materials/analysis tools: CN BE DvW JL MN AL OH. Wrote the paper: YS CN.
+
+2013 13 6 2013 8 6 e6602216 2 2013 30 4 2013 © 2013 Surova et al2013Surova et alThis is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.Purpose
+The aim of the study was to determine the usefulness of diffusion tensor tractography (DTT) in parkinsonian disorders using a recently developed method for normalization of diffusion data and tract size along white matter tracts. Furthermore, the use of DTT in selected white matter tracts for differential diagnosis was assessed.
+
+Methods
+We quantified global and regional diffusion parameters in major white matter tracts in patients with multiple system atrophy (MSA), progressive nuclear palsy (PSP), idiopathic Parkinson’s disease (IPD) and healthy controls). Diffusion tensor imaging data sets with whole brain coverage were acquired at 3 T using 48 diffusion encoding directions and a voxel size of 2×2×2 mm3. DTT of the corpus callosum (CC), cingulum (CG), corticospinal tract (CST) and middle cerebellar peduncles (MCP) was performed using multiple regions of interest. Regional evaluation comprised projection of fractional anisotropy (FA), mean diffusivity (MD), radial diffusivity (RD) and the apparent area coefficient (AAC) onto a calculated mean tract and extraction of their values along each structure.
+
+Results
+There were significant changes of global DTT parameters in the CST (MSA and PSP), CC (PSP) and CG (PSP). Consistent tract-specific variations in DTT parameters could be seen along each tract in the different patient groups and controls. Regional analysis demonstrated significant changes in the anterior CC (MD, RD and FA), CST (MD) and CG (AAC) of patients with PSP compared to controls. Increased MD in CC and CST, as well as decreased AAC in CG, was correlated with a diagnosis of PSP compared to IPD.
+
+Conclusions
+DTT can be used for demonstrating disease-specific regional white matter changes in parkinsonian disorders. The anterior portion of the CC was identified as a promising region for detection of neurodegenerative changes in patients with PSP, as well as for differential diagnosis between PSP and IPD.
+
+This research was supported by the Swedish Parkinson foundation, the Swedish Science Council grants through the Linnaeus project BAGADILICO, the Swedish Parkinson Academy and research funds from province of Skåne University Hospital and state grants (inclusively ALF) and in part by the Swedish Cancer Society (GrantNo CAN 2009/1076 and CAN 2012/597). The funders had no role in study design, data collection and analysis, decision to publish and preparation of the manuscript.
+==== Body
+Introduction
+Idiopathic Parkinson’s disease (IPD), progressive supranuclear palsy (PSP) and multiple system atrophy (MSA), are the most common neurodegenerative disorderss entities in what is often called parkinsonian disorders. Outside specialized centers and in the early stages of the diseases, clinical differential diagnosis can often be difficult because of similarity of symptoms and lack of diagnostic markers. Several imaging methods have been shown to be of benefit in the differential diagnosis of different parkinsonian disorders [1]. Diffusion tensor imaging (DTI) [2]–[3] with calculation of the fractional anisotropy (FA) and mean diffusivity (MD) have been used in the diagnostic evaluation of IPD, PSP and MSA [4]–[10]. Measurement of MD in basal ganglia structures can differentiate between IPD and MSA/PSP, while FA and MD values within specific white matter tracts can be helpful in differentiating PSP and the parkinsonian variant of MSA (MSA-P) from both each other and from IPD [11]–[19]. Few studies have been performed using diffusion tensor tractography (DTT) [20] in parkinsonian disorders. In a pilot study, we have previously shown that disease-specific degenerative changes can be demonstrated by DTT in MSA and PSP [4] and some of these findings have recently been confirmed [21]–[22]. However, global measurements of diffusion parameters in whole white matter tracts might overlook regional changes along a tract [23]–[24].
+
+The aim of the present study was to investigate diffusion properties in major white matter tracts of patients with different parkinsonian disorders, employing DTT with an alternative processing scheme to be able to investigate both global and regional changes in larger nerve tracts [25]–[32]. We focused on three conventional parameters: FA, MD and radial diffusivity (RD) as well as a new measure of tract cross-sectional surface area - the apparent area coefficient (AAC) [30]. We demonstrate both tract-specific and disease-specific variations in DTT parameters along white matter tracts, which might form a basis for future studies of differential diagnosis and disease monitoring in parkinsonian disorders.
+
+Materials and Methods
+Ethics Statement
+The Ethics Committee of Lund University approved this study. All study participants gave written consent for participation in the study, which was performed in accordance with the provisions of the Helsinki Declaration.
+
+Subjects
+The study included 54 subjects: thirty-eight patients presenting parkinsonian syndromes and sixteen healthy controls. Patients were recruited from the Neurology and Memory Clinics at Skåne University Hospital and Landskrona Hospital, Sweden. Patients with a clinical diagnosis of probable IPD (n = 10), PSP (n = 16) and MSA-P (n = 12) according to established criteria [33]–[35] were included in the study. Clinical diagnoses were made by two neurologists experienced in parkinsonian disorders (C.N. and B.E). Out of the 16 patients with a diagnosis of probable PSP, all presented gradually progressive disorders with an age of onset 40 years or older, symmetry of symptoms (rigidity, bradykinesia); all patients presented both gaze palsy and prominent postural instability with falls within the first year of disease onset, and no response to dopaminergic drugs. All patients with MSA-P showed progressive akinesia and rigidity, urinary incontinence or incomplete bladder emptying after 1 year of disease onset as well as orthostatic hypotension, with no patients showing falls or gaze palsy in the first year of the disease. All patients with IPD showed good clinical improvement after administration of levodopa in respect to baseline conditions. Healthy controls matched for age and gender were recruited from the Swedish population registry. All healthy controls had a normal neurological examination and structural brain MRI, with no history of neurological or psychiatric disease.
+
+Data Acquisition
+A 3 T Philips MR scanner, equipped with an eight-channel head coil, was used for the study. DTI was performed using a single-shot EPI sequence with diffusion encoding in 48 directions (b values 0 and 800 s/mm2) [36]. A b-value of 800 s/mm2 was selected to shorten the acquisition times. While the most commonly used b-value is 1000 s/mm2, DTI is expected to work well with b-values at least in the range b = 700–1200 s/mm2. However, lower b-values are expected to result in slightly higher values of the mean diffusivity [37]. The reconstructed voxel size was 2×2×2 mm3, and 60 slices were acquired. In order to shorten acquisition time and reduce susceptibility distortions, a SENSE factor of 2.5 was applied in the phase-encoding direction (anterior–posterior). The acquisition time for the DTI sequence was 6 min 49 s. The axial slices in the DTI volume were aligned with the posterior outline of the cranial brain stem.
+
+Data Processing and Fibre Tracking
+Subject motion and eddy-current correction was performed in Elastix [38], as implemented in ExploreDTI [28], taking the b-matrix reorientation into account [39]. Whole-brain tractography was generated using ExploreDTI [28], with FA and angular threshold values of 0.2 and 30°, respectively. Multiple regions-of-interest (ROIs) were delineated on the directionally color-coded FA images, in order to extract three bilateral fibre structures: the middle cerebellar peduncle (MCP), the cingulum (CG), and the corticospinal tract (CST). In addition, the mid-sagittal segment (14 mm) of the corpus callosum (CC) was extracted. In addition to these four structures, the SCP and the ICP were also identified with the help of published DTI brain atlases [40]–[41]. However, the variability in tractography outcome of SCP and ICP was too high to permit any reliable analysis. As such, these structures were not considered for further investigation in this study.
+
+Tractography of the frontal and parietal cingulum (CG) on each side was performed using colour-coded FA-maps. First, two ROIs were placed in the transversal plane to select the anterior part of the CG, which runs parallel to the genu of the corpus callosum; the most rostral part was not included. Then four ROIs were placed in the coronal plane at equal intervals along the superior part of the CG. Finally, two ROIs were placed in the transversal plane defining the posterior CG where it arches around the splenium of the CC. The descending part of the CG was not included. The data for CG were excluded in two patients with MSA-P and one patient with PSP due to incomplete tracking.
+
+For the CST, we extracted the supratentorial portion of CST only, in order to limit variability caused by tracking over long distances [32]. For this purpose, three ROIs used as AND-gates in the tractography were placed in the axial plane, including the posterior limb of the internal capsule, centrum semiovale and the ipsilateral precentral gyrus (primary motor cortex), respectively. The CC was manually subdivided into five areas, according to Hofer’s scheme [42], although we treated CC3 and CC4 as one segment in the analysis. The anterior part of CC was defined as CC1–CC2, posterior – CC3–CC5. For the MCP two ROIs were placed: at the level of the pontine crossing fibres and at the level of the deep nuclei.
+
+In order to assess the variation of FA, MD, and RD along the white matter structures, the parameters were projected onto a calculated mean tract, which is a single tract that resembles the major features of each individual white matter structure in 3D space. This enables the evaluation of diffusion parameters as a function of position along the tract. The normalization was based on the position of the explicit landmarks. The method has been used previously [28], [30]. In principle, the method and workflow corresponds to the framework presented by Colby et al. [24], although no explicit tract resampling was performed. In addition to the diffusion parameters, we also calculated the cross-sectional area of the tract as a function of position, here denoted the apparent area coefficient (AAC) [30]. The value of the AAC was calculated from the track points passing through cross-sections of the tract, as shown in Fig. 1. FA, MD, RD and AAC will be referred to as DTT parameters. The CC was not analyzed in regard to AAC due to geometric limitations in the quantification of the structure’s apparent area along the mean track. Since we wanted to evaluate variations along the CC in an anterior-posterior direction the mean track of the CC was constructed differently than in the other pathways, i.e. with an orientation perpendicular to the fibre orientation. Thereby, the AAC, defined as the cross-sectional area of the tract in a plane with a normal given by the direction of the mean track, was not defined.
+
+10.1371/journal.pone.0066022.g001Figure 1 Schematic illustration of the method used to display the variation of the diffusion parameters along the tracts.
+Projection of diffusion parameters to a mean track resulted in individual parameter-versus-position plots (A), which were associated to the positions of the landmarks, shown as letters a-b-c in circles along the x-axis. The positions were normalized by interpolating the data so that the interval lengths a–b and b–c became equal in all individuals (B). Finally, the apparent area coefficient (AAC) of the tracts was calculated from cross sections of the tracts, where each individual track point (C, blue points) contributed to the total area coefficient with a weight of πr2, with r = 0.5 mm. Only non-overlapping parts of the subareas contributed to the total area coefficient.
+
+The mean values of FA, MD, RD and AAC from the tracts of the right and left hemisphere were treated as independent variables. In the cases where significant differences were found they were then included into a binary logistic regression analysis. This procedure was used as parkinsonian disorders affect both hemispheres, often asymmetrically, although there may be a similar extent of atrophy bilaterally in later stages. DTT parameters for the different groups were plotted as a function of the position along the mean track, with the distances between the anatomical landmarks scaled according to their average relative distance.
+
+Statistical Analysis
+Statistical analysis was performed with SPSS Statistics 20 for Windows (IBM Corporation, Somers, NY, USA). Differences between groups in demographic and clinical categorical variables were analyzed by Fisher’s Exact test. The Kruskall-Wallis test was used to compare average FA, MD, RD and AAC values in whole tracts between the PSP, MSA-P, IPD and control groups. Where significant differences were found, group comparisons were performed using the Mann–Whitney U-test. An adjustment for multiple comparisons between the 4 control/patient categories (i.e. 6 comparisons) was made, leading to an adjusted significance level of P = 0.008 using Bonferroni correction. The average median values for the DTI parameters from the corresponding whole tracts of both hemispheres were reported. For statistical evaluation of differences in regional diffusion data between diagnostic subgroups, Mann-Whitney U-test was performed for each point along each white matter tract. Comparisons were made between controls and the respective disease groups at a significance level of P<0.05. To further study the regional variation within the CC, MD and FA in the anterior and posterior parts of CC were compared. Bee swarm box plots were applied to display the data graphically.
+
+To study the ability of DTT measurements to distinguish IPD from PSP, univariate binary logistic regression analysis was performed with five diffusion parameter values that were significantly different between PSP and IPD, based on the results of Mann-Whitney U-test. All of these five models of binary logistic regression analysis were adjusted for age and sex. The sensitivity, specificity and the optimal cutoff level of DTI values chosen by the models were calculated with receiver operator characteristic curve analysis (ROC), as a measure of the usefulness of DTT in selected tracts as a diagnostic tool for individual cases.
+
+Results
+Demographic and clinical data of patients and controls are reported in Table 1. There were no significant differences in age, gender ratio or disease duration between the IPD, MSA-P and PSP groups.
+
+10.1371/journal.pone.0066022.t001Table 1 Demographic data and clinical diagnosis.
+	CTR (n = 16)	IPD (n = 10)	MSA-P (n = 12)	PSP (n = 16)	p	
+Sex female:male	7∶9	4∶6	8∶4	9∶7	0.583a
+	
+Age (years)	67 (63–73)	68 (59–70)	63 (56–75)	68 (65–72)	0.385b
+	
+Disease duration(years)	−	4.5 (2.0–7.5)	3.0 (2.2–5.0)	3.5 (2.2–4.0)	0.273b
+	
+ There were no significant differences in demographic data between the controls and the different disease groups. All values expressed as medians, values in parenthesis indicate 25–75 percentiles.
+
+a P values refer to Fisher’s Exact test,
+
+b P values refer to Kruskal-Wallis test, where controls were excluded from the group comparisons of disease duration. IPD, idiopathic Parkinson’s disease; PSP, progressive supranuclear palsy; MSA-P, multiple system atrophy, parkinsonian variant; CTR, healthy controls.
+
+Analysis of global values of DTT parameters was made by comparing median values in whole white matter tracts for the different disease groups. The most prominent differences were detected in FA, MD and RD values in the CC in patients with PSP compared with both IPD and controls. In addition, comparing PSP patients to IPD showed a significantly lower AAC in the CG and an increase of MD in the CST. There were no significant differences between PSP and MSA-P patients. We also found significantly higher AAC in the CG of patients with IPD compared to controls. MSA patients showed a significantly higher RD in the CST compared to IPD. There was an increase in MD and decrease in AAC in the MCP in MSA compared to IPD patients, which did not reach statistical significance. The median values of diffusion data and AAC for the whole tracts are summarized in Table 2.
+
+10.1371/journal.pone.0066022.t002Table 2 DTT parameters in white matter tracts.
+		Group	
+Tract	Parameter	CTR	IPD	MSA-P	PSP	
+CG	FA	0.50 (0.49–0.51)	0.51 (0.48–0.54)	0.47 (0.43–0.50)	0.46 (0.44–0.50)	
+	MD	0.83 (0.82–0.83)	0.83 (0.80–0.88)	0.84 (0.82–0.90)	0.85 (0.82–0.89)	
+	RD	0.58 (0.56–0.59)	0.57 (0.53–0.61)	0.62 (0.56–0.65)	0.62 (0.58–0.66)	
+	AAC	2.61 (2.51–2.78)	2.96c (2.72–3.04)	2.81 (2.36–2.99)	2.44be (2.27–2.72)	
+CST	FA	0.54 (0.53–0.55)	0.54 (0.54–0.57)	0.53 (0.51–0.54)	0.55 (0.53–0.58)	
+	MD	0.79 (0.78–0.82)	0.79 (0.77–0.80)	0.82 (0.80–0.84)	0.84abe (0.81–0.87)	
+	RD	0.52 (0.50–0.54)	0.52 (0.49–053)	0.55d (0.53–0.57)	0.55 (0.51–0.58)	
+	AAC	3.92 (3.59–4.70)	3.84 (3.60–4.22)	4.07 (3.82–4.61)	4.07 (3.59–4.47)	
+MCP	FA	0.61 (0.59–0.63)	0.59 (0.58–0.60)	0.58 (0.54–0.63)	0.59 (0.58–0.61)	
+	MD	0.74 (0.70–0.76)	0.72 (0.71–0.80)	0.80 (0.73–0.85)	0.77 (0.74–0.79)	
+	RD	0.43 (0.41–0.47)	0.44 (0.43–0.50)	0.46 (0.44–0.56)	0.47 (0.43–0.50)	
+	AAC	5.07 (4.77–5.27)	5.52 (4.92–5.69)	4.67 (4.38–5.27)	4.81 (4.41–5.14)	
+CC	FA	0.63 (0.60–0.65)	0.65 (0.62–0.67)	0.62 (0.60–0.63)	0.56ab (0.53–0.61)	
+	MD	1.04 (0.99–1.10)	1.02 (0.96–1.07)	1.06 (1.02–1.13)	1.15abe (1.08–1.26)	
+	RD	0.61 (0.56–0.69)	0.58 (0.52–0.64)	0.63 (0.59–0.69)	0.73ab (0.65–0.87)	
+ Fractional anisotropy (FA), mean and radial diffusivity (MD, RD, 10?−3 mmˆ2/s) and apparent area coefficient (AAC) values in major white matter tracts. The medians of diffusion parameters are presented. For paired structures (CG, cingulum, CST, corticospinal tract, MCP, middle cerebellar peduncles), all values are estimated medians from the left and right tracts; values in parenthesis indicate 25–75 percentiles.
+
+a CTR/PSP, P≤0.008;
+
+b IPD/PSP, P≤0.002;
+
+c CTR/IPD, P = 0,002;
+
+d IPD/MSA, P = 0.007, Mann-Whitney U test.
+
+e IPD/PSP, P<0.05, binary logistic regression analysis, age/sex adjusted. Abbreviations: IPD, idiopathic Parkinson’s disease; PSP, progressive supranuclear palsy; MSA-P, multiple system atrophy, parkinsonian variant; CTR, healthy controls.
+
+Concerning the regional analysis along white matter tracts, there were consistent variations of the DTT parameters along each tract, as determined by visual inspection, which were very similar in the different patient groups and controls. Each tract and parameter had its characteristic “2D-profile” along its length (Fig. 2). The exception was the diffusion values from CC in the PSP group that differed significantly in shape from the other groups (see below and Fig. 2). For all parameters, there were differences in FA and RD values between the left and right CG (Fig. 3) and, to a lesser degree, for MD in the CST (data not shown), which were consistent throughout the control and patient groups (Fig. 3). Although all statistically significant differences between controls and disease groups are depicted in Fig. 2, only continuous changes encompassing more than 2 cm along a tract were considered of significance for further analysis. There was a trend towards lower AAC in both the MSA and PSP groups in MCP, which was not significant (Fig. 2). In PSP, significant changes were seen for AAC in the CG and for MD in the CST. However, the most striking finding was a marked increase in MD and RD, and a corresponding reduction of FA, in the anterior and central parts of the CC in PSP.
+
+10.1371/journal.pone.0066022.g002Figure 2 Comparisons between diffusion parameters and apparent area coefficient (AAC) in patients with Parkinsons’s disease (IPD – blue lines), multiple system atrophy (MSA – green lines), progressive supranuclear palsy (PSP – red lines) and controls (CTR – black lines).
+The lines show the median of diffusion parameters as a function of distance. The colored area shows the 10–90% confidence interval of the median in CTR. Panel A-C show mean diffusivity (MD), fractional anisotropy (FA), radial diffusivity (RD) and AAC in the cingulum, corticospinal tract, middle cerebellar peduncles and the corpus callosum, respectively. Values for AAC could not be calculated for the corpus callosum (see Methods). Positions with significant difference from controls (P<0.05, Mann–Whitney U-test) along tracts are marked with horizontal bars placed just above the x-axis, color-coded according to disease. Significant differences extending continuously for more than five mm along a tract were found for AAC in the cingulum, MD in the corticospinal tract, and RD, MD and FA in the corpus callosum in PSP.
+
+10.1371/journal.pone.0066022.g003Figure 3 The plots show radial diffusivity (RD) and fractional anisotropy (FA) as functions of position along the cingulum (CG) (upper panels) and corticospinal tract (CST) (lower panels) from the right and left hemispheres in controls.
+Measurements from the right hemisphere are shown in blue and from the left side in red lines, respectively. The dashed and solid black lines represent the median value in each position of the left and right hand side tracts, respectively. The horizontal axis shows the position along CG in anterior – posterior direction. Distances 0–6 cm correspond approximately to the frontal part of the CG and 6–9 cm corresponds to the parietal part of the CG. For CST the horizontal axis shows the position along CST in inferior – superior direction. Distances 0–3 cm correspond approximately to the infracallosal part of the CST and 3–5 cm corresponds to the supracallosal part of the CST.
+
+Based on the Mann-Whitney U-test, five models of univariate binary logistic regression analysis were performed in order to test the potential of using diffusion parameters for differential diagnosis of IPD and PSP. AAC in the CG, MD in the CST, MD in the CC, RD in the CC and FA in the CC were included in the models, see Statistical analysis. A summary of the results is shown in Table 3, with details of each comparison given below. Logistic regression analysis confirmed that the AAC in the CG, the MD in CST and the MD in the CC could significantly (P<0.025) discriminate PSP from IPD (Table 3). The sensitivity and specificity for all these parameters, calculated using a ROC curve analysis, showed the optimal cutoff levels (with an area under the ROC curve of 0.85–0.88) to discriminate PSP from IPD with a sensitivity of 81–94% and a specificity of 80%. This correctly classified 80–87% of PSP and IPD subjects.
+
+10.1371/journal.pone.0066022.t003Table 3 Use of DTT parameters for differential diagnosis.
+Structure	Parameter	AUC (ROC)	Cutoff	Sensitivity, %	Specificity, %	Observed clinical diagnosis	Predicted	
+							Clinical diagnosis	Percentage correct diagnosis, %	Overall percentage correct diagnosis, %	
+							IPD	PSP			
+CG Whole*
+	AAC	0,88	2,730	87	80	IPD	8	2	80	80	
+						PSP	3	12	80		
+CST Whole*
+	MD	0,85	0,801	94	80	IPD	7	3	70	87	
+						PSP	3	13	81		
+CC Whole*
+	MD	0,85	1,072	81	80	IPD	7	3	70	81	
+						PSP	2	14	87		
+ Mean diffusivity (MD, 10?−3 mmˆ2/s) and apparent area coefficient (AAC) differentiating PSP from IPD. CG – cingulum, CST – corticospinal tract, CC – corpus callosum, PSP – progressive supranuclear palsy, AUC – area under curve, ROC – receiver operating characteristic analysis.
+
+* Significant differences between PSP and IPD, P<0,05, using binary logistic regression, adjusted for age and sex. There were no age/sex differences between IPD and PSP groups together with chosen MR parameters.
+
+To further evaluate the differences in regional values of diffusion parameters along white matter tracts demonstrated above, diffusion parameters from the anterior and posterior part of CC were compared separately. The MD in the anterior part of CC, tested in the model of binary logistic regression, age and sex adjusted, showed the same significant trend toward discrimination of PSP and IPD as the MD in the whole CC. MD in the posterior part of the CC did not reach significance in the binary logistic regression model. Bee swarm box plots showed substantial overlap between the different groups (Fig. 4). The controls also showed large variation of diffusion parameter values.
+
+10.1371/journal.pone.0066022.g004Figure 4 Beeswarm box-plot comparing mean diffusivity and fractional anisotropy in the anterior part of corpus callosum between patients with Parkinson’s disease, multiple system atrophy, progressive supranuclear palsy and controls.
+Horizontal lines that intersect the boxes are medians. The top of the boxes is the 75th percentile and the bottom the 25th percentile. The whiskers above and below boxes represent maximum and minimum values when there are no outliers. If outliers are present the whisker on the appropriate side is taken to 1.5×IQR from the quartile. Outliers are labeled with open circles.
+
+Discussion
+Diffusion tensor imaging has emerged as a powerful tool for detecting early degenerative changes in both normal aging [43]–[44] and neurodegenerative disorderss [45], [46]. Studies have shown that diffusion changes can be detected before atrophy or signal changes can be seen on standard MRI sequences [46]–[47]. It is therefore natural that DTI has been used to explore diffusion changes also in parkinsonian disorders [48]–[50].
+
+The first study that demonstrated diffusion changes in the parkinsonian brain was Yoshikawa et al. [50], using a ROI-based approach. They showed that by placing small ROIs along the presumed position of the nigrostriatal tract, reduced ADC and increased FA could be seen in both patients with IPD and PSP compared to controls. DTI with manual placement of ROIs has since then dominated and has been applied to both subcortical nuclei and white matter tracts, as reviewed above. Although most studies have focused on group differences between controls and disease groups, there have been attempts to determine cut-off values for diffusion parameters in specific structures that can aid in the differential diagnosis between IPD and atypical parkinsonian disorders such as MSA and PSP. While measurements of FA and MD in the putamen in most cases can differentiate MSA and PSP from IPD and controls [12], [51], other studies have targeted the middle and superior cerebellar peduncles to differentiate between MSA and PSP [4], [13], [52].
+
+Using DTI with a ROI-based approach is time-consuming and has the additional disadvantage of only capturing a small part of a white matter tract. With larger ROIs there is a risk that included voxels might contain signal from adjacent tissue including other tracts, nuclei or cerebral cerebral cerebral cerebral spinal fluid, a problem which becomes even more pronounced when investigating smaller white matter tracts [53]. In addition, ROI-based approaches also result in loss of data on local variations in diffusion parameters [23]. To address this issue some studies have used tract-based spatial statistics (TBSS) for analysis of DTI-data between groups [54]–[55]. TBSS captures regional variations along white matter tracts which can be correlated to clinical symptoms in comparisons between groups [55], but does not allow for specific analysis of tracts in individual patients.
+
+DTT allows for delineation and separate analysis of diffusion parameters and structure in discrete white matter tracts [24], [27], [28]. It has so far only been used in a limited number of studies in parkinsonian disorders [1], [4], [21], [23]. Although previous studies have demonstrated regional variations along normal white matter tracts as well as in neurodegenerative disorderss [23], [32], [55], most studies to date have used the mean value of diffusion parameters in the whole tract for analysis. In addition, a quantitative measure of tract size has largely been lacking.
+
+In this study, we applied a new approach for visualization and quantitative evaluation of DTT parameters along white matter tracts in patients with parkinsonian disorders as a function of distance from specific anatomical landmarks [27], [28], [31]. The procedure overcomes existing limitations of user-specified region definition or full-brain registration. The tracking takes only a few seconds on a standard PC and the whole process including ROI specifications, DTT parameter calculation, tracking, and storing fibres into a database takes a few minutes per subject. Our results demonstrate that the method is highly reproducible and captures known variations along specific white matter tracts. The difference between the right and left cingulum shown here has previously been demonstrated in healthy adults [56], as has variations along the corticospinal tract [32]. It is interesting that these variations change or disappear in PSP where the disease process often involves both these pathways. The numerical values for FA and MD in the whole tracts showed good agreement with published data from normal individuals in the age group 40–65 years for CG, CST and MCP [57]. Our present method of analysis seems most suitable for analysis of larger white matter tracts. Diffusion data from tractography of the SCP and ICP resulted in very large variations in diffusion parameters precluding any further statistical analysis. Current research in our group addresses the issues of developing more advanced schemes for fibre tract alignment and validation of fibre bundles obtained by tracking in comparison to co-registered structural image data.
+
+There are results from other studies, suggesting that the MCP has the best diagnostic accuracy in discriminating MSA from IPD and PSP [13]. Regional analysis in our study showed that DTT parameters appeared to be changed along the entire or larger part of the MCP (MD, RD and AAC) in MSA-P, compared to controls, although the changes were non-significant. In fact, significant differences were only found for the posterior MCP in patients with PSP. Degeneration of the olivopontocerebellar system, including the pontine neurons and transverse fibres, is highly variable and mostly less severe in MSA-P as compared to the cerebellar form of MSA (MSA-C), which can explain the variation and overlap with controls and other disease groups [58]–[60]. Our results to a certain degree support that the pathological process affects the pons and cerebellum also in MSA-P, but that the discriminatory potential for differential diagnosis is limited.
+
+The current study using DTT demonstrates that the CC is the structure that best differentiates PSP from IPD and MSA, as has previously been found in studies using DTI [6], [7], [12], [21], [54]. In addition, our study indicates that the most prominent changes in diffusion parameters compared to other parkinsonian disorders occur in the anterior part of CC in PSP, in keeping with the well-known involvement of the frontal lobes in this disease [54], [61], [62]. Interestingly, reduced FA values in the genu of CC has recently been reported in patients with Parkinson’s disease with dementia (PDD) and dementia with Lewy bodies (DLB) as well [63]–[64]. In addition, Kamagata et al. demonstrated reduced FA in the anterior CG of patients with PD [65], a finding which was not reproduced in the present study.
+
+We also found that MD values in the CST can help to discriminate IPD and PSP. It is well established that CST can be affected in PSP [4]. The use of AAC as a measure of tract diameter appears to be a useful addition to DTT. Although this study was mainly exploratory (hypothesis-generating), comparing diffusion parameters at group level, we have also demonstrated significant discriminatory power for differentiation of IPD and PSP using AAC in CG as well as MD in CST and CC. These results should be treated with caution considering the limited number of cases in each group, but may add useful information for future studies.
+
+Measurement of DTT parameters in whole white matter tracts was sufficient for detecting clinically important differences between patient groups, while regional analysis of diffusion data helped to determine the location of the changes. Our results highlight the need to consider differences in diffusion properties along major white matter tracts and the possibility of asymmetry between the left and right hemispheres both in patients and healthy controls. The large degree of overlap in diffusion parameter values between individuals limits the usefulness of the method as a diagnostic biomarker on its own. However, DTT parameters could still be used together with other clinical, biochemical and imaging markers for diagnostic purposes. Large inter-individual differences in clinical signs and biomarker values are common in neurodegenerative disorderss as well as in other biological systems. For this reason even extreme outliers were included in the analysis. It is important to note the large variation in diffusion parameter values also in neurologically healthy elderly persons.
+
+Several limitations of our study should be mentioned. First, the relatively small number of patients limits generalization of the findings. Moreover, positioning of the ROIs was performed manually and errors could be introduced by limited intrarater reliability. Also, statistical analysis within small ROIs including only a few voxels might be very sensitive to partial volume effects, limiting the method to the study of larger tracts. Although all patients fulfilled clinical research criteria for diagnosis of their respective disorder, they might still vary substantially in disease stage, rate of progression and clinical symptoms. Additionally, none of the included subjects had their diagnosis confirmed by autopsy. However, diagnosis of MSA and PSP by an experienced clinician yields sensitivities of 88% and 84% (positive predictive values of a clinical diagnosis of MSA and PSP in this study were 86 and 80%, respectively) [66]. Finally, we acknowledge that DTI is not capable of unambiguously characterizing the white matter microstructure in regions of complex fibre architecture [67]–[68] and that more advanced diffusion approaches could be preferable for reconstructing tract pathways [69]–[71]. Notwithstanding the low specificity in assessing the cause of the observed diffusion abnormalities [72], DTI may still exhibit a high sensitivity, which has shown to be useful in several applications [73]–[74].
+
+In summary, we have shown that DTT has the potential as a tool for assessing pathway-specific abnormalities in parkinsonian disorders on both an individual and group level. The ability to visualize and quantify global and regional DTT parameters in specific white matter tracts could improve differential diagnosis and also help to explain the underlying anatomical mechanisms of individual clinical phenotypes. Additional studies are required to validate the research findings and to determine whether DTI/DTT can detect diffusion changes in very early stages of parkinsonian disorders.

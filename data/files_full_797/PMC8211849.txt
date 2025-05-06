@@ -1,0 +1,256 @@
+==== Front
+Sci Rep
+Sci Rep
+Scientific Reports
+2045-2322
+Nature Publishing Group UK London
+
+92177
+10.1038/s41598-021-92177-0
+Article
+A methodology for an acute exercise clinical trial called dementia risk and dynamic response to exercise
+White Dreu 1
+John Casey S. 1
+Kucera Ashley 2
+Truver Bryce 1
+Lepping Rebecca J. 1
+Kueck Paul J. 1
+Lee Phil 1
+Martin Laura 1
+Billinger Sandra A. 1
+Burns Jeffrey M. 1
+Morris Jill K. 1
+Vidoni Eric D. evidoni@kumc.edu
+
+13
+1 grid.412016.0 0000 0001 2177 6375 University of Kansas Medical Center, Kansas City, KS USA
+2 grid.417920.9 0000 0004 0419 0438 American Academy of Family Physicians, Leawood, KS USA
+3 grid.266515.3 0000 0001 2106 0692 University of Kansas Alzheimer’s Disease Center, 4350 Shawnee Mission Parkway, Fairway, KS 60205, MS6002 USA
+17 6 2021
+17 6 2021
+2021
+11 1277612 11 2020
+4 6 2021
+© The Author(s) 2021
+https://creativecommons.org/licenses/by/4.0/ Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+Exercise likely has numerous benefits for brain and cognition. However, those benefits and their causes remain imprecisely defined. If the brain does benefit from exercise it does so primarily through cumulative brief, “acute” exposures over a lifetime. The dementia Risk and Dynamic Response to Exercise (DYNAMIC) clinical trial seeks to characterize the acute exercise response in cerebral perfusion, and circulating neurotrophic factors in older adults with and without the apoe4 genotype (apoe4), the strongest genetic predictor of sporadic, late onset Alzheimer’s disease. DYNAMIC will enroll 60 older adults into a single moderate intensity bout of exercise intervention, measuring pre- and post-exercise cerebral blood flow (CBF) using arterial spin labeling, and neurotrophic factors. We expect that apoe4 carriers will have poor CBF regulation, i.e. slower return to baseline perfusion after exercise, and will demonstrate blunted neurotrophic response to exercise, with concentrations of neurotrophic factors positively correlating with CBF regulation. Preliminary findings on 7 older adults and 9 younger adults demonstrate that the experimental method can capture CBF and neurotrophic response over a time course. This methodology will provide important insight into acute exercise response and potential directions for clinical trial outcomes.
+
+ClinicalTrials.gov NCT04009629, Registered 05/07/2019.
+
+Subject terms
+
+Neuroscience
+Imaging
+http://dx.doi.org/10.13039/100000049 National Institute on Aging R21 AG061548 P30 AG035982 Billinger Sandra A. issue-copyright-statement© The Author(s) 2021
+==== Body
+Introduction
+
+The number of Americans 65 years and older will double in size over the next 40 years1. Aging is often associated with increased cognitive decline2. dementia is of particular concern to the health care system, with an expected two-fold increase in prevalence over the next 30 years, and high direct and indirect costs of care3,4. We must find effective interventions to reduce the burden of cognitive decline and dementia on our society.
+
+There is evidence that risk of age-related cognitive decline, including mild cognitive impairment   and dementia, can be reduced by health behavior interventions such as exercise5–12. Although the literature is not conclusivbche gene gene3–16, there is a growing consensus that common healthy behaviors, and especially exercise, support brain health and cognitive function17,18. A number of potential mechanisms may link exercise with brain health. Increased brain volumbche gene gene9, regional neurogenesis20, circulating neurotrophic factors21, and cerebrovascular reserve (i.e. capacity for response to a stimulus challenge)22 all have been implicated as mediators of exercise benefits for the brain. If the brain does benefit from exercise it does so primarily through brief, “acute” exposures to exercise over a lifetime23.
+
+Due to the considerable benefits of aerobic exercise on cardiovascular function, there is interest in precisely defining cerebrovascular adaptations to aerobic exercise and how those adaptations may support cognitive function24,25. We know that sedentary older adults demonstrate decreasing cerebral blood flow (CBF) over time26–29. Older athletes who take time off of training quickly experience reductions in CBF30, whereas habitual exercise appears to increase CBF26,28,31. Yet, evidence from prior aerobic exercise intervention trials with otherwise healthy older adults have been mixed, some reporting increased CBF9, and others reporting no difference32.
+
+In general, these studies have used passive “resting” conditions when measuring CBF and blood biomarkers, rather than employing tasks or experimental challenge (e.g. exercise, task-based fMRI, neuropsychological test) meant to approximate the ecological stressors of daily life. Our own work and others’ demonstrates the importance of measuring the response to challenge, especially to exercise22,30,33–44. For example, using transcranial Doppler, we recently described the dynamic change in a proxy measure of CBF with onset of aerobic exercise in young and older individuals33. Our work demonstrates that older adults have a noticeable blunting of CBF during a dynamic condition like exercise that was less appreciably different from younger adults during a static, resting, measure.
+
+There is evidence that the Apolipoprotein epsilon4 (apoe4) single nucleotide polymorphism, the strongest genetic risk factor for late-onset, sporadic Alzheimer’s dementia (AD)45, leads to modified neurovascular coupling, a leaky blood–brain barrier, angiopathy, and disrupted nutrient transport46. APOE appears key to maintaining cerebrovascular integrity independent of β-amyloid deposition47. apoe4 carriers also demonstrate altered48–50 and generally lower resting CBF especially in regions associated with AD-related change51. Because exercise has such a strong and reliable benefit for the vascular system apoe4 carriers, who are at greater vascular risk than non-carriers12, may preferentially benefit from the cumulative effects of regular exercise52–54.
+
+There are well-documented differences in CBF and tissue oxygenation based on age or APOE genotype29,50,51,55, with deleterious consequences for cognition29,56. The exercise stimulus may counter this through cerebral oxygenation and stimulation of neurotrophics, among other mechanisms. For instance, it is proposed that increased brain BDNF in response to exercise involves changes in cerebral hemodynamics. Cerebrovascular endothelial cells respond to the shear force stress on the vessel walls by releasing Brain Derived Neurotrophic Factor (BDNF)57,58. In animal models, vascular occlusion blockes the exercise-induced increase in brain BDNF58,59. Peripheral Vascular Endothelial Growth Factor (VEGF) also appears to be essential for running-induced neurogenesis and benefits acute exercise performance and brain blood flow in mice60,61. Measurable increases in VEGF are seen after acute exercise36,37 suggesting again that changes in blood flow are important in facilitating neurotrophic response. But to date, the literature has not connected CBF, neurotrophins, and APOE genotype in exercising humans, despite convergent data pointing to their intimate involvement in cognitive decline. Our project extends the prior work by directly assessing the relationship of these factors in response to an acute exercise challenge.
+
+We set out to quantify the CBF response to exercise which has the potential to be a valuable measure of cerebrovascular health22. This manuscript details the clinical trial methodology of the dementia Risk and Dynamic Response to Exercise study (DYNAMIC: ClinicalTrials.gov NCT04009629, registered May 7, 2019). We also demonstrate proof-of-concept preliminary data that demonstrates exercise-related CBF variations but is not intended to serve as an interim analysis of the trial, which was not planned as part of the clinical trial. The scientific premise underlying this project is that CBF and blood-based biomarkers such as VEGF, BDNF, and insulin-like Growth Factor 1 (IGF1) are interrelated mechanisms driving chronic aerobic exercise effects on brain health and cognition9,20,62. Our single visit clinical trial seeks to characterize the relationship of apoe4 carrier status with CBF and blood-based biomarkers of brain health. We capture dynamic fluctuations in resting CBF and blood-based biomarkers in a time-sensitive manner before and immediately after an acute bout of moderate intensity aerobic exercise. Our working hypothesis is that individuals at genetic risk for AD have poor CBF regulation, as measured during the resting rebound period following an acute exercise bout, and altered neurotrophic response and that this methodological approach will inform future clinical trial biomarker protocols in the future. We additionally propose an ancillary hypothesis that poor CBF regulation and altered neurotrophic response to an acute exercise challenge will be correlated with poor cognitive performance.
+
+A secondary goal of this manuscript is to detail the protocol design and adaptations of a single visit experimental study as a clinical trial. Changes in 2018 to the Federal Policy for the Protection of Human Subjects (‘Common Rule’) have expanded the definition of a clinical trial to include any investigation in which human subjects are prospectively assigned to an intervention to evaluate the effect on a biomedical or behavioral outcome63. As a result, most experimental exercise manipulations involving humans are now classified as clinical trials even if not traditionally considered an intervention, resulting in increased scrutiny and more strict standards for protocol and reporting. This manuscript serves to detail clinical trial adaptations for single visit or short experimental studies that have previously fallen outside the aegis of clinical intervention operating procedures.
+
+Methods
+
+Summary of design
+
+DYNAMIC is a single site, non-randomized, prospectively enrolling clinical trial testing apoe4-related response differences to a single, 15-min bout of moderate intensity aerobic exercise. The study plans to enroll 60 older adults (> = 65 years), approximately balanced for E4 carriage, and up to 20 younger individuals to serve as a normative cohort. We hypothesize that apoe4 carriers will have poor CBF regulation, i.e. slower return to baseline perfusion (reduced area under the curve [AUC]), and will demonstrate blunted neurotrophic response to exercise, with concentrations of neurotrophic factors positively correlating with CBF regulation. We will also explore the relationship of the CBF and neurotrophic responses to cognitive performance.
+
+Outcomes
+
+As a registered clinical trial, we have identified a single primary outcome and several secondary outcomes of interest. Our primary outcome of interest is global CBF AUC of the cumulative resting cerebral blood flow before and after our exercise intervention. Secondary outcomes are change in IGF1, VEGF, and BDNF from baseline to post intervention. Our exploratory cognitive measures and associated cognitive domains are episodic memory (NIH Toolbox Picture Sequence Memory Test 8 +), processing speed (Pattern Comparison Test 7+), and attention and executive function (Flanker Inhibitory Control and Attention Test 12+). Table 1 provides an organized list of outcomes and additional physiological and experimental measures acquired.Table 1 Imaging and blood-based factors, our outcomes of interest, and our exploratory cognitive measures.
+
+	Brain imaging and physiologic factors	Proposed blood-based factors to be analyzed	Cognition	
+Outcomes of Interest	(1) Global CBF, area under the post-exercise recovery curve	(1) BDNF
+
+(2) IGF11
+
+(3) VEGF
+
+[Change in platelet-free plasma concentrations]
+
+	(1) Episodic Memory [Picture Sequence Memory Test]
+
+(2) Processing Speed [Pattern Comparison Test]
+
+(3) Attention and Executive Function [Flanker Inhibitory Control and Attention Test]
+
+	
+Ancillary physiological, grouping, and experimental variables of interest	(1) Brain anatomy, acquired pre-exercise
+
+(2) Blood Pressure
+
+(3) Heart rate
+
+(4) Workload
+
+	(1) APOE genotype		
+APOE apolipoprotein e, CBF cerebral blood flow, BDNF brain derived neurotrophic factor, VEGF vascular endothelia growth factor, IGF1 insulin-like growth factor 1.
+
+Recruitment and eligibility
+
+We significantly reduce participant burden by heavily leveraging the infrastructure of the University of Kansas Alzheimer’s Disease Center (KU ADC), an NIH-designated Alzheimer’s disease research center. The KU ADC follows a Clinical Cohort of 400 individuals with annual cognitive evaluations and prior genetic testing and has an additional registry to supplement recruitment64. We recruit younger participants from the local area via social networks and fliers. All individuals provide institutionally approved written informed consent according to the Declaration of Helsinki guidance either on the day of the visit or in advance through electronic consenting. The study has been approved by the University of Kansas Medical Center Institutional Review Board (STUDY142822). All procedures are carried out in compliance with local regulations and the International Organization for Standardization Good Clinical Practice standard (14155:2020).
+
+Participants have no changes in memory or thinking, or diagnosis of cognitive impairment. Additional inclusion criteria are: (1) Age 18–85 (inclusive); (2) English speaking; (3) corrected hearing or vision; (4) willingness to have genotyping performed if necessary. Exclusion criteria are: (1) health care provider recommended activity restrictions; (2) prior diagnosis of clinically significant cognitive decline judged on Clinical dementia Rating65 or Quick dementia Rating Scale66 equivalent of non-impaired, or similar clinical determination in the prior 3 months; (3) anti-coagulant use; (4) high cardiovascular risk without physician clearance for exercise67; (5) exercise-limiting pain, musculoskeletal, or metabolic condition; (6) MRI contraindications; (7) clinically significant psychiatric illness or other neurological disorders that have the potential to impair cognition (e.g., Parkinson’s disease, stroke defined as a clinical episode with neuroimaging evidence in an appropriate area to explain the symptoms); (8) myocardial infarction or symptomatic coronary artery disease in the prior 2 years.
+
+Secondary enrollment considerations are sex and apoe4 carriage. Genotype is not disclosed to the participant. The PI and study staff with direct participant contact remain blinded to genotype. Because apoe4 does not have equal penetrance in the Clinical Cohort, the KU ADC continually monitors enrollment rates for DYNAMIC based on sex and E4 carriage and an unblinded study team member not involved in recruitment, consent, or study visit execution reviews and provides enriched contact lists to blinded staff to support balanced participation. Participants who have not previously had their E4 characterized consent to have genotyping performed for the purpose of the study. We make efforts to preferentially match apoe4 genotype groups based on sex.
+
+Procedures
+
+Participants attend a single study visit. Because our focus is on assessment of dynamic time- and intervention-related changes in our outcomes, precise study timing and short transitions between study activities is critical. Our procedures have been planned to minimize waiting and transition time between study events.
+
+Participants first change into provided magnetic resonance imaging (MRI) compatible clothes (scrubs) and remove all MRI-incompatible dental appliances, jewelry, etc. The exercise bicycle ergometer (Corival, Lode B.V., www.lode.nl) is adjusted so that the knee achieves near but not complete extension. Participants practice pedaling between 60–70 rpm until they report feeling comfortable with the movement and equipment.
+
+Participants then complete approximately 20 min of NIH Toolbox-based neuropsychological testing on an iPad (Apple Inc.) in the following order, Pattern Comparison, Picture Sequence Memory, and Flanker Inhibitory Control and Attention tests. Tests are administered according to NIH Toolbox instructions. Two seated blood pressure and pulse readings are taken one minute apart and averaged as a baseline measure of vitals (Welch Allyn ProBP3400).
+
+Next, participants are escorted to the adjacent MRI suite. They are fitted with a continuous blood pressure monitoring cuff (Caretaker 4, Caretaker Medical N.A. caretakermedical.net) on the finger which is calibrated to the baseline vitals. The MRI technologist fits ear plugs and headphones on the participant, lays them on the MRI table, positioning the cuffed finger on the abdomen, and begins scanning. Rapid transition from preparation to scanning is emphasized.
+
+Imaging data are collected with a 3 Tesla whole-body scanner (Siemens Skyra, Erlangen, Germany) fitted with a 20-channel head and neck receiver coil. The MRI session is split into two parts: pre-exercise, and post-exercise. Each portion of the session begins with automated scout image acquisition and shimming procedures to optimize field homogeneity.
+
+The pre-exercise portion consists of two 3D GRASE pseudo-continuous arterial spin labeling (pCASL) sequences68–71, yielding 11 min and 36 s of pre-exercise CBF data. All pCASL sequences are collected with the same with background suppressed 3D GRASE protocol (TE/TR = 22.4/4300 ms, FOV = 300 × 300 × 120 mm3, matrix = 96 × 66 × 48, Post-labeling delay = 2 s, 4-segmented acquisition without partial Fourier transform reconstruction, readout duration = 23.1 ms, total scan time 5:48, 2 M0 images). Positioning of the pCASL sequences is adjusted using the automated scout image, aligning the top of the acquisition box to the top of the brain and the angle of acquisition to the base of the corpus callosum as landmarks. The two pre-exercise pCASL sequences are followed by a T1-weighted, 3D magnetization prepared rapid gradient echo (MPRAGE) structural scan (TR/TE = 2300/2.95 ms, inversion time (TI) = 900 ms, flip angle = 9 deg, FOV = 253 × 270 mm, matrix = 240 × 256 voxels, voxel in-plane resolution = 1.05 × 1.05 mm2, slice thickness = 1.2 mm, 176 sagittal slices, in-plane acceleration factor = 2, acquisition time = 5:09). Participants then return to the testing room. An optical heart rate sensor (OH1 Polar Electro, Inc., polar.com) is secured to the forearm with self-adhering wrap. Blood pressure is taken. Then, a flexible intravenous catheter is placed and 10 mL of blood is collected in tubes containing EDTA as an anti-coagulant. If the genotype is not available, an additional 3 mL of blood is collected in a single tube containing acid citrate dextrose and stored for future genotyping.
+
+Participants then remount the cycle ergometer and begin a 5-min warm up. During the initial 5 min, study staff gradually increase resistance with a goal of achieving the target heart rate of 45–55% of heart rate reserve in minutes 4 and 5 of the warm up. Heart rate reserve is calculated using the Karvonen formula72. Maximum heart rate for the calculation is estimated using either 220-age or, if the participant is on a beta blocker, 164- (0.7*age)73. Participants pedal at 60–70 rpm and a resistance based on an age-dependent decision algorithm (Fig. 1). The 15-min aerobic exercise bout begins immediately following the warm-up. Study staff check heart rate every 1-min and adjust cycle resistance to maintain the heart rate in the target zone. After 15 min of exercise resistance is reduced to 10 W and participants pedal at a self-selected cadence for 3 min to cool down and drink 100 mL of water to reduce potential perspiration-related changes in blood volume. Post-exercise vitals are taken immediately upon cool down. An additional 10 mL of blood is collected during cool down. The heart rate monitor is removed, and the participant is quickly escorted back to the MRI room.Figure 1 Age-dependent resistance and cadence decision algorithm for standardizing workload to achieve target heart rate.
+
+Once back in the MRI room, the same preparatory procedures for MRI are repeated and 4 consecutive pCASL sequences are acquired, yielding 23 min and 12 s of post-exercise CBF data. Finally, the participant is escorted back to the testing room where vitals and 10 mL of blood are taken one more time, and neuropsychological testing is repeated. Participants are compensated $100 upon completion of the visit.
+
+Blood processing and assessment
+
+Blood specimens are collected following good clinical practice guidelines by a nurse or certified phlebotomist. We optimized sample collection and processing procedures for accurate measurement of plasma neurotrophins in 5 samples independent of this study. When platelets remain in a blood sample, a freeze thaw can greatly increase the concentration of such factors and may not accurately reflect levels that were circulating in the plasma at the time of acute exercise. Consequently, our protocol emphasizes immediate processing. Our optimized protocol is as follows: plasma is generated immediately upon collection by centrifugation by processing at 1500 relative centrifugal field (g) (2800 RPM) at 4 °C for 10 min. Platelet-rich plasma is then centrifuged in four, 1.5 mL aliquots at 1700g (4500 RPM) at 4 °C for 15 min. The resulting platelet-poor plasma is separated from the pellet and snap frozen in liquid nitrogen until stored at − 80 °C at the end of the visit.
+
+Imaging analysis
+
+Planned pCASL data analyses include using the USC Laboratory of Functional MRI Technology CBF Preprocess and Quantify packages for CBF calculation (loft-lab.org, ver. February 2019), and Statistical Parametric Mapping CAT12 (www.neuro.uni-jena.de/cat, r1059 2016–10-28) package for anatomical segmentation74. We motion correct labeled and control pCASL images separately for each sequence, realigning each image to the first peer labeled or control image following M0 image acquisition. Afer performing principal component analysis decomposition to reduce noise, we then calculate the CBF via simple subtraction of each label/control pair using the a standard model without biopolar gradients75. Next, a whole cerebrum gray matter mask in native space is defined from the T1 MPRAGE using the CAT12 package with default parameters. Finally, a binarized gray matter segmentation mask (inclusion threshold > 0.5) is coregistered to the average CBF subtraction volume of each sequence. The CBF in the gray matter mask of each subtraction volume is averaged and reported in in units of mL*100 g tissue−1*min−1. This method differs from many prior reports, and produces a timeseries of 9 subtraction images for each pCASL sequence, or 54 overall CBF estimates which can be constructed into pre- and post-exercise curves, Fig. 3. AUC is calculated as the sum of all subtractions times the duration of acquisition (mL*100 g tissue−1). Imaging analysis may change as the field improves methods.
+
+Cognitive test assessment
+
+Cognitive assessments scores are calculated automatically by the NIH Toolbox software (https://www.healthmeasures.net/). We plan to use change in T-Score for each domain which is age, education, gender, and ethno-racial identification corrected and provides a score based on a normative mean of 50 with a standard deviation of 10.
+
+Data collection and management
+
+All data are collected and organized in a custom designed REDCap76 database. Project access is role based. apoe4 genotypes are kept in a separate database and the linking list is kept by a designated, unblinded investigator.
+
+All non-identifiable REDCap data are downloaded weekly. Source data from the blood pressure monitor and the NIH Toolbox automated outputs are transferred to a secure server immediately following the visit and stored in their complete form. All data are aggregated on a weekly basis and checked for completeness and score range using a semi-automated, Shiny-based (shiny.rstudio.com) process similar to that which we have described previously77. Data are visually and automatically checked for range, and missingness. Genotype are kept in a separate database with linking list not accessible by blinded study staff.
+
+Imaging data are transferred from XNAT to a secure processing server using a custom-coded, semi-automated process that check image meta-data against a template and converts then converts images from the standard DICOM format to the NIFTI format common to research78. The code then presents each image for visual inspection for artifact and movement using FSLEyes (https://git.fmrib.ox.ac.uk/fsl/fsleyes/fsleyes/).
+
+Sample size
+
+To our knowledge, there are currently no peer-reviewed reports of genotype-based CBF differences in response to acute exercise. However, perfusion measures in genetic risk for AD (apoe4) have been performed previously and can form the basis of a reasonable power analysis. Two prior cross-sectional estimates of the relationship of perfusion and E4 carriage have delivered similar effect sizes (d = 1.0)50,51. Given this effect size, we expect to be able to discern differences based on apoe4 in a sample of 60 older adults.
+
+Proposed statistical approach
+
+For CBF AUC and blood-based biomarker concentrations we will use linear mixed models (LMM) including a random intercept coefficient to account for individual baseline differences. apoe4 carriage will be modeled as a fixed effect. We also expect to perform additional analyses using least squares regression to assess the relationship between CBF, blood-based biomarkers and cognitive performance, testing the interaction based on apoe4 genotype.
+
+Safety
+
+Adverse events
+
+Adverse events are defined as any untoward medical occurrence in study participants, which does not necessarily have a causal relationship with the study treatment. The seriousness of the adverse event is determined using the National Cancer Institute Common Terminology Criteria for Adverse Events v3.0, and need for hospital admission. Adverse events are assessed only at the visit, but the consent form has contact information should the participant need to contact the study team regarding delayed development of an AE. Serious Adverse Events are reported per institutional and NIH requirements.
+
+Monitoring
+
+Safety of the study is monitored in an ongoing manner by a chartered Data and Safety Monitoring Committee (DSMC) and Independent Safety Officer according to a Safety Plan. The Independent Safety Officer advises the NIH and the Principal Investigator regarding participant safety, participant risks and benefits, scientific integrity and ethical conduct of a study. The DSMC provides additional support and guidance for the investigative team.
+
+Response to SARS-CoV-2
+
+Data collection began prior to the SARS-CoV-2 novel coronavirus pandemic, was paused between March 11 and June 1, 2020, and resumed with additional safety procedures. The blood processing centrifuge and staff member were moved to a separate, nearby testing room to allow for physical distancing. All participants are screened via telephone 1 business day before the day of visit, and are screened again (including temperature) outside the imaging facility on the day of the visit. All staff wear level 1 surgical masks, gloves, and face shields. Participants are provided a surgical mask to be worn at all times except during in the MRI. Face shields are offered instead of surgical masks during exercise. The staff member in charge of exercise and neuropsychological testing minimizes time within 6 feet of the participant and MRI tech staff. Electronic, advance consenting has been implemented following the coronavirus pandemic to reduce the amount of close contact time between staff and participant.
+
+Proof-of-concept results
+
+To date, we have enrolled 16 participants into the study. Demographics are provided in Table 2. To demonstrate proof-of-concept, we provide preliminary analyses and comparisons of individuals above and below 65 years of age. E4 carriage has not been unmasked and is not included in this report. There were more women in the older adult group. Figure 2 depicts the study flow and average time for each study event. Figure 3 demonstrates our ability to capture dynamic blood flow changes post-exercise. In both young and older groups, CBF can be seen to drop below pre-exercise levels and gradually increase during the post-exercise interval.Table 2 Demographics and proof-of-concept for the primary outcome measure of cerebral blood flow area under the curve.
+
+	Younger (n = 9)	Older (n = 7)	
+Age, yrs	26 [23–29]	77 [71–81]	
+Female, %	5 (56%)	6 (86%)	
+Resting heart rate, bpm	79 [61–95]	62 [54–71]	
+Resting MAP, mmHg	88 [73–109]	94 [77–112]	
+Mean workload, Watts	89 [49–128]	30 [0–49]	
+Peak workload, Watts	96 [60–135]	31 [0–50]	
+MAP AUC, mmHg*min	2970 [2553–3193]	3646 [3349–3959]	
+CBF AUC, mL*100 g-1	2742 [1710–3729]	2308 [1926–2688]	
+Values mean [range] unless otherwise noted. AUC measures are cumulative over the 34:48 min of MRI CBF acquisition.
+
+Bpm beats per minute, mmHg millimeters of mercury, CBF cerebral blood flow, MAP mean arterial pressure, AUC area under curve.
+
+Figure 2 Study flow and average time for each study event.
+
+Figure 3 Preliminary proof-of-concept findings demonstrating our ability to capture gray matter cerebral blood flow (CBF) changes post-exercise. Solid lines represent the age group mean of the cerebral blood flow (CBF) signal for each labeled-control image pair with reference to the left hand ordinate. Shaded regions show the range of CBF for each age group. Dashed lines represent mean arterial pressure over the MRI timecourse. Darker lines and shading indicate the older adult cohort. Lighter lines and shading indicate the younger adult cohort. Figure created with the ggplot2 package (ver. 3.3.3) operating under open source R version 4.0.5 (2021-03-31).
+
+We also provide evidence for our decision to process blood collection immediately. In plasma processed with one centrifugation, mean plasma levels of BDNF were 17,506 ± 4031 pg/mL. Duplicate samples that underwent an immediate second centrifugation to remove the platelet pellet, followed by an immediate snap-freeze, were measured as having mean levels to 29 ± 10.6 pg/mL. A delay of 15 min prior to each centrifugation step, which may allow increased time for platelet-related BDNF release when activated by the shear stress of centrifugation, increased levels to 245 ± 108 pg/mL.
+
+Adverse events
+
+To date there has been one adverse event, nausea, upon IV placement. Symptoms resolved with a light snack and rest.
+
+Discussion
+
+We have designed and implemented a single visit clinical trial to test the effect of apoe4 carriage on brain blood flow response to an acute, 15-min, moderate intensity exercise challenge. We have also refined optimal blood collection and processing procedures to characterize plasma-circulating, neurotrophic responses to exercise. We expect that our strict and time sensitive protocol, as well as our extended post-exercise acquisition will allow us to identify CBF and blood-based neurotrophic responses that are obscured during typical unchallenged conditions. We will also explore whether CBF or neurotrophic responses are related to performance changes on neuropsychological tests. To be clear, we do not expect measurable vascularization, neurogenesis, or other benefits immediately following exercise. Nor do we suggest that any neurotrophic increases are causal of ad hoc cognitive change or CBF response. Rather, we seek to index the transient changes and relationships that are hypothesized to mediate these benefits with chronic exposure to exercise.
+
+Our proof-of-concept results suggest that we can capture a dynamic CBF recovery response following exercise using protocols similar to those reported by other research groups30,41,42. A strength of this protocol is in the extended post-exercise challenge acquisiton, which allows us to more completely characterize the timecourse and CBF rebound following exercise. Prior work has demonstrated a transient CBF decreases immediately after exercise42,43. Possible reasons for this are post-exercise hypotension and reduced cardiac output which may impair the typical cerebral autoregulation on which the brain depends at rest79. Our lengthy acquisition protocol is thus well positioned to build on this prior work to characterize the recovery and reperfusion curve following exercise.
+
+Our blood processing results provide a clear case for immediate post-processing to identify the plasma-circulating neurotrophic factors following exercise. Optimization of pre- and post- processing techniques revealed higher BDNF levels in plasma collected without removal of platelets compared to plasma where platelets had been removed. In addition, sitting time after the centrifugation step to remove platelets, which may result in platelet activation, also affected neurotrophic factor levels.
+
+A secondary goal of this manuscript is to detail the protocol design and adaptations of a single visit experimental study as a clinical trial. Therefore, we have outlined procedures that other investigators, experienced in experimental methods but, perhaps new to the specifics of clinical trial execution, may wish to consider when applying for designated “clinical trial only” funding, or similar situations. Numerous methodological courses on clinical trial design and execution exist, especially through the National Institutes of Health, and investigators are encouraged to engage with these opportunities.
+
+Despite the many strengths and carefully constructed protocol, there are notable limitations. First, our pre-post exercise measures are proxies of CBF during exercise as we are not imaging during exercise. Some protocols for MRI during exercise are beginning to emerge, though concerns about motion artifact remain. CBF can also be measured using contrast-enhanced MRI, TCD, or positron emission tomography (PET). TCD has the advantages of temporal resolution and ease of use during exercise, but can only index blood velocity. Xenon PET imaging can produce whole brain CBF but requires a radioactive isotope. pCASL provides both the whole brain spatial resolution, and potentially improved temporal resolution compared to PET, using only magnetically labeled arterial blood water, an endogenous tracer that is highly reproducible68. Additionally, optimal imaging parameters to capture CBF response to acute exercise using have been investigated previously41. pCASL sequences have improved signal-to-noise ratio while maintaining high labeling efficiency80. Common to all ASL sequences are pairs of images with and without labeling, that allow for CBF quantification. Typically, the subtraction of these pairs is averaged over a sequence to calculate CBF. However, the pairs viewed as a timeseries, may also capture information about transient CBF changes, for example following exercise, as we have done here. We believe this timecourse will provide important additional information about dynamic responsiveness, or cerebrovascular reserve, of the system.
+
+A second limitation is our focus on three neurotrophic factors and the apoe4 genotype. Recent evidence suggests that there are myriad important biochemical changes in response to exercise81. Similarly, thousands of genes are responsible for exercise responses82. We have chosen to focus on those that are most consistently linked to brain health and Alzheimer’s disease in the literature. While important for our own research line, it leaves the potential for uninvestigated responses that may be important.
+
+Despite these limitations they DYNAMIC study offers a blueprint for a unique and innovative methodology to capture acute exercise response in individuals at risk for Alzheimer’s disease. Aerobic exercise is among the most important and cost effective tools available for chronic disease management. However, the field continues to struggle with adequate methods for capturing mechanistic drivers of exercise benefits on the brain. New protocols such as DYNAMIC should help drive forward our mechanistic explorations of exercise effects on brain health and cognition.
+
+Abbreviations
+
+AD Alzheimer’s disease
+
+apoe4 apoe4
+
+CBF Cerebral blood flow
+
+BDNF Brain derived neurotrophic factor
+
+VEGF Vascular endothelia growth factor
+
+IGF1 insulin-like growth factor 1
+
+AUC Area under the curve
+
+KU ADC University of Kansas Alzheimer’s Disease Center
+
+MRI Magnetic resonance imaging
+
+pCASL Pseudo-continuous arterial spin labeling
+
+MPRAGE Magnetization prepared rapid gradient echo
+
+GRASE Gradient and spin echo
+
+DSMC Data and safety monitoring committee
+
+PET Positron emission tomography
+
+Authors contributions
+
+E.D.V., J.K.M., P.L., J.M.B., L.M., and R.J.L., contributed to the conception of the work. All authors contributed to the design of the work. D.W., C.S.J, A.K., B.T., R.J.L., P.K., E.D.V., J.K.M. contributed to the acquisition and/or analysis of the work. C.S.J., R.J.L., S.A.B., J.M.B., J.K.M., P.K., E.D.V. contributed to the interpretation of the data. All authors have contributed to the drafting and revision of the work. All authors have approved submission and agreed to be personally accountable for the work.
+
+Funding
+
+Research reported in this publication was supported by the National Institute on Aging of the National Institutes of Health under award number R21AG061548 and P30 AG035982, an equipment grant S10 RR29577, and the Leo and Anne Albert Charitable Trust. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health or the Leo and Anne Albert Trust, and they had no involvement in the acquisition or dissemination of the results.
+
+Competing interests
+
+The authors declare no competing interests.
+
+Publisher's note
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
